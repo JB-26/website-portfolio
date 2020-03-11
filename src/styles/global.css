@@ -1,0 +1,48 @@
+html {
+    background-color: whitesmoke;
+    font-family: "Staatliches";
+}
+
+@font-face {
+    font-family: "Staatliches";
+    src: url("./Staatliches-Regular.ttf");
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 35px;
+    align-content: space-between;
+}
+
+.header-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+  }
+
+a:visited {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}

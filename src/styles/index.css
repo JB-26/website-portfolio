@@ -1,0 +1,30 @@
+.profile-card {
+    display: flex;
+    position: relative;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    height: auto;
+    max-width: auto;
+    margin: auto;
+}
+
+#image {
+    position: relative;
+    max-width: 150px;
+    max-height: 350px;
+}
+
+
+/* tablet/desktop design */
+@media (min-width: 860px) {
+    .profile-card {
+        margin: auto;
+        height: 500px;
+        max-width: 500px;
+    }
+
+    #image {
+        position: relative;
+    }
+}
