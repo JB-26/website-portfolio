@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 export default () => (
     <footer>
-        <FontAwesomeIcon Link to="https://gitlab.com/JoshBl_?nav_source=navbar" className="icon" icon={faGitlab}/>
-        <FontAwesomeIcon className="icon" icon={faLinkedin} />
+        <a href="https://gitlab.com/JoshBl_?nav_source=navbar" target="_blank"><FontAwesomeIcon className="icon" icon={faGitlab}/></a>
+        <a href="https://www.linkedin.com/in/jblewitt/" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
     </footer>
 )
