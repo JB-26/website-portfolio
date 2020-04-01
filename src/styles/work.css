@@ -1,5 +1,9 @@
-.titleCard {
-    display: block;
-    margin: auto;
-    max-width: 800px;
+.articleSetup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleSetup hr {
+    width: 50%;
 }

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGitlab } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faCodepen } from "@fortawesome/free-brands-svg-icons"
 
 export default () => (
   <footer>
@@ -12,6 +13,13 @@ export default () => (
       target="_blank"
     >
       <FontAwesomeIcon className="icon" icon={faGitlab} />
+    </a>
+    <a
+      href="https://codepen.io/JayBl"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FontAwesomeIcon className="icon" icon={faCodepen} />
     </a>
     <a
       href="https://www.linkedin.com/in/jblewitt/"
