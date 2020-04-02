@@ -11,7 +11,7 @@ html {
 /* header */
 
 a:link {
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow: none;
     color: black;
   }
@@ -61,7 +61,7 @@ footer {
     text-align: center;
     position: relative;
     font-size: 35px;
-    padding: 30px;
+    padding: 0px 15px 0px 0px;
 }
 
 .icon {

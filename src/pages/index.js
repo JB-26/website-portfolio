@@ -43,7 +43,7 @@ export default () => (
       <h2>
         Want to contact me?{" "}
         <span role="img" aria-label="string">
-          📜
+          📬
         </span>
       </h2>
       <p>

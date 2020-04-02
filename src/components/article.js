@@ -9,8 +9,5 @@ export default props => (
         <h2>Tech Stack</h2>
         <p>{props.techStackText}</p>
         <h2>Links</h2>
-        <a href={props.link}
-        rel="noopener noreferrer"
-        target="_blank">Live</a>
     </article>
 )

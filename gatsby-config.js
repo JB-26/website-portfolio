@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Joshua Blewitt - aspiring Web Developer`,
+    title: `Joshua Blewitt - Web Developer`,
     description: `A portfolio website showing the work and information about Joshua Blewitt - an aspiring Web Developer`,
     author: `Joshua Blewitt`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

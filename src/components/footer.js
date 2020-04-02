@@ -4,6 +4,7 @@ import { faGitlab } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faCodepen } from "@fortawesome/free-brands-svg-icons"
+import { faFreeCodeCamp } from "@fortawesome/free-brands-svg-icons"
 
 export default () => (
   <footer>
@@ -22,6 +23,13 @@ export default () => (
       <FontAwesomeIcon className="icon" icon={faCodepen} />
     </a>
     <a
+      href="https://www.freecodecamp.org/fcc2927573c-68b6-4b92-954b-d97d1ea76b7f"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FontAwesomeIcon className="icon" icon={faFreeCodeCamp} />
+    </a>
+    <a
       href="https://www.linkedin.com/in/jblewitt/"
       rel="noopener noreferrer"
       target="_blank"
@@ -35,5 +43,6 @@ export default () => (
     >
       <FontAwesomeIcon className="icon" icon={faTwitter} />
     </a>
+    
   </footer>
 )
