@@ -1,15 +1,14 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
 
 export default ({ data }) => {
   console.log(data)
   return (
     <div>
-    <Header></Header>
+      <Header></Header>
       <div>
         <h1
           css={css`
@@ -22,26 +21,23 @@ export default ({ data }) => {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h3
-              css={css`
-                margin-bottom: ${rhythm(1 / 4)};
-              `}
+            <Link
+              to={node.fields.slug}
             >
-              {node.frontmatter.title}{" "}
-              <span
-                css={css`
-                  color: #bbb;
-                `}
+              <h3
               >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+                {node.frontmatter.title}{" "}
+                <span
+                >
+                  — {node.frontmatter.date}
+                </span>
+              </h3>
+            </Link>
           </div>
         ))}
       </div>
       <Footer></Footer>
-      </div>
+    </div>
   )
 }
 
@@ -55,6 +51,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
           excerpt
         }

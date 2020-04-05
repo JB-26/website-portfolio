@@ -7,7 +7,7 @@ export default () => (
   <div>
     <Header></Header>
     <Article
-      headerTextOne="This web page 📜"
+      headerTextOne="This web site 📜"
       headerTextTwo="Introduction"
       text="This web page is a new version of my personal website. The previous version was made using the CSS framework Bulma. This new one is using Gatsby."
       techStackText="This web page was developed by using Gatsby - an open source framework based on React."
