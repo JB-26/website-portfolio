@@ -1,12 +1,16 @@
 import React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
 import { graphql } from "gatsby"
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-      <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="postFormat">
+        <Header></Header>
+        <h1 id="blogHeader">{post.frontmatter.title}</h1>
+        <div id="postDetails" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Footer></Footer>
       </div>
   )
 }

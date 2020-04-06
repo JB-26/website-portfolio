@@ -8,3 +8,5 @@
 import "./src/styles/global.css"
 import "./src/styles/index.css"
 import "./src/styles/work.css"
+import "./src/styles/blog-home.css"
+import "./src/styles/blog-post.css"

@@ -2,7 +2,6 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
 
 export default ({ data }) => {
   console.log(data)
@@ -10,27 +9,15 @@ export default ({ data }) => {
     <div>
       <Header></Header>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
-          It works on my machine
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h1 id="blogTitle">It works on my machine</h1>
+        <div id="postCount">
+          <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-              to={node.fields.slug}
-            >
-              <h3
-              >
-                {node.frontmatter.title}{" "}
-                <span
-                >
-                  — {node.frontmatter.date}
-                </span>
+          <div id="blogPosts" key={node.id}>
+            <Link to={node.fields.slug}>
+              <h3>
+                {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
               </h3>
             </Link>
           </div>

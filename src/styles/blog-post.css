@@ -1,0 +1,37 @@
+.postFormat {
+    display: flex;
+    flex-direction: column;
+}
+
+pre {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#blogHeader {
+    margin-top: 50px;
+}
+
+#postDetails {
+    width: auto;
+}
+
+#postDetails h1 {
+    margin: 0px;
+}
+
+/* tablet/desktop design */
+@media (min-width: 860px) {
+    #postDetails {
+        width: 50%;
+        margin-left: 630px;
+    }
+}

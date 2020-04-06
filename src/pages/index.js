@@ -35,7 +35,7 @@ export default () => (
         </span>
       </h2>
       <p>
-        This site was developed in Gatsby (a frameowrk based on React) by
+        This site was developed in Gatsby (a framework based on React) by
         myself. I'm constantly learning about web development so the look will
         change over time. Why not look at my blog to see what I've been learning
         recently and check out some projects I've made!
