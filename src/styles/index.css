@@ -21,13 +21,20 @@
     
 }
 
-.profile-card {
+.cardBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
     border-color: black;
     border-width: 2px;
     border-style: solid;
+    justify-content: right;
     box-shadow: 10px 10px;
     max-width: 310px;
     margin-top: 60px;
@@ -42,7 +49,7 @@
 
 
 /* tablet/desktop design */
-@media (min-width: 860px) {
+@media (min-width: 830px) {
     #image {
         border-radius: 50%;
     }
@@ -57,6 +64,14 @@
     .profile-card {
         height: auto;
         max-height: 600px;
-        margin: 60px 0px 0px 1100px;
+        margin: 60px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profile-card {
+        height: auto;
+        max-height: 600px;
+        margin: 60px 0px 0px 0px;
     }
 }

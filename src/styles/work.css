@@ -13,10 +13,111 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
 }
 
 h1 {
+    font-size: 20px;
     text-align: center;
 }
+
+h2 {
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 440px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px;
+  }
+  
+  .top {
+    height: 60px;
+    width: 99.2%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(90deg, #0077c6, #059bff);
+    top: 0px;
+  }
+  
+  .top h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .bottom hr {
+    width: 50%;
+  }
+  
+  .bottom {
+    height: 100%;
+    text-align: center;
+  }
+  
+  .bottom ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  @media (min-width: 830px) {
+      .card {
+        width: 500px;
+        height: 550px;
+      }
+
+      .top {
+          height: 120px;
+      }
+
+      .top h1 {
+          font-size: 35px;
+      }
+
+      h1 {
+          font-size: 35px;
+      }
+
+      h2 {
+          font-size: 23px;
+      }
+      
+      p {
+        font-size: 20px;
+      }
+  }
+
+
+  @media (min-width: 1024px) {
+    .card {
+        width: 500px;
+        height: 550px;
+      }
+
+      .top {
+          height: 120px;
+      }
+
+      .top h1 {
+          font-size: 35px;
+      }
+
+      h1 {
+          font-size: 35px;
+      }
+
+      h2 {
+          font-size: 23px;
+      }
+      
+      p {
+        font-size: 20px;
+      }
+  }

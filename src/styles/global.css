@@ -35,7 +35,8 @@ header {
     display: flex;
     flex-direction: row;
     font-size: 25px;
-    padding: 10px 0px 0px 80px;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
     position: fixed;
     width: 100%;
     top: 0px;
@@ -61,8 +62,8 @@ footer {
     padding-right: 15px;
 }
 
-/* tablet/desktop design */
-@media (min-width: 860px) {
+/* tablet design */
+@media (min-width: 830px) {
 
     #bolt {
         padding-left: 15px;
@@ -70,9 +71,10 @@ footer {
     }
 
     header {
-        padding: 10px 0px 0px 1145px;
-        overflow: none;
+        padding: 10px 0px 0px 0px;
         font-size: 25px;
+        width: 100%;
+        justify-content: center;
     }
 
     .header-item {
@@ -82,5 +84,13 @@ footer {
 
     #header-menu {
         display: none;
+    }
+}
+
+/* desktop design */
+@media (min-width: 1024px) {
+    header {
+        width: 100%;
+        justify-content: center;
     }
 }

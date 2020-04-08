@@ -2,12 +2,22 @@ import React from "react"
 
 export default props => (
     <article className="articleSetup">
-        <h1 className="titleCard">{props.headerTextOne}</h1>
-        <hr></hr>
-        <h2>{props.headerTextTwo}</h2>
-        <p>{props.text}</p>
-        <h2>Tech Stack</h2>
-        <p>{props.techStackText}</p>
-        <h2>Links</h2>
+        <div class="card">
+  <div class="top">
+    <h1>{props.headerTextOne}</h1>
+  </div>
+  <div class="bottom">
+    <h2>Introduction</h2>
+    <p>{props.introText}</p>
+    <hr>
+    </hr>
+    <h2>Tech Stack</h2>
+    <p>{props.techText}</p>
+    <hr>
+    </hr>
+    <h2>Links</h2>
+    <p>You can find the project <a href={props.url} rel="noopener noreferrer" target="_blank">here</a></p>
+  </div>
+</div>
     </article>
 )

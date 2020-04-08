@@ -6,11 +6,13 @@ import Image from "../images/me_photo2.jpg"
 export default () => (
   <div>
     <Header></Header>
-    <div className="profile-card">
-      <img src={Image} id="image" alt="Me at a mural in Nashville" />
-      <h1 id="name">Joshua Blewitt</h1>
-      <h2 id="special-text">Aspiring Web Developer</h2>
-      <h2 id="special-text">Retro Video Game Fan</h2>
+    <div className="cardBox">
+      <div className="profile-card">
+        <img src={Image} id="image" alt="Me at a mural in Nashville" />
+        <h1 id="name">Joshua Blewitt</h1>
+        <h2 id="special-text">Aspiring Web Developer</h2>
+        <h2 id="special-text">Retro Video Game Fan</h2>
+      </div>
     </div>
     <div className="intro">
       <h2>
