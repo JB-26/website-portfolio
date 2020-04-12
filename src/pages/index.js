@@ -29,6 +29,9 @@ export default () => (
         I'm a self taught web developer who is passionate about web development
         and looking for my first development role. I've had six years of
         experience in the IT industry. Currently a Software Tester!
+        <br></br>
+        <br></br>
+        I have a first class degree in Computer Science and currently work for Domino's Pizza Group in the United Kingdom.
       </p>
       <h2>
         About this site{" "}
