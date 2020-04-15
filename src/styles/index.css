@@ -1,60 +1,79 @@
+.content {
+    padding: 4rem;
+    /* both right and left classes are flexbox items */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.right {
+    text-align: center;
+}
+
+.left {
+    max-width: 20rem;
+}
+
+.left h1 {
+    font-size: 18px;
+}
+
+.left p {
+    font-size: 18px;
+}
+
 #image {
     border: 5px;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 500px;
+    border-radius: 20101992px;
     margin-top: 10px;
-}
-
-#name {
-    font-size: 25px;    
-}
-
-.cardBox {
-    text-align: center;
-    width: 100%;
-}
-
-.profile-card {
-    display: inline-block;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    box-shadow: 10px 10px;
-    width: auto;
-    margin-top: 60px;
-    margin-left: 20px;
-    padding: 0px 10px 0px 10px;
-}
-
-#special-text {
-    font-size: 20px;
+    width: 120px;
+    height: 120px;
 }
 
 /* tablet/desktop design */
 @media (min-width: 830px) {
-    #image {
-        border-radius: 50%;
+    .content {
+        /* makes the layout vertical */
+        flex-direction: row;
+        /* makes the content centered on the main axis (vertical) */
+        justify-content: center;
+        /* makes the content centered on the cross axis (horizontal) */
+        /* prevents the content from touching the viewport edges, giving it space to breath*/
+        padding: 5rem 3rem;
     }
 
-    .intro {
-        display: block;
-        margin: auto;
-        max-width: 410px;
-        font-size: 18px;
+    .left h1 {
+        font-size: 32px;
     }
-    
-    .profile-card {
-        height: auto;
-        max-height: 600px;
-        margin: 60px 0px 0px 0px;
+
+    .right {
+        height: 20rem;
+        margin-left: 4rem;
+        order: 2;
+        width: 20rem;
+    }
+
+    .left {
+        max-width: 29rem;
+    }
+
+    #image {
+        width: 210px;
+        height: 210px;
     }
 }
 
 @media (min-width: 1024px) {
-    .profile-card {
-        height: auto;
-        max-height: 600px;
-        margin: 60px 0px 0px 0px;
+    .content {
+        padding: 4rem;
+    }
+
+    .left {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    #image {
+        width: 320px;
+        height: 320px;
     }
 }

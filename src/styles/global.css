@@ -1,21 +1,45 @@
 html {
     background-color: whitesmoke;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Quicksand-Medium";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    /*ensures the page to be at least as tall as 100% of the viewport height */
+    min-height: 100vh;
+    /*prevents the page from being too narrow to be readable*/
+    min-width: 300px;
+    /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
+    overflow-x: hidden;
 }
 
 @font-face {
-    font-family: 'Open Sans', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    font-family: "Quicksand-Medium";
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Quicksand-SemiBold";
+    src: url("../fonts/Quicksand-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/Quicksand-Regular.ttf")
 }
 
 h2 {
     text-align: center;
+    font-family: "Quicksand-SemiBold";
+}
+
+p {
+    font-family: "Quicksand-Regular";
 }
 
 /* header */
 
 a:link {
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: none;
     color: black;
   }
@@ -50,9 +74,14 @@ header {
 }
 
 /* footer */
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
 footer {
-    text-align: center;
-    position: relative;
     font-size: 35px;
     padding: 0px 15px 0px 0px;
 }

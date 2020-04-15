@@ -1,61 +1,31 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Image from "../images/me_photo2.jpg"
+import Image from "../images/new.jpg"
 
 export default () => (
   <div>
     <Header></Header>
-    <div className="cardBox">
-      <div className="profile-card">
-        <img src={Image} id="image" alt="Me at a mural in Nashville" />
-        <h1 id="name">Joshua Blewitt</h1>
-        <h2 id="special-text">Aspiring Web Developer</h2>
-        <h2 id="special-text">Retro Video Game Fan</h2>
+    <div className="content">
+      <div className="left">
+        <h1>
+          Hey, I'm Joshua Blewitt{" "}
+          <span role="img" aria-label="string">
+            👋
+          </span>
+        </h1>
+        <hr className="fill"></hr>
+        <p>
+          I'm an aspiring web developer! I'm based in Milton Keynes, United
+          Kingdom.<br></br>I have a first class degree in Computer Science from
+          Anglia Ruskin Unviversity.<br></br>I've been working in the IT
+          industry for 6 years and I'm currently a software tester.<br></br>
+          I've worked for companies such as Domino's Pizza Group.
+        </p>
       </div>
-    </div>
-    <div className="intro">
-      <h2>
-        Hello!{" "}
-        <span role="img" aria-label="string">
-          👋
-        </span>
-      </h2>
-      <p>
-        My name is Josh (or often called JB) and I'm an aspiring web developer
-        from Milton Keynes, United Kingdom.
-      </p>
-      <p>
-        I'm a self taught web developer who is passionate about web development
-        and looking for my first development role. I've had six years of
-        experience in the IT industry. Currently a Software Tester!
-        <br></br>
-        <br></br>
-        I have a first class degree in Computer Science and currently work for Domino's Pizza Group in the United Kingdom.
-      </p>
-      <h2>
-        About this site{" "}
-        <span role="img" aria-label="string">
-          🔍
-        </span>
-      </h2>
-      <p>
-        This site was developed in Gatsby (a framework based on React) by
-        myself. I'm constantly learning about web development so the look will
-        change over time. Why not look at my blog to see what I've been learning
-        recently and check out some projects I've made!
-      </p>
-      <h2>
-        Want to contact me?{" "}
-        <span role="img" aria-label="string">
-          📬
-        </span>
-      </h2>
-      <p>
-        Why not take a look at the footer for links to my LinkedIn and my
-        Twitter and send me a message? I'm open to junior web development
-        opportunities.
-      </p>
+      <div className="right">
+        <img id="image" src={Image} alt="Me in Nashville"></img>
+      </div>
     </div>
     <Footer></Footer>
   </div>
