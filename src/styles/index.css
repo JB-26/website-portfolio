@@ -1,5 +1,7 @@
 .content {
-    padding: 4rem;
+    padding-top: 2.6rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
     /* both right and left classes are flexbox items */
     display: flex;
     flex-direction: column-reverse;
@@ -24,14 +26,48 @@
 #image {
     border: 5px;
     border-radius: 20101992px;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     width: 120px;
     height: 120px;
 }
 
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#emailButton {
+    background-color: #ebe8e8;
+    border-radius: 20101992px;
+    box-shadow: 0 1rem 1.0rem rgba(0, 0, 0, 0.2);
+    color: #000000;
+    font-size: 1.1rem;
+    line-height: 1;
+    /* first value is the left/right, second value is top and bottom */
+    padding: 0.7em 1.4em;
+    text-shadow: none;
+    /* allows for smoother animation */
+    transform-origin: center;
+    transition-duration: 100ms;
+}
+
+#emailButton:hover {
+    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.2);
+    /* raise the button up */
+    transform: scale(1.00) translateY(-3px);
+}
+
+#emailButton:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    /* lower the button down */
+    transform: scale(0.99) translateY(-1px);
+}
+
 /* tablet/desktop design */
-@media (min-width: 830px) {
+@media (min-width: 768px) {
     .content {
+        padding: 4rem;
         /* makes the layout vertical */
         flex-direction: row;
         /* makes the content centered on the main axis (vertical) */
@@ -60,6 +96,10 @@
         width: 210px;
         height: 210px;
     }
+
+    #emailButton {
+        padding: 1.25em 1.4em;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -75,5 +115,9 @@
     #image {
         width: 320px;
         height: 320px;
+    }
+
+    #emailButton {
+        padding: 1.5em 4.4em;
     }
 }

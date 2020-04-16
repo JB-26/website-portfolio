@@ -62,6 +62,7 @@ header {
     justify-content: center;
     padding: 10px 0px 0px 0px;
     position: fixed;
+    z-index: 1;
     width: 100%;
     top: 0px;
     margin: 0px 0px 50px 0px;
@@ -76,14 +77,18 @@ header {
 /* footer */
 
 ul {
-    display: flex;
-    justify-content: center;
+    padding: 0px;
     list-style-type: none;
 }
 
+li {
+    display: inline;
+    text-align: center;
+}
+
 footer {
+    display: inline;    
     font-size: 35px;
-    padding: 0px 15px 0px 0px;
 }
 
 .icon {
@@ -92,7 +97,11 @@ footer {
 }
 
 /* tablet design */
-@media (min-width: 830px) {
+@media (min-width: 768px) {
+
+    li {
+        text-align: center;
+    }
 
     #bolt {
         padding-left: 15px;

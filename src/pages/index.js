@@ -22,6 +22,9 @@ export default () => (
           industry for 6 years and I'm currently a software tester.<br></br>
           I've worked for companies such as Domino's Pizza Group.
         </p>
+        <div id="buttonContainer">
+          <a id="emailButton" href="mailto:joshblewitt@protonmail.com">Get in touch!</a>
+        </div>
       </div>
       <div className="right">
         <img id="image" src={Image} alt="Me in Nashville"></img>

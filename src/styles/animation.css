@@ -63,18 +63,32 @@
 
 .header-item {
     animation-duration: 500ms;
+    animation-delay: 300ms;
     animation-name: downAnimation;
     animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
 }
 
 #bolt {
     animation-duration: 500ms;
+    animation-delay: 300ms;
     animation-name: downAnimation;
     animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
 }
 
 #image {
+    animation-delay: 750ms;
     animation-name: photoAnimation;
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+.left {
+    animation-delay: 550ms;
+    animation-name: photoAnimation;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
 }

@@ -29,9 +29,8 @@ img {
 }
 
 /* tablet/desktop design */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
     #postDetails {
-        width: 50%;
-        margin-left: 630px;
+        text-align: center;
     }
 }
