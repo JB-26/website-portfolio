@@ -2,9 +2,14 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Article from "../components/article"
+import { Helmet } from "react-helmet"
 
 export default () => (
   <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Joshua Blewitt - Work</title>
+    </Helmet>
     <Header></Header>
     <Article
       headerTextOne="This web site 📜"

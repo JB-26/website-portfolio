@@ -2,11 +2,16 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Link, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 export default ({ data }) => {
   console.log(data)
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Joshua Blewitt - Blog</title>
+      </Helmet>
       <Header></Header>
       <div>
         <h1 id="blogTitle">It works on my machine</h1>

@@ -1,9 +1,14 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import { Helmet } from "react-helmet"
 
 export default () => (
     <div>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Whoa!</title>
+      </Helmet>
         <Header></Header>
         <div className="errorMessage">
             <h1>Whoa! <span role="img" aria-label="string">🤯</span></h1>
