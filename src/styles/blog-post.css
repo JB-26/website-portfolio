@@ -1,10 +1,10 @@
 .postFormat {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 pre {
     text-align: center;
+    overflow-x: auto;
 }
 
 ul {
@@ -21,7 +21,10 @@ img {
 }
 
 #postDetails {
-    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #postDetails h1 {
@@ -31,6 +34,19 @@ img {
 /* tablet/desktop design */
 @media (min-width: 768px) {
     #postDetails {
-        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #postDetails {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
