@@ -10,7 +10,7 @@ export default () => (
   <footer>
     <div className="listHolder">
       <ul className="footerIcon">
-        <li>
+        <li className='blog'>
           <a
             href="https://gitlab.com/JoshBl_?nav_source=navbar"
             rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export default () => (
             <FontAwesomeIcon className="icon" icon={faGitlab} />
           </a>
         </li>
-        <li>
+        <li className='blog'>
           <a
             href="https://codepen.io/JayBl"
             rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export default () => (
             <FontAwesomeIcon className="icon" icon={faCodepen} />
           </a>
         </li>
-        <li>
+        <li className='blog'>
           <a
             href="https://www.freecodecamp.org/fcc2927573c-68b6-4b92-954b-d97d1ea76b7f"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default () => (
             <FontAwesomeIcon className="icon" icon={faFreeCodeCamp} />
           </a>
         </li>
-        <li>
+        <li className='blog'>
           <a
             href="https://www.linkedin.com/in/jblewitt/"
             rel="noopener noreferrer"
@@ -46,7 +46,7 @@ export default () => (
             <FontAwesomeIcon className="icon" icon={faLinkedin} />
           </a>
         </li>
-        <li>
+        <li className='blog'>
           <a
             href="https://twitter.com/_ItsJayB_"
             rel="noopener noreferrer"

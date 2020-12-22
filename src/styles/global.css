@@ -81,7 +81,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+li.blog {
     display: inline;
     text-align: center;
 }
