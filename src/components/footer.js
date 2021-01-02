@@ -9,9 +9,10 @@ import { faFreeCodeCamp } from "@fortawesome/free-brands-svg-icons"
 export default () => (
   <footer>
     <div className="listHolder">
-      <ul className="footerIcon">
+      <ul className="footer">
         <li className='blog'>
           <a
+            className="blog"
             href="https://gitlab.com/JoshBl_?nav_source=navbar"
             rel="noopener noreferrer"
             target="_blank"
@@ -21,6 +22,7 @@ export default () => (
         </li>
         <li className='blog'>
           <a
+            className="blog"
             href="https://codepen.io/JayBl"
             rel="noopener noreferrer"
             target="_blank"
@@ -30,6 +32,7 @@ export default () => (
         </li>
         <li className='blog'>
           <a
+            className="blog"
             href="https://www.freecodecamp.org/fcc2927573c-68b6-4b92-954b-d97d1ea76b7f"
             rel="noopener noreferrer"
             target="_blank"
@@ -39,6 +42,7 @@ export default () => (
         </li>
         <li className='blog'>
           <a
+            className="blog"
             href="https://www.linkedin.com/in/jblewitt/"
             rel="noopener noreferrer"
             target="_blank"
@@ -48,6 +52,7 @@ export default () => (
         </li>
         <li className='blog'>
           <a
+            className="blog"
             href="https://twitter.com/_ItsJayB_"
             rel="noopener noreferrer"
             target="_blank"

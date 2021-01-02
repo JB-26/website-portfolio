@@ -30,7 +30,7 @@ export default () => (
       url="https://gitlab.com/JoshBl_/csharp-currency-convertor"
     ></Article>
     <h1>Other work</h1>
-    <p>
+    <p class="work">
       Want to see my other work and certifications? Check out the icons below!
     </p>
     <Footer></Footer>
