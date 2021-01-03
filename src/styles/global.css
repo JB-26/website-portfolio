@@ -38,13 +38,13 @@ p {
 
 /* header */
 
-a:link {
+a:link.blog {
     text-decoration: none;
     text-shadow: none;
     color: black;
   }
 
-a:visited {
+a:visited.blog {
     text-decoration: none;
     text-shadow: none;
     color: black;
@@ -76,9 +76,11 @@ header {
 
 /* footer */
 
-ul {
+ul.footer {
     padding: 0px;
     list-style-type: none;
+    text-align: center;
+    font-size: 35px;
 }
 
 li.blog {
@@ -99,7 +101,7 @@ footer {
 /* tablet design */
 @media (min-width: 768px) {
 
-    li {
+    li.blog {
         text-align: center;
     }
 

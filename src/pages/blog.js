@@ -20,7 +20,7 @@ export default ({ data }) => {
         </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div id="blogPosts" key={node.id}>
-            <Link to={node.fields.slug}>
+            <Link to={node.fields.slug} className='posts'>
               <h3>
                 {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
               </h3>

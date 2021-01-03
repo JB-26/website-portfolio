@@ -39,6 +39,7 @@
 
 #emailButton {
     background-color: #ebe8e8;
+    text-decoration: none;
     border-radius: 20101992px;
     box-shadow: 0 1rem 1.0rem rgba(0, 0, 0, 0.2);
     color: #000000;
