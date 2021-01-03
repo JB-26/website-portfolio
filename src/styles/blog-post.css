@@ -2,8 +2,9 @@
     display: block;
 }
 
+/* displaying code */
 pre {
-    background: #f4f4f4;
+    background: #EDEDED;
     border: 1px solid #ddd;
     border-left: 3px solid #f36d33;
     color: #666;
@@ -17,6 +18,36 @@ pre {
     padding: 1em 1.5em;
     display: block;
     word-wrap: break-word;
+}
+
+/* displaying quotes */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 20px;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em;
+  border-left:3px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+
+a:link {
+    text-shadow: none;
+    color: black;
+  }
+
+a:visited {
+    text-shadow: none;
+    color: black;
+}
+
+ul {
+    font-size: 20px;
 }
 
 ol {

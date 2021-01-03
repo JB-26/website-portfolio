@@ -11,6 +11,8 @@ The challenge was to build an application that monitors your bandwidth, with the
 
 If you want to see the code for this, click [here](https://gitlab.com/JoshBl_/python-bandwidth-monitor) for the code.
 
+I used a mix of some Python modules and a little bit of data science to complete this.
+
 There's several areas that I need to improve (such as error handling) but if you want to take a look at how the process of recording works, then read on!
 
 ## Modules used
@@ -41,11 +43,18 @@ Let's understand first on how we actually capture network information with psuti
 
 So let's look at the documentation on the psutil website (see [here](https://psutil.readthedocs.io/en/latest/#network))
 
-```
+<blockquote>
 Return network I/O statistics as a namedtuple including the following fields:
 
 bytes_sent: number of bytes sent
-bytes_recv: number of bytes received
-```
 
-Interesting!
+bytes_recv: number of bytes received
+</blockquote>
+
+Interesting! So we can get the value for the number of bytes sent and received using those two fields. Let's keep this in mind!
+
+What's important to note is that this will record the number of **bytes** - so if we want to show how many megabytes a user has used in a period of time then we need to do some maths to get it displayed in a readable manner.
+
+```
+currentTime = datetime.datetime.now().time().strftime("%H:%M:%S")
+```
