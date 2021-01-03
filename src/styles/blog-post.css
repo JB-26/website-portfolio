@@ -46,6 +46,19 @@ a:visited {
     color: black;
 }
 
+/* links to posts on the blog page */
+a:link.posts {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+  }
+
+a:visited.posts {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+}
+
 ul {
     font-size: 20px;
 }
