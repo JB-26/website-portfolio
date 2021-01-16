@@ -138,7 +138,7 @@ print(f'Now getting latest rates for {baseCurrency} as of {datetime.datetime.now
         print(df)
 ```
 
-We use the request module to make a GET request. But there is one problem, the response of the exchange rates is a string, not a dictionary. 
+We use the request module to make a GET request. But there is one problem, when we access the text attribute of the response, it's a string!
 
 ![JSON response](https://i.imgur.com/PRLNygR.png)
 
@@ -418,9 +418,14 @@ Better yet, you can zoom in by using the mouse to highlight an area to focus on!
 
 ![Scatter Graph zoomed in](https://i.imgur.com/duvDfdR.jpg)
 
+Of course, if the user requests for a large amount of data between two dates, the performance can take a hit when creating the graph with plotly.
+### Conclusion
+
 And that wraps it up!
 
-Well, for now. There's still several areas that I'd like to improve on such as adding the ability to import a CSV file, and perform some data analysis on it.
+Well, for now. There's still several areas that I'd like to improve on such as adding the ability to import a CSV file which has exchange rates, and perform some data analysis on it.
+
+But for now, it grabs data from the European Central Bank, can do some analysis and can create some interactive graphs with Plotly!
 
 I'll make another post in the future, when I have made several improvements - so keep an eye out!
 
