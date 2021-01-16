@@ -417,3 +417,11 @@ When this is run, it produces the following scatter graph!
 Better yet, you can zoom in by using the mouse to highlight an area to focus on!
 
 ![Scatter Graph zoomed in](https://i.imgur.com/duvDfdR.jpg)
+
+And that wraps it up!
+
+Well, for now. There's still several areas that I'd like to improve on such as adding the ability to import a CSV file, and perform some data analysis on it.
+
+I'll make another post in the future, when I have made several improvements - so keep an eye out!
+
+Thanks for reading! 👏
