@@ -15,7 +15,7 @@ So, how can we achieve this?
 
 Well, by using [Flask RESTful](https://flask-restful.readthedocs.io/en/latest/) we can do just that!
 
-If you want to see the API in action, you can see it running live on [Heroku!](https://mighty-cliffs-81365.herokuapp.com/) Or if you want to take a look at the code and run it locally, you can visit the repo on GitLab [here.](https://gitlab.com/JoshBl_/python-flask-api) (The API might be slightly slow to respond at first, the application will go to sleep mode after a period of time)
+If you want to see the API in action, you can see it running live on [Heroku!](https://mighty-cliffs-81365.herokuapp.com/) Or if you want to take a look at the code and run it locally, you can visit the repo on GitHub [here.](https://github.com/JB-26/video-game-api) (The API might be slightly slow to respond at first, the application will go to sleep mode after a period of time)
 
 And with that, let's get started!
 
