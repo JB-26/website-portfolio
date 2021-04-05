@@ -4,6 +4,7 @@ module.exports = {
     description: `A portfolio website showing the work and information about Joshua Blewitt - an aspiring Web Developer`,
     author: `Joshua Blewitt`,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: false },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
