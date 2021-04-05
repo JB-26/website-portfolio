@@ -24,7 +24,7 @@ export default () => (
           I'm an aspiring web developer! I'm based in Milton Keynes, United
           Kingdom.<br></br>I have a first class degree in Computer Science from
           Anglia Ruskin University.<br></br>I've been working in the IT industry
-          for 6 years and I'm currently a software tester.<br></br>
+          for 7 years and I'm currently a software tester.<br></br>
           I've worked for companies such as Domino's Pizza Group.
         </p>
         <div id="buttonContainer">

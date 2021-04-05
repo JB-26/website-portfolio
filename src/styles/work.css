@@ -29,8 +29,8 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
-    width: 240px;
-    height: 499px;
+    width: 310px;
+    height: fit-content;
     border-color: black;
     border-width: 2px;
     border-style: solid;
@@ -70,7 +70,7 @@ h2 {
   @media (min-width: 768px) {
       .card {
         width: 500px;
-        height: 640px;
+        height: fit-content;
       }
 
       .top {
@@ -98,7 +98,7 @@ h2 {
   @media (min-width: 1024px) {
     .card {
         width: 500px;
-        height: 650px;
+        height: fit-content;
       }
 
       .top {
