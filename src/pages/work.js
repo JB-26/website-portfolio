@@ -37,9 +37,9 @@ export default () => (
     ></Article>
     <Article
       headerTextOne="HTTParty with Ruby 💎"
-      introText="The exchange rate program is a CLI that allows users to find current and historical exchange rates and display them in graphs and have them exported to a CSV file"
-      techText="This application was developed in Python and uses Pandas and Plotly for data analysis."
-      url="https://github.com/JB-26/python-exchange-rate"
+      introText="This is a CLI that communicates with the Video Game API, being able to add, remove, edit and display games."
+      techText="This application was developed in Ruby with the HTTParty Gem."
+      url="https://github.com/JB-26/ruby-HTTParty-video-game-api"
     ></Article>
     <h1>Other work</h1>
     <p class="work">

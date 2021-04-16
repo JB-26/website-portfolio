@@ -21,7 +21,7 @@ export default () => (
         </h1>
         <hr className="fill"></hr>
         <p>
-          I'm an aspiring web developer! I'm based in Milton Keynes, United
+          I'm an IT Professional! With interests in development and UX design. I'm based in Milton Keynes, United
           Kingdom.<br></br>I have a first class degree in Computer Science from
           Anglia Ruskin University.<br></br>I've been working in the IT industry
           for 7 years and I'm currently a software tester.<br></br>

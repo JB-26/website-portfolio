@@ -27,13 +27,18 @@ html {
     src: url("../fonts/Quicksand-Regular.ttf")
 }
 
+@font-face {
+    font-family: "VollkornRegular";
+    src: url("../fonts/VollkornRegular.ttf");
+}
+
 h2 {
     text-align: center;
     font-family: "Quicksand-SemiBold";
 }
 
 p {
-    font-family: "Quicksand-Regular";
+    font-family: "VollkornRegular";
 }
 
 /* header */
