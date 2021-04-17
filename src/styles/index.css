@@ -1,124 +1,132 @@
 .content {
-    padding-top: 2.6rem;
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-    /* both right and left classes are flexbox items */
-    display: flex;
-    flex-direction: column-reverse;
+  padding-top: 2.6rem;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  /* both right and left classes are flexbox items */
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .right {
-    text-align: center;
+  text-align: center;
 }
 
 .left {
-    max-width: 20rem;
+  max-width: 20rem;
 }
 
 .left h1 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .left p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #image {
-    border: 5px;
-    border-radius: 20101992px;
-    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
-    margin-top: 10px;
-    width: 120px;
-    height: 120px;
+  border: 5px;
+  border-radius: 20101992px;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
 }
 
 #buttonContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #emailButton {
-    background-color: #ebe8e8;
-    text-decoration: none;
-    border-radius: 20101992px;
-    box-shadow: 0 1rem 1.0rem rgba(0, 0, 0, 0.2);
-    color: #000000;
-    font-size: 1.1rem;
-    line-height: 1;
-    /* first value is the left/right, second value is top and bottom */
-    padding: 0.7em 1.4em;
-    text-shadow: none;
-    /* allows for smoother animation */
-    transform-origin: center;
-    transition-duration: 100ms;
+  background-color: #f6e5d6;
+  background: linear-gradient(90deg, #f6e5d6 2px, transparent 1%) center,
+    linear-gradient(#fff 2px, transparent 1%) center, #ccc;
+  background-size: 4px 4px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 60px;
+  padding-top: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 10px 10px;
+  word-wrap: break-word;
+  text-align: center;
+  text-decoration: none;
+  font-size: 29px;
+  /* allows for smoother animation */
+  transform-origin: center;
+  transition-duration: 150ms;
 }
 
 #emailButton:hover {
-    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.2);
-    /* raise the button up */
-    transform: scale(1.00) translateY(-3px);
+  /* raise the button up */
+  transform: scale(1) translateY(-3px);
+  box-shadow: 15px 15px;
+  animation-duration: 7000ms;
 }
 
 #emailButton:active {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-    /* lower the button down */
-    transform: scale(0.99) translateY(-1px);
+  /* lower the button down */
+  box-shadow: 5px 5px;
+  transform: scale(0.99) translateY(-1px);
 }
 
 /* tablet/desktop design */
 @media (min-width: 768px) {
-    .content {
-        padding: 4rem;
-        /* makes the layout vertical */
-        flex-direction: row;
-        /* makes the content centered on the main axis (vertical) */
-        justify-content: center;
-        /* makes the content centered on the cross axis (horizontal) */
-        /* prevents the content from touching the viewport edges, giving it space to breath*/
-        padding: 5rem 3rem;
-    }
+  .content {
+    padding: 4rem;
+    /* makes the layout vertical */
+    flex-direction: row;
+    /* makes the content centered on the main axis (vertical) */
+    justify-content: center;
+    /* makes the content centered on the cross axis (horizontal) */
+    /* prevents the content from touching the viewport edges, giving it space to breath*/
+    padding: 4.0rem 3rem;
+  }
 
-    .left h1 {
-        font-size: 32px;
-    }
+  .left h1 {
+    font-size: 32px;
+  }
 
-    .right {
-        height: 20rem;
-        margin-left: 4rem;
-        order: 2;
-        width: 20rem;
-    }
+  .right {
+    height: 20rem;
+    margin-left: 4rem;
+    order: 2;
+    width: 20rem;
+  }
 
-    .left {
-        max-width: 29rem;
-    }
+  .left {
+    max-width: 29rem;
+  }
 
-    #image {
-        width: 210px;
-        height: 210px;
-    }
+  #image {
+    width: 210px;
+    height: 159px;
+  }
 
-    #emailButton {
-        padding: 1.25em 1.4em;
-    }
+  #emailButton {
+    padding: 0.25em 0.9em;
+  }
 }
 
 @media (min-width: 1024px) {
-    .content {
-        padding: 4rem;
-    }
+  .content {
+    padding: 4rem;
+  }
 
-    .left {
-        flex-grow: 1;
-        flex-shrink: 1;
-    }
+  .left {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
 
-    #image {
-        width: 320px;
-        height: 320px;
-    }
+  #image {
+    width: 320px;
+    height: 320px;
+  }
 
-    #emailButton {
-        padding: 1.5em 4.4em;
-    }
+  #emailButton {
+    padding: 0.5em 4.4em;
+  }
 }
