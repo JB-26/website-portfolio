@@ -3,6 +3,10 @@
     font-size: 35px;
 }
 
+#blogSubtitle {
+    font-family: "VollkornRegular";
+}
+
 #postCount {
     display: flex;
     flex-direction: row;
