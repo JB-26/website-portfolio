@@ -61,11 +61,11 @@ a:visited.posts {
 
 ul {
     font-family: "VollkornRegular";
-    font-size: 20px;
+    font-size: 16px;
 }
 
 ol {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 img {
@@ -95,6 +95,15 @@ img {
         margin-left: auto;
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    ul {
+        font-family: "VollkornRegular";
+        font-size: 20px;
+    }
+    
+    ol {
+        font-size: 20px;
     }
 }
 

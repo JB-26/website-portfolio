@@ -39,7 +39,15 @@ Since the percentage of young people data is reported yearly, we will use the av
 
 With our data ready, let's create some dataframes and take a look!
 
-First, we'll create a dataframe, set the index to one of the columns and create a graph. The graph looks like this for the average house price over time from 1996 to 2020.
+First, we'll create our dataframes, set the index to one of the columns and create a graph. 
+
+![Dataframes](https://i.imgur.com/7wfwD5T.jpg)
+![Set index](https://i.imgur.com/RtsdIxa.jpg)
+
+![House price graph](https://i.imgur.com/b4M6Qdt.jpg)
+![Young People parents graph](https://i.imgur.com/iLkWZEK.jpg)
+
+The graph looks like this for the average house price over time from 1996 to 2020.
 
 ![Average house price](https://i.imgur.com/JA7wFR8.png)
 
@@ -57,7 +65,17 @@ So if we overlay both graphs over each other - we can see the following:
 
 ![Graph overlay](https://i.imgur.com/peGC1gq.png)
 
-It seems like we can draw a line of correlation! Thankfully, we can calculate the correlation thanks to Pandas built in 'corr' method. This returns the value of __0.886905__.
+It seems like we can draw a line of correlation! Thankfully, we can calculate the correlation thanks to Pandas built in 'corr' method.
+
+First, we'll need to create a new dataframe which concatenates two existing dataframes together.
+
+![New dataframe](https://i.imgur.com/iVlZLvG.jpg)
+
+With this new dataframe, we can now calculate the correlation.
+
+This returns the value of __0.886905__.
+
+![Correlation](https://i.imgur.com/W0wUYto.jpg)
 
 Although it's good that we can be confident that the hypothesis of the cost of living has an impact on the number of young people living with their parents is correct - it is a depressing figure. The percentage of young people living with their parents could increase drastically over the next few years.
 
@@ -71,10 +89,10 @@ I decided to take another look Office for National Statistics and see if I can f
 
 So as house prices have continued to climb - earnings growth has been very low.
 
-As someone who falls into the 20 to 34 age range (I'm 28), and who is living with their parents, I decided to stay with my parents after graduating because I wanted to save money to buy a house. I mean sure, I could rent, but with the high house prices mean high rent costs, I wouldn't be able to put money away for a deposit. In fact, the Office for National Statistics also track this by looking at the [private rental market](https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/privaterentalmarketsummarystatisticsinengland/october2019toseptember2020) and the current median for England is __£725__ - the highest ever recorded (we'll not look at London as that's a different [situation](https://www.london.gov.uk/what-we-do/housing-and-land/tackling-londons-housing-crisis)).
+As someone who falls into the 20 to 34 age range (I'm 28), and who is living with their parents, I decided to stay with my parents after graduating because I wanted to save money to buy a house. I mean sure, I could rent, but with the high house prices mean high rent costs. I wouldn't be able to put money away for a deposit. In fact, the Office for National Statistics also track this by looking at the [private rental market](https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/privaterentalmarketsummarystatisticsinengland/october2019toseptember2020) and the current median for England is __£725__ - the highest ever recorded (we'll not look at London as that's a different [situation](https://www.london.gov.uk/what-we-do/housing-and-land/tackling-londons-housing-crisis)).
 
 With this in mind, I'm not surprised that there are many young people staying with their parents. And I wouldn't be surprised if this values goes up in the future as house prices continue to rise.
 
-For now, I'll just continue saving. I'm not sure how long I'll need to save for or how much I need - but it's all I can do.
+For now, I'll just continue saving. I'm not sure how long I'll need to save for or how much I need - but it's all I can do. And I'm sure I'm not alone in this either.
 
 Thanks for reading.
