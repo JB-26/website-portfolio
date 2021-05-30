@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGitlab } from "@fortawesome/free-brands-svg-icons"
+import { faGithub} from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faCodepen } from "@fortawesome/free-brands-svg-icons"
@@ -13,11 +13,11 @@ export default () => (
         <li className='blog'>
           <a
             className="blog"
-            href="https://gitlab.com/JoshBl_?nav_source=navbar"
+            href="https://github.com/JB-26"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={faGitlab} />
+            <FontAwesomeIcon className="icon" icon={faGithub} />
           </a>
         </li>
         <li className='blog'>

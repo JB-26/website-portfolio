@@ -22,8 +22,19 @@ h1 {
     text-align: center;
 }
 
+h1.work_title {
+  text-align: center;
+  padding-top: 35px;
+  font-size: 28px;
+}
+
 h2 {
     font-size: 18px;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
 }
 
 .card {
@@ -85,6 +96,10 @@ h2 {
           font-size: 35px;
       }
 
+      h1.work-title{
+        font-size: 35px;
+      }
+
       h2 {
           font-size: 23px;
       }
@@ -111,6 +126,10 @@ h2 {
 
       h1 {
           font-size: 35px;
+      }
+      
+      h1.work-title{
+        font-size: 45px;
       }
 
       h2 {
