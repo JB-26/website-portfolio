@@ -1,6 +1,6 @@
 ---
 title: "Why you should fully disconnect from work when on holiday (and how!) 🕶"
-date: "2021-05-03"
+date: "2021-06-09"
 ---
 
 If there's anything that I'm guilty of since I started work, it's that I'm one of those people who check their email or messaging while on Holiday. In fact, I have responded to Teams messages while I was on Holiday. It's a terrible habit to have. You can't fully switch off from work and it just lingers in the back of your mind.
@@ -34,4 +34,12 @@ So what are the benefits?
 
 For one, I feel much more relaxed. I haven't thought about work at all! My mental health has greatly improved since I turned off notifications from the work applications and I can focus on enjoying my holiday in peace without worrying about notifications from work appearing.
 
-Secondly, I'm able to focus on my interests and hobbies in peace and quiet. Without having the thought of work
+Secondly, I'm able to focus on my interests and hobbies in peace and quiet. Without having the thought of work lingering in my head.
+
+I feel as if I've been able to fully switch off and fully enjoy my holiday.
+
+And with the ongoing pandemic, turning off is more important than ever before.
+
+So next time you're on holiday - maybe you should try switching off fully from work.
+
+Thanks for reading! 👍
