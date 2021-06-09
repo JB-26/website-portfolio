@@ -21,12 +21,17 @@ You can do the same with the following steps with Teams, Slack and Outlook on iO
 
 1. Open the settings application
 2. Find the application that you want to disable notifications
+![Settings](https://i.imgur.com/SAWJstt.png)
 3. Open the settings for the application
+![Settings for application](https://i.imgur.com/t76E233.png)
 4. Tap on 'Notifications'
 5. Disable notifications at the top
+![Disable notifications](https://i.imgur.com/ETEbPCr.png)
 
 And you're all set!
 
 So what are the benefits?
 
-For one, I feel much more relaxed. I haven't thought about work at all! My mental health has greatly improved since I turned off notifications from the work applications.
+For one, I feel much more relaxed. I haven't thought about work at all! My mental health has greatly improved since I turned off notifications from the work applications and I can focus on enjoying my holiday in peace without worrying about notifications from work appearing.
+
+Secondly, I'm able to focus on my interests and hobbies in peace and quiet. Without having the thought of work
