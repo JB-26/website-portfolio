@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Image from "../images/new.jpg"
+import Image from "../images/new_2021.jpg"
 import { Helmet } from "react-helmet"
 
 export default () => (
@@ -34,7 +34,7 @@ export default () => (
         </div>
       </div>
       <div className="right">
-        <img id="image" src={Image} alt="Me in Nashville"></img>
+        <img id="image" src={Image} alt="Me at the pub!"></img>
       </div>
     </div>
     <Footer></Footer>
