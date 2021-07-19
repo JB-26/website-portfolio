@@ -17,9 +17,11 @@ Before we look at the data in question. Let's take a quick look of the data anal
 With this in mind, let's break down what we're going to do:
 
 - __Question__ - Who was more likely to survive the Titanic, men or women?
-- __Data__ - The data is from [OpenML](https://www.openml.org/d/40945)
+- __Data__ - The data is from [OpenML](https://www.openml.org/d/40945) (Which was originally found at this Visual Studio Code tutorial by [Microsoft](https://code.visualstudio.com/docs/datascience/data-science-tutorial))
 
 Now, we begin the process of __Cleaning__ and __Exploring__ the data we have. For this, I'll be using Visual Studio Code. If you want to take a look at the Jupyter notebooks, you can find them on this GitHub [repo](https://github.com/JB-26).
+
+I've done some data analysis before, when I looked at [UK House Pricing](https://joshblewitt.dev/blog/2021-05-03-house-prices/) a few months back. But this time I have a full data set to look at.
 
 Well, let's get started with importing the libraries that we need.
 
@@ -122,20 +124,22 @@ Great! But let's take this another step further...
 
 Let's calculate the percentage of surviving.
 
-First, let's sort this data in regards to passengers who had siblings and/or spouses:
+First, let's sort this data in regards to passengers who had siblings and/or spouses by creating a new column using a lambda expression:
 
 ```
 #create a new column in the data called relatives
 data['relatives'] = data.apply (lambda row: int((row['sibsp'] + row['parch']) > 0), axis=1)
 ```
 
-And change the male or female data to 0 or 1
+This takes the values in two columns and adds them together. If the value is greater than 1, the value under the column 'relatives' will be 1.
+
+And change the male or female data to 0 or 1:
 
 ```
 data.replace({'male': 1, 'female': 0}, inplace=True)
 ```
 
-And sort the data again by getting rid of any redundant columns.
+And sort the data again by getting rid of any redundant columns and specifying which columns we want to keep.
 
 ```
 data = data[['sex', 'pclass','age','relatives','fare','survived']].dropna()
@@ -177,3 +181,11 @@ print(metrics.accuracy_score(y_test, predict_test))
 ```
 
 This returns a result of 75%! Great!
+
+And that about wraps it up!
+
+Data analysis is something that interests me, the method of investigating and problem solving by using Python is something that I'm enjoying.
+
+I am aware of a library called [PsyCopg](https://www.psycopg.org/) - a Postgres driver for Python. Since I recently did a course looking at Postgres/SQL, building a tool that can connect to my Postgres database and pull data from it and perform analysis on it might be a fun project to do!
+
+Thanks for reading!
