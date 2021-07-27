@@ -26,7 +26,7 @@ The project will grow over time so who knows what new features will be added!
 
 This post will look at connecting to a DB, running a query and then taking the results of the query and exporting them to a CSV file.
 
-So let's jump in with connecting to a 
+So let's jump in with connecting to a database.
 
 # Connecting to a Postgres database
 
@@ -82,4 +82,100 @@ if os.path.exists('db_info.json'):
         db_port = db_data['db_port']
 ```
 
-This way, it can be quicker for the user to access the same database.
+This way, it can be quicker for the user to access the same database instead of typing in the same information over and over again.
+
+So we can establish a connection to the database - now lets take a look at sending a query.
+
+# Querying a connected database
+
+Before we can begin querying the database we're connected to, we need to create a cursor.
+
+```
+# Open a cursor to perform database operations
+cursor = connection.cursor()
+print('Enter your query below')
+query = input('')
+print('Now executing...')
+try:
+    # execute query
+    cursor.execute(query)
+    result = cursor.fetchall()
+```
+
+After the cursor is created, we can ask the user for their query.
+
+Executing a query is captured in a try/except statement - just in case the query is incorrect.
+
+There is a problem that I discovered early on, the 'fetchall' method doesn't include the names of the columns.
+
+The 'results' variable becomes a list, but doesn't have any of the column names. They must be stored somewhere in the cursor object right? Turns out, they are!
+
+```
+# extract the column names
+col_names = []
+for name in cursor.description:
+    col_names.append(name[0])
+```
+
+The 'description' property is a tuple which holds the names of the columns. We take the first element of the tuple and append it to a dictionary. Here's the complete code for that:
+
+```
+try:
+    # execute query
+    cursor.execute(query)
+    result = cursor.fetchall()
+    # extract the column names
+    col_names = []
+    for name in cursor.description:
+        col_names.append(name[0])
+    df = pd.DataFrame(data=result, columns=col_names)
+    print('Success! Would you like to export the results to a CSV file or view the results?')
+    choice = input("""Enter 1 to export to CSV or 2 to view the results.
+    \nEnter anything else to skip.""")
+    if choice == '1':
+        print('Now exporting...')
+        df.to_csv('query_results.csv')
+        print('Complete! File name is called query_results.csv')
+    elif choice == '2':
+        print(f'{df}')
+    else:
+        print('Skipping.')
+    while True:
+        print('Would you like to perform some data analysis on your results?')
+        print('Type Y for yes or N for no')
+        analysis_choice = input().upper()
+        if analysis_choice == 'Y':
+            analyse_data(df)
+            # close connection
+            cursor.close()
+            break
+        elif analysis_choice == 'N':
+            print('Returning to the main menu...')
+            # close connection
+            cursor.close()
+            break
+        else:
+            print('Invalid command - try again!')
+except OperationalError as e:
+    print(f"The error {e} occurred!")
+```
+
+So how do we use the 'results' variable and the 'col_names' dictionary to create a CSV file?
+
+# Writing a CSV file
+
+As seen above, we use Pandas to create a data frame and then use the built in functionality.
+
+```
+print('Now exporting...')
+df.to_csv('query_results.csv')
+print('Complete! File name is called query_results.csv')
+```
+
+Now we have a CSV file exported for the user which has the column headers!
+
+And that about covers what I wanted to cover today on part one of the Postgres Toolbox 🐘 It's been fun putting the program together and make something that can pull data from a database.
+
+Next time, I'll look at how we use the dataframe and create graphs to visualise the data in Seaborn.
+
+Thanks for reading! 👏
