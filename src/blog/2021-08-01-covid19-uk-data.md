@@ -23,7 +23,7 @@ The filter is a required parameter to filter data from the API. This breaks down
 - Upper-tier local authority
 - Lower-tier local authority
 
-So in this case, I'm looking at Milton Keynes:
+So in this case, I'm looking at Milton Keynes (my home town):
 
 ```
 area_filter = [
@@ -31,4 +31,149 @@ area_filter = [
     'areaName=Milton Keynes'
 ]
 ```
+
+With our list ready, we can now move onto the next piece of the request...
+
+## Structures
+
+With the structure we define the metrics we want in the structure we want. We can basically choose which metrics we want in the request. And from the documentation, there are a lot of different metrics that we can choose from (34 to be exact)! I won't list them all here but feel free to look at the documentation.
+
+So, let's build our structure with a Python dictionary:
+
+```
+structure_dict = {
+    "date": "date",
+    "newCasesByPublishDate": "newCasesByPublishDate",
+    "cumCasesByPublishDate": "cumCasesByPublishDate",
+    "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+    "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate",
+}
+```
+
+So in this case, I want the following:
+- The date
+- The number of new cases by publish date
+- The number of cumulative cases by publish date
+- The new number of new deaths in the past 28 days by death date
+- The cumulative number of new deaths in the past 28 days by death date
+
+So we have all that we need let's call the API and fetch some data!
+
+## Using the library
+
+The documentation suggests creating an object of 'Cov19API', then we can access the various built in methods to export the data.
+
+```
+api = Cov19API(filters=area_filter, structure=structure_dict)
+```
+
+And one of those methods is to export the data to a DataFrame!
+
+```
+df = api.get_dataframe()
+```
+
+Let's take a look at the data we have!
+
+![Variables](https://i.imgur.com/OEX8R7h.jpg)
+
+Well, the 'Not a number' values is something we'll have to work with. Let's replace them with 0 for now.
+
+```
+df.replace(np.nan, 0, inplace=True)
+```
+
+Now we have a value for the metrics, let's take a look at building a graph with Seaborn!
+
+Let's build our first graph!
+
+```
+# create the plot
+fig, ax = plt.subplots(figsize = (20,15))
+# rename X and Y label
+plt.xlabel('Date from 05-03-2020', fontsize=15)
+plt.ylabel('New cases', fontsize=15)
+# set title
+plt.title("COVID-19 Milton Keynes (new cases)")
+# create plot
+sns.scatterplot(x='date', y='newCasesByPublishDate', size="newDeaths28DaysByDeathDate", sizes=(15,200), data=df)
+```
+
+![Too many X Ticks!](https://i.imgur.com/bObcR5M.jpg)
+
+Looks like there isn't enough space for all the X Ticks, so let's remove them and try again!
+
+```
+# create the plot
+fig, ax = plt.subplots(figsize = (20,15))
+# remove X Ticks
+plt.xticks([])
+# rename X and Y label
+plt.xlabel('Date from 05-03-2020', fontsize=15)
+plt.ylabel('New cases', fontsize=15)
+# set title
+plt.title("COVID-19 Milton Keynes (new cases)")
+# create plot
+sns.scatterplot(x='date', y='newCasesByPublishDate', size="newDeaths28DaysByDeathDate", sizes=(15,200), data=df)
+```
+
+Which gives us this!
+
+![Wrong graph](https://i.imgur.com/cGnXEHp.jpg)S
+
+At first glance, it looks good! But if I create another graph which looks at using the cumulative deaths data on the Y Axis...
+
+```
+# create the plot
+fig, ax = plt.subplots(figsize = (20,15))
+# remove X Ticks
+plt.xticks([])
+# rename X and Y label
+plt.xlabel('Date from 05-03-2020', fontsize=15)
+plt.ylabel('Cumulative Deaths - 28 days by death date', fontsize=15)
+# set title
+plt.title("COVID-19 Milton Keynes (cumulative deaths)")
+# create plot
+sns.scatterplot(x='date', y='cumDeaths28DaysByDeathDate', size='newCasesByPublishDate', sizes=(15,200), data=df)
+```
+
+Which gives us this graph...
+
+![Wrong graph](https://i.imgur.com/DN9XlTN.jpg)
+
+That means, reading from left to right, these graphs don't make any sense! So we had high numbers at the start and now we don't? This graph is the wrong way round!
+
+Thankfully, we can easily fix this! By using the following code:
+
+```
+df = df.iloc[::-1]
+```
+
+The code is the same for reversing a list.
+
+With this in mind, let's build a plot with two subplots and look at some data!
+
+```
+# create the plot (1 row, 2 columns)
+fig, axes = plt.subplots(2, 1, figsize = (40,30))
+# create plot 1
+g1 = sns.scatterplot(x='date', y='newCasesByPublishDate', size="newDeaths28DaysByDeathDate", sizes=(15,200), data=df, ax=axes[0])
+g1.set(xticklabels=[])
+g1.set(title="COVID-19 Milton Keynes (new cases)")
+g1.set(xlabel='Date from 05-03-2020')
+g1.set(ylabel="New cases")
+
+# create plot 2
+g2 = sns.scatterplot(x='date', y='cumDeaths28DaysByDeathDate', size='newCasesByPublishDate', sizes=(15,200), data=df, ax=axes[1])
+g2.set(xticklabels=[])
+g2.set(title="COVID-19 Milton Keynes (cumulative deaths)")
+g2.set(xlabel='Date from 05-03-2020')
+g2.set(ylabel="Cumulative Deaths - 28 days by death date")
+```
+
+![Complete image](https://i.imgur.com/asA1ANi.png)
+
+Much better! Now we can take a look at the data!
+
+What's interesting to me from these graphs is the two spikes.
 
