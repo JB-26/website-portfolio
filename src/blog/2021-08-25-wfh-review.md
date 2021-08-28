@@ -31,5 +31,5 @@ For those wondering about the rest of the setup...
 - The mouse is Microsoft Intellimouse (still one of the best wired mice available)
 - The keyboard is a Ducky One 2 SF 65% mechanical keyboard (Cherry Brown MX switches)
 
-I like my setup but I think I'll be upgrading my main PC at some point (maybe I'll switch to a Mac for my next machine)
+I like my setup but I think I'll be upgrading my main PC at some point (maybe I'll switch to a Mac for my next machine - the performance on the M1 is appealing)
 
