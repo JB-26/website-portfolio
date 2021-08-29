@@ -17,7 +17,7 @@ I'm not a fan of change, I prefer a routine. So I thought that in this week's bl
 
 A challenge that I found early on is space on my desk. It's not unusual for me to have multiple devices on my desk (at one stage recently, I had my iPhone, iPad and Mac on my desk!)
 
-So, a few months after the switch to working from home, I decided to invest into a bigger desk. In fact, here's a picture of my setup!
+So, a few months after the switch to working from home, I decided to invest in a bigger desk. In fact, here's a picture of my setup!
 
 ![My setup](https://i.imgur.com/W4KEl98.jpg)
 
@@ -59,11 +59,11 @@ One thing I miss is the social interaction with colleagues. From discussing work
 
 Something else that I (oddly) miss is the office atmosphere. It sounds strange to miss it, but I do. It's something that I've gotten used to over the years and for that to disappear is strange to me (I don't like change so it might be related to that). 
 
-I don't like is the fact that work is always within arms reach. From the photo I posted above, you can see my work laptop to the left hand side. And I have found myself working overtime and working on the weekend more often than I have before the pandemic started. Improving the work/life balance is something I want to work on so that I can finish work for the day without thinking or worrying about it.
+I don't like the fact that work is always within arms reach. From the photo I posted above, you can see my work laptop to the left hand side. And I have found myself working overtime and working on the weekend more often than I have before the pandemic started. Improving the work/life balance is something I want to work on so that I can finish work for the day without thinking or worrying about it.
 
 Another problem I could see happening is getting support if any of my hardware fails. If there's something that can't be done remotely, it's getting hardware support. If a replacement machine has to be sent to me via courier then that could take days, and then I need to set everything up. Which leads me to my next point...
 
-Not everything can be done remotely. There are some things that are much better in person.
+Not everything can be done remotely. There are some things that can only be done in person.
 
 ### Am I sold on working from home? And is it the future of work?
 
@@ -73,14 +73,14 @@ But am I sold on working from home as the future of work?
 
 Not yet.
 
-I think there will always be a need to meet people face to face. Whether it's at an office, a conference, an event etc. The need to meet in person will be there. Plus, working from home isn't for everyone. The office might be a place where someone can focus on their work - so we shouldn't write off the office just yet.
+I think there will always be a need to meet people face to face. Whether it's at an office, a conference, an event etc. The need to meet in person will be there. Plus, working from home isn't for everyone. The office might be a place where someone can focus on their work or they might not have space at home - so we shouldn't write off the office just yet.
 
 But the technology of today has made it way easier and possible to work from home (no more using RDP for me!)
 
 
 ### What next?
 
-There are a few improvements that I want to make to my home office (such as getting a modern webcam for video calls), and I may have to get around to upgrading my personal PC at some point (but saving up for a house deposit comes first).
+There are a few improvements that I want to make to my home office (such as getting a modern webcam for video calls), and I may have to get around to upgrading my personal PC at some point (but saving money comes first).
 
 But apart from that, I'll continue to work from home with the setup I have.
 
