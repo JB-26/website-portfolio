@@ -8,6 +8,8 @@ description: "Using Google Trends to find out if people really are ready to go b
 
 In my last [post](https://joshblewitt.dev/blog/2021-08-25-wfh-review/) I talked about my thoughts on working from home. I ended the post by asking if working from home really is the future of work. This got me thinking - I wonder if I could perform some data analysis and see if I can find out if people really are returning to the office.
 
+I'll be returning to the office myself soon, so I wonder if there will be more search trends in returning to the office.
+
 I decided to take a look at Google Trends first, as that's open for anyone to use and it's easy to get started with.
 
 For my first search was to look at if there was any interest in offices in general. I decided to take a look at the trends in one of the more popular office space providers; [wework](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=wework). And the results didn't show a good sign.
@@ -30,15 +32,19 @@ So I decided to take a look at garden offices, and there are quite a few to choo
 
 And looking at the FAQ's on [The Garden Office](https://www.thegardenoffice.co.uk/design-your-space/faqs/) - it doesn't need planning permission in most cases (which seems kind of crazy to me - I mean, it's a stand alone building!)
 
-So it seems people aren't just ready to go back to the office, some are never going back and want to make improvements to their own home instead.
+So it seems people aren't just ready to go back to the office, some are never going back and want to make improvements to their own home instead. And people are ready to make big investments in their homes if they can't move to a bigger one.
 
 But the cost of having your own garden office isn't cheap. You'll need to spend thousands, up to tens of thousands for a garden office in your home. And that is if you have the space for a garden office in the first place.
 
-So what about those who don't have the space for a garden office? Or even space for a home office?
+So what about those who don't have the space for a garden office? Or even space for a home office? (Or those who live with their parents like myself, thanks to the high house prices)
 
 This is where companies such as wework, Regus and Spaces come into play.
 
 Taking a look at [Regus](https://www.regus.com/en-gb/united-kingdom/milton-keynes/midsummer-court-1617) in my hometown for example, you could get a desk from £150 per month. This might be appealing for someone who used to go into London by train and is looking for somewhere to focus on their work.
+
+Better yet, why not the library? Free to use, have plenty of space and better yet - some even allow you to [hire rooms](https://www.milton-keynes.gov.uk/libraries/about-libraries/library-room-hire). So there's plenty of options available for those who do need a space to work.
+
+Let's not forget the mental health aspects for having a separate place to work as well. Working from home may be great in many ways but we need to be careful that the situation doesn't turn into 'living at work'. Everyone needs to disconnect from work one way or another.
 
 So is the office dead? No way. What's happening is people are making the investment in a new environment to work in. Wether it be in the home, in the garden, in a coworking space or even returning to the office altogether.
 
