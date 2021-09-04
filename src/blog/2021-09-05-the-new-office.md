@@ -16,15 +16,23 @@ For my first search was to look at if there was any interest in offices in gener
 
 I also took a look at another office space provider; [Regus](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=Regus). And it didn't look too good there either.
 
-So it seems that going back to the office isn't on the cards for many. But what we do know is that the pandemic did cause house prices to spike as high as [13% (from June 2021 to June 2021)](https://www.bbc.co.uk/news/business-58274811), as people begin to look for housing with more space. So naturally, the search term for buying a house saw an increase.
+And it should be of no surprise to anyone that the trends for [working from home](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=working%20from%20home) has seen a massive increase in search trends.
 
-As a first time buyer myself, house prices at the moment aren't great. So what are people doing then? Turns out people are interested in [home improvements](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=home%20improvement), with interest returning to 2019 levels.
+Interestingly, there have been several spikes about if [you have to go back to the office](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=do%20I%20have%20to%20go%20back%20to%20the%20office).
+
+So it seems that going back to the office isn't on the cards for many. But what we do know is that the pandemic did cause house prices to spike as high as [13% (from June 2021 to June 2021)](https://www.bbc.co.uk/news/business-58274811), as people begin to look for housing with more space. So naturally, the search term for [buying a house](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=house%20for%20sale) saw an increase.
+
+As a first time buyer myself, house prices at the moment aren't great. So what are people doing then? Turns out people are interested in [home improvements](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=home%20improvement), which spiked as it seemed that working from home was going to be in place for a whie. But now, interest appears to be returning to 2019 levels.
 
 Similar results can be seen for [home extensions](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=house%20extension).
 
 I then decided to take a stab at something completely different. What if someone doesn't have the space to make improvements or make an extension? So I punched in the term of [garden office](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=%2Fm%2F064pl3n) and to my surprise - people are really wanting a garden office! And the demand for it doesn't appear to be slowing down!
 
-So I decided to take a look at garden offices, and there are quite a few to choose from.
+In fact, there has been a spike in people looking up on how to [build their own garden office!](https://trends.google.co.uk/trends/explore?q=how%20to%20build%20a%20garden%20office&date=2019-01-01%202021-08-30&geo=GB)
+
+So it seems that people are doing whatever they can to find more room in their homes.
+
+I decided to take a look at garden offices, and there are quite a few to choose from.
 - [SMART](https://www.smartgardenoffices.co.uk/)
 - [The Garden Office](https://www.thegardenoffice.co.uk/)
 - [Garden Buildings Direct](https://www.gardenbuildingsdirect.co.uk/garden-offices)
@@ -32,7 +40,9 @@ So I decided to take a look at garden offices, and there are quite a few to choo
 
 And looking at the FAQ's on [The Garden Office](https://www.thegardenoffice.co.uk/design-your-space/faqs/) - it doesn't need planning permission in most cases (which seems kind of crazy to me - I mean, it's a stand alone building!)
 
-So it seems people aren't just ready to go back to the office, some are never going back and want to make improvements to their own home instead. And people are ready to make big investments in their homes if they can't move to a bigger one.
+But it's not just a space to work that's seen an increase in searches. The search term for [remote jobs](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=remote%20job) has also seen a jump. I've seen some colleagues move to new jobs where the role is 100% remote (and the job being remote was a reason for moving).
+
+So people aren't just ready to go back to the office. Some are never going back and want to make improvements to their own home instead. And people are ready to make big investments in their homes if they can't move to a bigger one (or find a new job that allows you to work remotely).
 
 But the cost of having your own garden office isn't cheap. You'll need to spend thousands, up to tens of thousands for a garden office in your home. And that is if you have the space for a garden office in the first place.
 
@@ -44,8 +54,12 @@ Taking a look at [Regus](https://www.regus.com/en-gb/united-kingdom/milton-keyne
 
 Better yet, why not the library? Free to use, have plenty of space and better yet - some even allow you to [hire rooms](https://www.milton-keynes.gov.uk/libraries/about-libraries/library-room-hire). So there's plenty of options available for those who do need a space to work.
 
+I could also see coffee shops also offer desks to work at in the future. For those who just want to get out of the home and get something to eat and work during breakfast or lunch.
+
 Let's not forget the mental health aspects for having a separate place to work as well. Working from home may be great in many ways but we need to be careful that the situation doesn't turn into 'living at work'. Everyone needs to disconnect from work one way or another.
 
-So is the office dead? No way. What's happening is people are making the investment in a new environment to work in. Wether it be in the home, in the garden, in a coworking space or even returning to the office altogether.
+So is the office dead? No way, not yet. What's happening is people are making the investment in a new environment to work in. Wether it be in the home, in the garden, in a coworking space or even returning to the office altogether.
+
+But would a remote only job prompt me to change? I see myself comfortable with either a remote only or a hybrid work scenario.
 
 Thanks for reading! 👍
