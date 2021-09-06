@@ -8,27 +8,45 @@ description: "Using Google Trends to find out if people really are ready to go b
 
 In my last [post](https://joshblewitt.dev/blog/2021-08-25-wfh-review/) I talked about my thoughts on working from home. I ended the post by asking if working from home really is the future of work. This got me thinking - I wonder if I could perform some data analysis and see if I can find out if people really are returning to the office.
 
-I'll be returning to the office myself soon, so I wonder if there will be more search trends in returning to the office.
+I'll be returning to the office myself soon, so I wonder if there will be more search trends in returning to the office (so I'm not completely alone).
 
-I decided to take a look at Google Trends first, as that's open for anyone to use and it's easy to get started with.
+I decided to take a look at Google Trends, as that's open for anyone to use and it's easy to get started with.
 
 For my first search was to look at if there was any interest in offices in general. I decided to take a look at the trends in one of the more popular office space providers; [wework](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=wework). And the results didn't show a good sign.
 
+![wework](https://i.imgur.com/vMZRIDn.jpg)
+
 I also took a look at another office space provider; [Regus](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=Regus). And it didn't look too good there either.
+
+![Regus](https://i.imgur.com/4rg2dn3.jpg)
 
 And it should be of no surprise to anyone that the trends for [working from home](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=working%20from%20home) has seen a massive increase in search trends.
 
+![WFH](https://i.imgur.com/kERUG3u.jpg)
+
 Interestingly, there have been several spikes about if [you have to go back to the office](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=do%20I%20have%20to%20go%20back%20to%20the%20office).
+
+![Back to office](https://i.imgur.com/ooHnrZJ.jpg)
 
 So it seems that going back to the office isn't on the cards for many. But what we do know is that the pandemic did cause house prices to spike as high as [13% (from June 2021 to June 2021)](https://www.bbc.co.uk/news/business-58274811), as people begin to look for housing with more space. So naturally, the search term for [buying a house](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=house%20for%20sale) saw an increase.
 
+![Houses for sale](https://i.imgur.com/oZlsltw.jpg)
+
 As a first time buyer myself, house prices at the moment aren't great. So what are people doing then? Turns out people are interested in [home improvements](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=home%20improvement), which spiked as it seemed that working from home was going to be in place for a whie. But now, interest appears to be returning to 2019 levels.
+
+![Home improvement](https://i.imgur.com/Ii0cqis.jpg)
 
 Similar results can be seen for [home extensions](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=house%20extension).
 
+![Home extension](https://i.imgur.com/tRhm4VQ.jpg)
+
 I then decided to take a stab at something completely different. What if someone doesn't have the space to make improvements or make an extension? So I punched in the term of [garden office](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=%2Fm%2F064pl3n) and to my surprise - people are really wanting a garden office! And the demand for it doesn't appear to be slowing down!
 
+![Garden office](https://i.imgur.com/UHvE0ll.jpg)
+
 In fact, there has been a spike in people looking up on how to [build their own garden office!](https://trends.google.co.uk/trends/explore?q=how%20to%20build%20a%20garden%20office&date=2019-01-01%202021-08-30&geo=GB)
+
+![DIY Garden Office](https://i.imgur.com/gbNPmL4.jpg)
 
 So it seems that people are doing whatever they can to find more room in their homes.
 
@@ -40,7 +58,9 @@ I decided to take a look at garden offices, and there are quite a few to choose 
 
 And looking at the FAQ's on [The Garden Office](https://www.thegardenoffice.co.uk/design-your-space/faqs/) - it doesn't need planning permission in most cases (which seems kind of crazy to me - I mean, it's a stand alone building!)
 
-But it's not just a space to work that's seen an increase in searches. The search term for [remote jobs](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=remote%20job) has also seen a jump. I've seen some colleagues move to new jobs where the role is 100% remote (and the job being remote was a reason for moving).
+But it's not just a space to work that's seen an increase in searches. The search term for [remote jobs](https://trends.google.co.uk/trends/explore?date=2019-01-01%202021-08-30&geo=GB&q=remote%20job) has also seen a jump and is steadily increasing. I've seen some colleagues move to new jobs where the role is 100% remote (and the job being remote was a reason for moving).
+
+![Remote job](https://i.imgur.com/C4cb3t1.jpg)
 
 So people aren't just ready to go back to the office. Some are never going back and want to make improvements to their own home instead. And people are ready to make big investments in their homes if they can't move to a bigger one (or find a new job that allows you to work remotely).
 
