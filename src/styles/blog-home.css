@@ -16,6 +16,40 @@
 
 #blogPosts {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+hr {
+    width: 50%;
+}
+
+#postSubtitle {
+    font-family: "VollkornRegular";
+    margin-bottom: 0px;
+    margin-left: 12%;
+    font-style: italic;
+}
+
+
+@media (min-width: 768px) {
+    #postSubtitle {
+        font-family: "VollkornRegular";
+        margin-bottom: 0px;
+        margin-left: 25%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    #postSubtitle {
+        font-family: "VollkornRegular";
+        margin-bottom: 0px;
+        margin-left: 25%;
+        justify-content: center;
+    }
 }
