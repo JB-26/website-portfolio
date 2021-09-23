@@ -1,11 +1,11 @@
 ---
 title: "Spending time with Cypress 🤖"
-date: "2021-09-18"
+date: "2021-09-23"
 description: "Taking a look at some web automation with Cypress"
 image: https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80
 ---
 
-When it comes to testing, I've had plenty of experience (I mean, seven years of experience) and if there's one thing I stand by it's my view on automation. Automation, in many ways, is the future of testing. Automation helps free time for QA Engineers to explore issues and other work. Plus, the journey to automate your application provides a great opportunity to advance your career.
+When it comes to testing, I've had plenty of experience (I mean, seven years of experience) and if there's one thing I stand by it's my view on automation. Automation, in many ways, is the future of testing. Automation helps free time for QA Engineers to explore issues and other work. Plus, the journey to automate your application provides a great opportunity to advance your career. Plus, with applications continuing to grow in size and complexity, automation is key in tackling applications which would normally take a long time to manually test during each regression check. 
 
 Web automation isn't new, there are other solutions to this problem such as [selenium](https://www.selenium.dev/) - but I've found selenium troublesome to use. From configuring web drivers to wrestling with syntax, waiting for pages to load, selenium might not be the best automation tool out there. So, [Cypress](https://www.cypress.io/) has changed that. With features such as time travel, automatic waiting and being able to configure different viewports really easily - Cypress is quickly becoming a popular tool for web automation.
 
@@ -130,3 +130,38 @@ What this test does is:
 So you can not only check what's on the page, but the metadata as well.
 
 But this is only a small example of what you can do with Cypress. The [documentation](https://docs.cypress.io/guides/references/assertions#Chai) has some great examples of what you can do with Cypress.
+
+Remember the random integer I mentioned above? I decided to use that just to see the random number being entered!
+
+```
+cy.viewport(size);
+
+      cy.visit("");
+
+      //click the link
+      //cy.pause();
+      cy.contains("type").click();
+
+      //get an input and check if its empty
+      cy.get(".action-email").should("be.empty");
+
+      //get an input and type into it (then verify)
+      cy.get(".action-email")
+        //use the random integer
+        .type(`${randInt}`)
+        .should("have.value", `${randInt}`);
+```
+
+And also, I use string interpolation on the title of the test so the user can see what viwport is being used.
+
+```
+it(`Go to the kitchen sink and visit the navigation section on ${size}`
+```
+
+It's pretty amazing of just how much JS you can use to enhance your Cypress tests.
+
+It's not just automating testing of sites, it can also make [requests](https://docs.cypress.io/api/commands/request) as well (but I think [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) would be better suited for the task of testing APIs etc.)
+
+But if you're looking for a tool for web automation, be sure to check out Cypress. They have a strong community on [GitHub](https://github.com/cypress-io/cypress) and also have a [roadmap](https://docs.cypress.io/guides/references/roadmap) of upcoming features.
+
+Thanks for reading! 👍
