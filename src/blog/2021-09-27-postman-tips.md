@@ -7,7 +7,11 @@ image: https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixid=MnwxMjA
 
 ![Astronaut](https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80)
 
-Over the past year, I've been working a lot with [Postman](https://www.postman.com/) - an API platform for building and using APIs. And I thought that in this post I'd share several tips and tricks that I've picked up over the past year. So let's dive in.
+Over the past year, I've been working a lot with [Postman](https://www.postman.com/) - an API platform for building and using APIs.
+
+Postman has really improved over the past few years. I've found it hard to keep up with the recent changes!
+
+I thought that in this post I'd share several tips and tricks that I've picked up over the past year. So let's dive in.
 
 # Postman Interceptor with Swagger UI
 
@@ -82,3 +86,25 @@ Just remember that this is a destructive method. Once it runs, it removes the va
 One handy feature of Postman is to export your request into another language! From C# to Ruby, Postman can export your request so you can make the same request in a different language. It's a cool trick if you're working on an application that makes a request to the endpoint you're using in Postman.
 
 ![Postman code snippet](https://i.imgur.com/yQrp4u4.jpg)
+
+# You can disable automatic redirects (HTTP 3xx)
+
+An issue I found a few months back was where a request I had was automatically redirecting. I was trying to get a particular response from an API but since one of the responses was a 3xx it redirected it. Myself and a colleague did some research and found that there is an option in the settings for a request.
+
+Under settings for a request (not the settings for Postman), you can disable the automatic redirects if the response is 3xx.
+
+No more redirects for that request!
+
+# Don't forget about Newman!
+
+Have a CI and want to use Postman? Not a problem! Use [newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)!
+
+This handy CLI version of Postman is installed via NPM and runs your collection (once exported as a JSON)!
+
+The documentation shows a range of useful options such as environments and global files.
+
+It's great that this tool exists, especially if you want to automate a lot of your testing using your Postman collection.
+
+That about wraps up this post!
+
+Thanks for reading! 👏
