@@ -1,6 +1,6 @@
 ---
 title: "Postman Tips and Tricks 👨‍🚀"
-date: "2021-09-27"
+date: "2021-10-03"
 description: "Handy tips and tricks about Postman that you may not know!"
 image: https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80
 ---
@@ -9,7 +9,7 @@ image: https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixid=MnwxMjA
 
 Over the past year, I've been working a lot with [Postman](https://www.postman.com/) - an API platform for building and using APIs.
 
-Postman has really improved over the past few years. I've found it hard to keep up with the recent changes!
+Postman has really improved over the past few years. I've found it hard to keep up with all of the changes made to Postman! It's only recently that Postman can [capture response](https://blog.postman.com/capture-responses-using-the-postman-proxy/) using it's own proxy.
 
 I thought that in this post I'd share several tips and tricks that I've picked up over the past year. So let's dive in.
 
@@ -105,6 +105,6 @@ The documentation shows a range of useful options such as environments and globa
 
 It's great that this tool exists, especially if you want to automate a lot of your testing using your Postman collection.
 
-That about wraps up this post!
+That about wraps up this post! I'll do another Postman tips and tricks post in the future (or even just a post about Postman). I do encourage you to read the Postman [blog](https://blog.postman.com/) and read the release notes for new versions as they provide a great insight in what's changed and what's going on at Postman in general.
 
 Thanks for reading! 👏
