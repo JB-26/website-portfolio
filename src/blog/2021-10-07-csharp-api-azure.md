@@ -30,3 +30,169 @@ This API will be taking the game shop project but just making it so that a user 
 - __D__ elete
 
 For this API, it won't be writing information to a databse _yet_ so for now it will store the objects in memory. Which isn't good if there are lots of users writing information to it, but for now - it'll do.
+
+Since this will be holding objects, let's take a look at the class for the objects:
+
+```
+namespace videoGameApi.Models
+{
+    public class VideoGame
+    {
+        public string name {get; set;}
+        public string publisher {get; set;}
+        public string developer {get; set;}
+        public string platform {get; set;}
+        public DateTime releaseDate {get; set;} 
+
+        public double id {get; set;}
+    }
+}
+```
+
+Nothing special in this class. A couple of strings, a date time and a double will be used to store information about video games that the user enters.
+
+Let's take a look into the service for the API.
+
+```
+ public static class VideoGameService
+    {
+        static List<VideoGame> Games {get;}
+
+        static int nextId = 3;
+
+        static VideoGameService()
+        {
+            Games = new List<VideoGame>
+            {
+                new VideoGame{ name = "Super Mario 64", publisher = "Nintendo", developer = "Nintendo", platform = "Nintendo 64", releaseDate = new System.DateTime(1996, 06, 23), id = 1},
+                new VideoGame{ name = "X-Men Vs Street Fighter", publisher = "Capcom", developer = "Capcom", platform = "Sega Saturn", releaseDate = new System.DateTime(1997, 11, 27), id = 2}
+            };
+        }
+
+        public static List<VideoGame> GetAll() => Games;
+
+        public static VideoGame Get(int id) => Games.FirstOrDefault(p => p.id == id);
+
+        public static void Add(VideoGame game)
+        {
+            game.id = nextId++;
+            Games.Add(game);
+        }
+
+        public static void Delete(int id)
+        {
+            var game = Get(id);
+            if (game is null)
+                return;
+            Games.Remove(game);
+        }
+
+        public static void Update(VideoGame game)
+        {
+            var index = Games.FindIndex(p => p.id == game.id);
+            if (index == -1)
+                return;
+            Games[index] = game;
+        }
+    }
+```
+
+Since I'm holding objects in memroy, I decided to store them in a list and pre-populate it with two entries. The next game will start with an ID of 3. There are a few additional methods that add, delete and update the objects in the list (as well as get all items in the list or find games in a list).
+
+With this in mind, let's take a look at the controller which will use the service.
+
+```
+namespace videoGameApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class VideoGameController : ControllerBase
+    {
+        public VideoGameController()
+        {
+        }
+
+        // GET all action
+        [HttpGet("getAll")]
+        public ActionResult<List<VideoGame>> GetAll() =>
+    VideoGameService.GetAll();
+
+        // GET by Id action
+        [HttpGet("findGame/{id}")]
+        public ActionResult<VideoGame> Get(int id)
+        {
+            var game = VideoGameService.Get(id);
+
+            if (game == null)
+                return NotFound();
+
+            return game;
+        }
+
+        // POST action
+        [HttpPost("addGame")]
+        public IActionResult Create(VideoGame game)
+        {
+            VideoGameService.Add(game);
+            return CreatedAtAction(nameof(Create), new { id = game.id }, game);
+        }
+
+        // PUT action
+        [HttpPut("updateGame/{id}")]
+        public IActionResult Update(int id, VideoGame game)
+        {
+            if (id != game.id)
+                return BadRequest();
+
+            var existingGame = VideoGameService.Get(id);
+            if (existingGame is null)
+                return NotFound();
+
+            VideoGameService.Update(game);
+
+            return NoContent();
+        }
+
+        // DELETE action
+        [HttpDelete("deleteGame/{id}")]
+        public IActionResult Delete(int id)
+        {
+            var pizza = VideoGameService.Get(id);
+
+            if (pizza is null)
+                return NotFound();
+
+            VideoGameService.Delete(id);
+
+            return NoContent();
+        }
+    }
+}
+```
+
+
+We'll break each action down.
+
+__GET all action__
+
+This uses the 'GetAll' method in the service for returning all the objects in the list.
+
+__GET by ID action__
+
+This requires the user to enter an integer value in the request. If the method finds the matching object, then it will return the object. If the method doesn't find a matching object, then it will return a status of not found.
+
+__POST action__
+
+This endpoint requires the user to enter the details for a new game they want to add. The API returns the information of what was added to the list.
+
+__PUT action__
+
+This endpoint updates an item that already exists in the list. The user needs to provide the ID of the object they want to update and details of what needs to be updated. Once the operation is complete, the API will return a 204.
+
+__DELETE action__
+
+This endpoint requires the user to provide an ID of the object that they want to delete. If the ID matches an object, then the object is deleted from the list with a status of no content. If there is no match, then a status of not found is returned.
+
+So that's the API itself. If you want to run the API locally you can and you can use the included Postman collection to see it working!
+
+Now comes the next step, getting it deployed to Azure (and with a little help from GitHub actions)
