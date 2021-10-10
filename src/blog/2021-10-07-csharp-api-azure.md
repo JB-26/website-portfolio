@@ -195,4 +195,26 @@ This endpoint requires the user to provide an ID of the object that they want to
 
 So that's the API itself. If you want to run the API locally you can and you can use the included Postman collection to see it working!
 
-Now comes the next step, getting it deployed to Azure (and with a little help from GitHub actions)
+Now comes the next step, getting it deployed to Azure (and with a little help from GitHub actions).
+
+I've never deployed anything to Azure before, so I decided to do some research on how to deploy my API to it. Thankfully, I found a [post](https://medium.com/@lifei.8886196/how-to-deploy-net-core-web-api-to-azure-a127bfb20d09) that goes into detail about deploying an API to an App Service on Azure.
+
+After configuring the service (and choosing a free subscription tier - _phew!_), my application was live! 🎉
+
+![Azure](https://i.imgur.com/wscqJkA.jpg)
+
+If you want to give it a spin, why not visit this [endpoint](https://videogameapidotnet.azurewebsites.net/VideoGame/getAll) and see all the games in the API.
+
+There's one more side to this and that is the use of GitHub actions.
+
+![GitHub actions](https://i.imgur.com/Iijk0Ci.jpg)
+
+Now whenever I push a change to the main branch of the repo, GitHub actions will deploy the latest change to the app service on Azure. It's amazing on how simple it is to set up a GitHub action to handle the deployment of the API to Azure.
+
+(If you do send a request, it might be slightly slow at first as I'm using a free tier on Azure)
+
+And that's about it!
+
+Clone the repo, run it locally or even use the postman collection to interact with the API on Azure!
+
+Thanks for reading! 👏
