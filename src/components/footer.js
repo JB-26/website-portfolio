@@ -53,7 +53,7 @@ export default () => (
         <li className='blog'>
           <a
             className="blog"
-            href="https://twitter.com/_ItsJayB_"
+            href="https://twitter.com/jblewtt_"
             rel="noopener noreferrer"
             target="_blank"
           >
