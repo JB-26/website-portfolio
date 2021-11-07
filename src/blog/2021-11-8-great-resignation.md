@@ -1,7 +1,7 @@
 ---
-title: “The ‘Great Resignation’ - impact it’s had on me”
-date: “2021-11-08”
-description: “From watching people leave, to leaving myself. My thoughts about this ongoing event.”
+title: "The ‘Great Resignation’ - impact it’s had on me"
+date: "2021-11-08"
+description: "From watching people leave, to leaving myself. My thoughts about this ongoing event."
 image: https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2072&q=80
 ---
 
@@ -113,5 +113,3 @@ But when will The Great Resignation come to an end? I’m not sure myself. We co
 We’ll have to wait and see if this happens.
 
 Thanks for reading! 👏
-
-#blog
