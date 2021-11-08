@@ -43,7 +43,7 @@ This article from [BBC Worklife](https://www.bbc.com/worklife/article/20210915-t
 
 But it’s not just the _number_ of employees leaving. It can be if _certain_ employees leave that may push others to do the same thing. 
 
-It would get to a point where you could say ‘another week, another leaving card’. In fact, you could play ‘Leavers Bingo’.
+It would get to a point where you could say ‘another week, another leaving card’.
 
 The low morale and negative mood can also play a role in causing people to leave. Why would you want to work in an environment that takes a toll on your mental health? It also doesn’t help if your workload becomes unmanageable.
 
@@ -57,8 +57,6 @@ I worked at my last job for five years, and for me, leaving it was a very hard t
 Not just scary for moving job but also moving job in this new world of work. Although I’ve worked from home for over a year now, there are some parts of being in the office that I’ll miss.
 
 The situation of me leaving didn’t really hit until a few days before I was due to leave. Being with a business for five years is a long time. So starting from the beginning and not knowing much about what I’m working on is going to be an interesting learning experience.
-
-So why did I leave? Several reasons that I won’t share.
 
 One aspect of leaving I didn’t anticipate was the amount of handover work I needed to do. Being someone who had knowledge on several systems, I had a lot of documentation to write, meetings to organise and questions to answer. It made me think of what would happen to the team once I had left. 
 
