@@ -1,9 +1,11 @@
 ---
-title: "The ‘Great Resignation’ - impact it’s had on me"
+title: "The ‘Great Resignation’ - what can we learn? 🤔"
 date: "2021-11-08"
-description: "From watching people leave, to leaving myself. My thoughts about this ongoing event."
+description: "From watching people leave, to leaving myself. My thoughts about this ongoing event and what we can learn."
 image: https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2072&q=80
 ---
+
+![Empty desks](https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2072&q=80)
 
 No matter where you look, the ‘Great Resignation’ is everywhere on major news sites, blogs and social media.
 
@@ -18,7 +20,7 @@ No matter where you look, the ‘Great Resignation’ is everywhere on major new
 
 Originally coined by [Anthony Klotz](https://www.businessinsider.com/why-everyone-is-quitting-great-resignation-psychologist-pandemic-rethink-life-2021-10?r=US&IR=T), a professor at Mays Business School, the Great Resignation has been a part of shaping the future of what matters to us when it comes to work and careers. Whether it’s better pay, benefits or an improved work-life balance. Many simply quit because they’re burned out.
 
-In case you’re not aware, the Great Resignation is where workers around the world have quit their job. What has the impact been you may ask? Well, according to the [Office of National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/august2021), there was a record number of job openings exceeding **one million** for the first time.
+In case you’re not aware, the Great Resignation is where workers around the world have quit their job (_what a shock_). And the impact of this? Well, according to the [Office of National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/august2021), there was a record number of job openings exceeding **one million** for the first time.
 
 In America, four million people left their jobs in [April](https://www.businessinsider.com/labor-shortage-quit-job-openings-record-vacancies-labor-department-2021-6?r=US&IR=T). Followed by [*ten million*](https://www.bls.gov/news.release/jolts.nr0.htm) jobs available in August.
 
@@ -41,7 +43,7 @@ This article from [BBC Worklife](https://www.bbc.com/worklife/article/20210915-t
 
 But it’s not just the _number_ of employees leaving. It can be if _certain_ employees leave that may push others to do the same thing. 
 
-It would get to a point where some colleagues would joke by saying ‘another week, another leaving card’ or how they were unable to feed their family as they were spending so much on putting money towards leaving gifts. In fact, you could play ‘Leavers Bingo’.
+It would get to a point where you could say ‘another week, another leaving card’. In fact, you could play ‘Leavers Bingo’.
 
 The low morale and negative mood can also play a role in causing people to leave. Why would you want to work in an environment that takes a toll on your mental health? It also doesn’t help if your workload becomes unmanageable.
 
@@ -54,16 +56,14 @@ I worked at my last job for five years, and for me, leaving it was a very hard t
 
 Not just scary for moving job but also moving job in this new world of work. Although I’ve worked from home for over a year now, there are some parts of being in the office that I’ll miss.
 
-Some of my colleagues that I worked with reacted to my departure with a mix of surprise and some saw it coming. But everyone was sad to hear the news that I would be leaving.
-
 The situation of me leaving didn’t really hit until a few days before I was due to leave. Being with a business for five years is a long time. So starting from the beginning and not knowing much about what I’m working on is going to be an interesting learning experience.
 
-So why did I leave? Several reasons that I won’t share. But did seeing a lot of my colleagues leave influence my decision? Yes. I know when to walk away from the table so to speak.
+So why did I leave? Several reasons that I won’t share.
 
-One aspect of leaving I didn’t anticipate was the amount of handover work I needed to do. Being someone who was one of the few remaining team members who had knowledge on several systems, I had a lot of documentation to write, meetings to organise and questions to answer. It made me think of what would happen to the team once I had left. 
+One aspect of leaving I didn’t anticipate was the amount of handover work I needed to do. Being someone who had knowledge on several systems, I had a lot of documentation to write, meetings to organise and questions to answer. It made me think of what would happen to the team once I had left. 
 
 # What can companies learn from this?
-I always believe that there is an opportunity to learn, and the Great Resignation is no exception.
+I always believe that there is an opportunity to learn from experiences, and the Great Resignation is no exception.
 
 ## Listen to your employees
 Seriously, taking the time to listen is important. You can’t improve unless you take the time to listen.
