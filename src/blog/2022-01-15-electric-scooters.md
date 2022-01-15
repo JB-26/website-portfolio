@@ -36,7 +36,8 @@ With the trial ending in a few months, and seeing the usage myself, I thought I�
 
 ## The good 👍 
 
-* **Reduces carbon in towns and cities**
+**Reduces carbon in towns and cities**
+
 An interesting challenge is to get people out of the car and using other methods of transportation. And it seems electric scooters are doing just that.
 
 Lime [reports](https://www.li.me/second-street/lime-celebrates-car-free-day-and-eu-mobility-week-by-promoting-sustainable-transportation-worldwide) that:
@@ -49,7 +50,8 @@ And Bird [reports](https://www.bird.co/blog/bird-riders-spent-100m-cities-saved-
 
 So electric scooters are good for the economy and the environment!
 
-* **Electric scooters are affordable, rented of privately owned**
+**Electric scooters are affordable. Rented or privately owned**
+
 The cost of renting scooters is fairly low. Lime will charge £1 to unlock and then 20p per minute.
 
 [Spin](https://www.spin.app/uk-city/milton-keynes) offer passes available where 1 hour costs £5 up to 1 month for £60 (where if there are 31 days in a month, that works out at roughly £2 a day!)
@@ -62,34 +64,40 @@ When the ban on sales of petrol/diesel cars comes starts in [2030](https://www.g
 
 As the technology becomes more available, the prices _should_ come down.
 
-* **Plenty of rented scooters available**
+**Plenty of rented scooters available**
+
 There are three different providers around. In my local area; Lime, Ginger and Spin. There are always plenty of scooters available when I go out, so you won’t spend much time looking for one.
 
 I tend to see that a majority of scooters are available in places such as the train station near me and the shopping centre (which makes sense given the amount of people who tend to go to these areas)
 
-* **People use them!**
+**People use them!**
+
 For shared transport to work, people need to use it. And I have seen many people use electric scooters in my hometown. It’ll be interesting to see how  people will react when the trial ends.
 
 ## The bad 👎
 
-* **People break the rules**
+**People break the rules**
+
 I’ve seen two people on an electric scooter many times and I’ve seen a few people ride electric scooters on the _opposite side_ of the road. These examples of dangerous usage could cause safety concerns.
 
 This is linked to my next point…
 
-* **Safety issues**
+**Safety issues**
+
 There have been reports of [crashes](https://www.bbc.co.uk/news/uk-england-london-55015277) and [deaths](https://www.bbc.co.uk/news/uk-england-london-57913102) involving electric scooters.
 
 Helmets aren’t a legal requirement but are encouraged (which just seems crazy to me).
 
 Even Transport for London have [banned](https://www.bbc.co.uk/news/uk-england-london-59579626) them from their network after a number of electric scooters caught fire!
 
-* **Negative image**
+**Negative image**
+
 Some will think that electric scooters are a nuisance and cause problems to pedestrians. I’ve seen first hand at how some riders of electric scooters don’t ring the bell to alert others to their presence.
 
 However, the electric scooter providers do an excellent job at offering [safety documentation](https://www.spin.app/safety).
 
-* **Vandalism**
+**Vandalism**
+
 This was bound to happen, right? And Lime discovered this for themselves as people were [peeling off the QR codes](https://www.bbc.co.uk/news/technology-58680605) from their vehicles.
 
 In fact, when Santander launched it’s shared bike scheme in my hometown back in 2016, the scheme was at risk as [bikes were being vandalised](https://www.santander.co.uk/about-santander/media-centre/press-releases/milton-keynes-santander-cycle-hire-scheme-at-risk-as). They said that over _half_ of the bikes had to be repaired. This was about a year after the scheme had launched.
@@ -98,20 +106,24 @@ In 2019, a man in Florida was arrested for [cutting the brakes on electric scoot
 
 In my view, this is probably one of the major weaknesses to shared modes of transport.
 
-* **You might live in an area where you don’t have electric scooters nearby**
+**You might live in an area where you don’t have electric scooters nearby**
+
 I was using the Lime application and was searching for nearby electric scooters. I soon discovered that there are some estates that won’t allow parking.
 
 This could be for a variety of reasons, but regardless, if you live in estate where you can’t find an electric scooter nearby, you may need to walk to another estate to find one (at which point, you may have gotten a taxi or a bus)
 
 ## What can be improved? 🤔 
 
-* **Stricter enforcement on those who break the rules**
+**Stricter enforcement on those who break the rules**
+
 If electric scooters are considered powered transporters, then riders need to be aware of the consequences should they break the rules.
 
-* **Wear a helmet!**
+**Wear a helmet!**
+
 This _needs_ to be a legal requirement. At the moment, it’s ‘suggested’ that you wear one. Which is pretty crazy if you ask me. An electric scooter can go up to 15MPH which is pretty quick, so you should be wearing a helmet!
 
-* **Keep the 15MPH speed limit**
+**Keep the 15MPH speed limit**
+
 I can’t imagine going on an electric scooter at 20MPH, that sounds scary! (I guess this goes with the point of wearing a helmet!)
 
 ## What next? 🛴
