@@ -24,6 +24,28 @@
     padding-bottom: 1.6rem;
 }
 
+.left {
+    position: absolute;
+    left: 0;
+    height: 10px;
+    width: 150px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 40px 20px 625px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    height: 10px;
+    width: 150px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 625px 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
 hr {
     width: 50%;
 }
