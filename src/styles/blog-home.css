@@ -24,26 +24,20 @@
     padding-bottom: 1.6rem;
 }
 
-.left {
-    position: absolute;
-    left: 0;
-    height: 10px;
-    width: 150px;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 40px 20px 625px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.right {
+.next-page {
     position: absolute;
     right: 0;
     height: 10px;
     width: 150px;
-    padding: 10px 20px 10px 20px;
-    margin: 20px 625px 20px 40px;
     text-align: center;
-    border-radius: 10px;
+}
+
+.previous-page {
+    position: absolute;
+    left: 0;
+    height: 10px;
+    width: 150px;
+    text-align: center;
 }
 
 hr {
@@ -58,6 +52,14 @@ hr {
 
 
 @media (min-width: 768px) {
+    .next-page {
+        width: 750px;
+    }
+    
+    .previous-page {
+        width: 750px;
+    }
+    
     #postSubtitle {
         font-family: "VollkornRegular";
         margin-bottom: 0px;

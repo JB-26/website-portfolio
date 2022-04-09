@@ -46,8 +46,8 @@ export default ({ data }) => {
             </div>
           </div>
         ))}
-        <div class="left">← Previous Page</div>
-        <div class="right">Next Page →</div>
+        <div class="next-page">Next Page →</div>
+        <div class="previous-page">← Previous Page</div>
       </div>
       <Footer></Footer>
     </div>
