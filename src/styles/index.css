@@ -25,9 +25,9 @@
 
 #image {
   border: 5px;
-  border-radius: 20101992px;
+  border-radius: 25px;
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2);
-  margin-top: 10px;
+  margin-top: 25px;
   width: 120px;
   height: 120px;
 }
