@@ -66,7 +66,7 @@
     animation-fill-mode: both;
 }
 
-.image-about-left {
+#image-about-left {
     animation-delay: 350ms;
     animation-name: photoAnimation;
     animation-duration: 1s;
@@ -74,7 +74,7 @@
     animation-fill-mode: both;
 }
 
-.image-about-right {
+#image-about-right {
     animation-delay: 350ms;
     animation-name: photoAnimation;
     animation-duration: 1s;
