@@ -23,6 +23,12 @@
   font-size: 18px;
 }
 
+#known {
+  text-align: center;
+  font-family: "VollkornRegular";
+  display: block;
+}
+
 #image {
   border: 5px;
   border-radius: 25px;

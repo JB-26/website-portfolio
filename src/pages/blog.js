@@ -32,7 +32,7 @@ export default ({ data }) => {
               <div class="column">
                 <div class="box">
                   <Link to={node.fields.slug} className="posts">
-                    <h3>{node.frontmatter.title}</h3>
+                    <h3 id="title">{node.frontmatter.title}</h3>
                   </Link>
                   <hr></hr>
                 </div>
