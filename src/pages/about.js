@@ -27,8 +27,8 @@ export default () => (
 	<div class="about-box">
 		<div class="column-about">
 			<p><img id="image-about-left" src={Image2} alt="Tokyo Skytree!"></img>After graduating, I also found my joy in travelling. I've travelled to many countries, including America, Japan, France and Spain (Tokyo is a place that I'd like to visit again someday).<br></br><br></br>
-			This website serves as a place for me to share my interests, practice and learn more about various topics. Including; Web Development, Data Science, UX and testing. I've taken several courses on Udemy and LinkedIn Learning covering Python, UX, Web Development and other languages (like Ruby)<br></br><br></br>
-			Big fan of retro games (I mostly collect games for the Sega Saturn, Mega Drive and SNES), programming, podcasts and a little bit of music here and there (with some photography thrown in as well). I consider myself to be a donut connoisseur.</p>
+			This website serves as a place for me to share my interests, practice and learn more about various topics. Including; Web Development, Data Science, UX and testing. I've taken several courses on Udemy and LinkedIn Learning covering Python, UX, Web Development and other languages (like Ruby). I use the knowledge that I've gained from these courses on various personal projects such as the <a href="https://github.com/JB-26/video-game-api">Video Game API</a><br></br><br></br>
+			I'm a big fan of retro games (I mostly collect games for the Sega Saturn, Mega Drive and SNES), programming, podcasts and a little bit of music here and there (with some photography thrown in as well). I consider myself to be a donut connoisseur.</p>
 		</div>
 	</div>
 	<Footer></Footer>
