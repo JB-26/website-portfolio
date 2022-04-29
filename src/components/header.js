@@ -5,7 +5,7 @@ import Bolt from "../images/favicon-32x32.png"
 export default () => (
   <header>
     <div class="header-item">
-      <Link to="/work/" className="blog">Work</Link>
+      <Link to="/about/" className="blog">About</Link>
     </div>
     <div id="bolt">
       <Link to="/" className="blog">

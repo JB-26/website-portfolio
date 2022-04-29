@@ -59,6 +59,10 @@ a:visited.posts {
     color: black;
 }
 
+#title {
+  font-size: 15px;
+}
+
 ul {
     font-family: "VollkornRegular";
     font-size: 16px;
@@ -90,6 +94,11 @@ img {
 
 /* tablet/desktop design */
 @media (min-width: 768px) {
+  
+    #title {
+      font-size: 25px;
+    }
+  
     #postDetails {
         margin-right: auto;
         margin-left: auto;

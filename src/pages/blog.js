@@ -21,7 +21,7 @@ export default ({ data }) => {
         </h2>
         <h2 id="blogSubtitle">Opinions are my own.</h2>
         <div id="postCount">
-          <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+          <h4>Want to see all posts? Visit the <Link to='/archive/'>Archive.</Link></h4>
         </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
@@ -32,7 +32,7 @@ export default ({ data }) => {
               <div class="column">
                 <div class="box">
                   <Link to={node.fields.slug} className="posts">
-                    <h3>{node.frontmatter.title}</h3>
+                    <h3 id="title">{node.frontmatter.title}</h3>
                   </Link>
                   <hr></hr>
                 </div>
@@ -54,7 +54,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC } limit:5) {
       totalCount
       edges {
         node {

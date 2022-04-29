@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Image from "../images/new_2021.jpg"
+import Image from "../images/main_image_edited.jpg"
 import { Helmet } from "react-helmet"
 
 export default () => (
@@ -20,12 +20,9 @@ export default () => (
           </span>
         </h1>
         <hr className="fill"></hr>
+        <i id="known">Also known as JB.</i>
         <p>
-          I'm an IT Professional! With interests in development and UX design. I'm based in Milton Keynes, United
-          Kingdom.<br></br>I have a first class degree in Computer Science from
-          Anglia Ruskin University.<br></br>I've been working in the IT industry
-          for 7 years and I'm currently a software tester.<br></br>
-          I've worked for companies such as Domino's Pizza Group.
+          I'm a hobbyist developer, technology advocate and curious mind that's based in the United Kingdom. My current work as a Test Engineer allows me to explore software and champion quality. In my spare time, I enjoy collecting and playing retro games, listening to podcasts, and travelling.
         </p>
         <div id="buttonContainer">
           <a id="emailButton" href="mailto:joshblewitt@protonmail.com">
