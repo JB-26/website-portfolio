@@ -18,9 +18,9 @@ So let’s dive in!
 ## Quality of the book
 This book was printed and bound in Denmark by [Narayana Press](https://www.narayana.dk) and the quality is fantastic.
 
-The front and back cover and the spine feel great in the hand and the shiny application icon on the front completes the look. In my view, the cover represents the possibilities and hard work of people who work on icons. The cover is printed on 150g heavyweight coated paper.
+The front and back cover and the spine feel great in the hand and the shiny application icon on the front completes the look. In my view, the cover represents the possibilities and hard work of people who work on icons. The cover is printed on 150g heavyweight coated paper with holographic diffraction silver embos.
 
-The paper is printed on 170g heavyweight coated silk and each page has a good weight to it and all the icons just _pop_ off the page. It’s a really good quality paper.
+The paper is printed on 170g heavyweight coated silk and you can feel the quality with every page turn of the book and all the icons just _pop_ off the page. It’s a really good quality paper.
 
 ## The icons
 The book does an excellent job of showing off the amount of detail that goes into each icon. To be honest, you probably spend _a lot_ of time looking at the application icon on your phone, tablet, Mac etc. So the next time you look at your phone’s home screen, take a good look at the icons!
@@ -38,7 +38,7 @@ Each icon in the book looks great and you should take the time to look at each o
 I also view the book as a source of inspiration on what colours work together, what’s on the icon, etc.
 
 ## The interviews and content
-This isn’t just a book about showing application icons, it’s also about the _process_ of creating them and getting an insight into the people of how they create icons.
+This isn’t just a book about showing application icons, it’s also about the _process_ of creating them and getting an insight into the people of how they create icons, how they got started and what their thoughts are on the process of creating an icon.
 
 Getting an understanding of how people create icons is an eye opener. It’s an opportunity to learn and get inspiration in design.
 
@@ -55,6 +55,8 @@ There were a few extra goodies included as well:
 ![](https://i.imgur.com/F8c7Sk2.jpg)
 
 The stencil is my personal highlight, it has a solid feel and can even work with the Apple Pencil!
+
+Here's a quick demo of using the stencil with Pixelmator Pro, where I have mirrored the display onto my iPad.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eDIqZeKFbU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
