@@ -58,7 +58,7 @@ The stencil is my personal highlight, it has a solid feel and can even work with
 
 Here's a quick demo of using the stencil with Pixelmator Pro, where I have mirrored the display onto my iPad.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eDIqZeKFbU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="90%" height="315" src="https://www.youtube-nocookie.com/embed/eDIqZeKFbU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It’s a really nice touch to be included in the book (I may even take a stab at designing an icon myself!)
 
