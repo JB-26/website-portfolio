@@ -1,7 +1,7 @@
 ---
 title: "The iOS App Icon Book hands on impressions 📖"
-date: "2022-05-19"
-description: "An interesting look at how people craft icons."
+date: "2022-05-21"
+description: "An interesting look at how people craft icons and how much work goes into making icons."
 image: https://i.imgur.com/I8SL2OA.jpg
 ---
 
@@ -11,7 +11,7 @@ I can’t remember how I discovered [the iOS App Icon book](https://www.appiconb
 
 The book is written by [Michael Flarup](https://flarup.co), who announced the project in 2018 and brought the project to [Kickstarter](https://www.kickstarter.com/projects/flarup/the-ios-app-icon-book/description) in November 2021. I thought it was an interesting project so I backed it! And a few weeks ago, my copy arrived!
 
-If you think about it, when you’re viewing applications on the App Store, Google Play Store, or even on the Home Screen on your phone, one of the first things you see is the application icon. It’s important that the icon stands out and looks beautiful.
+If you think about it, when you’re viewing applications on the App Store, Google Play Store, or even on the Home Screen on your phone, one of the first things you see is the application icon. It’s important that the icon stands out and looks beautiful (because you're going to spend a lot of time looking at the icon once the application is installed).
 
 So let’s dive in!
 
@@ -38,7 +38,7 @@ Each icon in the book looks great and you should take the time to look at each o
 I also view the book as a source of inspiration on what colours work together, what’s on the icon, etc.
 
 ## The interviews and content
-This isn’t just a book about showing application icons, it’s also about the _process_ of creating them and getting an insight into the people of how they create icons, how they got started and what their thoughts are on the process of creating an icon.
+This isn’t just a book about showing application icons, it’s also about the _process_ of creating them and getting an insight into the people of how they create icons, how they got started and what their thoughts are on the process of creating an icon. It's great to see people from different parts of the world interviewed for this book.
 
 Getting an understanding of how people create icons is an eye opener. It’s an opportunity to learn and get inspiration in design.
 
@@ -56,11 +56,13 @@ There were a few extra goodies included as well:
 
 The stencil is my personal highlight, it has a solid feel and can even work with the Apple Pencil!
 
-Here's a quick demo of using the stencil with Pixelmator Pro, where I have mirrored the display onto my iPad.
+Here's a quick demo of using the stencil with Pixelmator Pro, where I have mirrored the display onto my iPad (I am no means a professional icon designer!)
 
 <iframe width="90%" height="315" src="https://www.youtube-nocookie.com/embed/eDIqZeKFbU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-It’s a really nice touch to be included in the book (I may even take a stab at designing an icon myself!)
+It’s a really nice touch for the stencil to be included in the book (I may even take a stab at designing an icon myself!)
+
+I have yet to decide on where I will place the sticker.
 
 ## Should you get it?
 If you have an interest in software, iOS or UX/UI then you should get this book. The amount of care and attention can be felt in every page of this book, and that alone is why it’s worth considering buying a copy.
