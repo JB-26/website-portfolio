@@ -1,62 +1,61 @@
 .postFormat {
-    display: block;
+  display: block;
 }
 
 /* displaying code */
 pre {
-    background: #EDEDED;
-    border: 1px solid #ddd;
-    border-left: 3px solid #f36d33;
-    color: #666;
-    page-break-inside: avoid;
-    font-family: monospace;
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 1.6em;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1em 1.5em;
-    display: block;
-    word-wrap: break-word;
+  background: #ededed;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
 }
 
 /* displaying quotes */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-blockquote{
+blockquote {
   font-size: 20px;
-  margin:50px auto;
-  font-family:Open Sans;
-  font-style:italic;
+  margin: 50px auto;
+  font-family: Open Sans;
+  font-style: italic;
   color: #555555;
-  padding:1.2em 30px 1.2em;
-  border-left:3px solid #78C0A8 ;
-  line-height:1.6;
+  padding: 1.2em 30px 1.2em;
+  border-left: 3px solid #78c0a8;
+  line-height: 1.6;
   position: relative;
-  background:#EDEDED;
+  background: #ededed;
 }
 
-
 a:link {
-    text-shadow: none;
-    color: black;
-  }
+  text-shadow: none;
+  color: black;
+}
 
 a:visited {
-    text-shadow: none;
-    color: black;
+  text-shadow: none;
+  color: black;
 }
 
 /* links to posts on the blog page */
 a:link.posts {
-    text-decoration: none;
-    text-shadow: none;
-    color: black;
-  }
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
+}
 
 a:visited.posts {
-    text-decoration: none;
-    text-shadow: none;
-    color: black;
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
 }
 
 #title {
@@ -64,64 +63,71 @@ a:visited.posts {
 }
 
 ul {
-    font-family: "VollkornRegular";
-    font-size: 16px;
+  font-family: "VollkornRegular";
+  font-size: 16px;
 }
 
 ol {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#titleDivider {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 #blogHeader {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #postDetails {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 30px;
-    padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 #postDetails h1 {
-    margin: 0px;
+  margin: 0px;
 }
 
 /* tablet/desktop design */
 @media (min-width: 768px) {
-  
-    #title {
-      font-size: 25px;
-    }
-  
-    #postDetails {
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+  #title {
+    font-size: 25px;
+  }
 
-    ul {
-        font-family: "VollkornRegular";
-        font-size: 20px;
-    }
-    
-    ol {
-        font-size: 20px;
-    }
+  #postDetails {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  ul {
+    font-family: "VollkornRegular";
+    font-size: 20px;
+  }
+
+  ol {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
-    #postDetails {
-        max-width: 50%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+  #postDetails {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
