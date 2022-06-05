@@ -13,7 +13,9 @@ export default ({ data }) => {
         <title>Joshua Blewitt - {post.frontmatter.title}</title>
       </Helmet>
       <Header></Header>
-      <h1 id="blogHeader">{post.frontmatter.title}</h1>
+      <div id="titleDivider">
+        <h1 id="blogHeader">{post.frontmatter.title}</h1>
+      </div>
       <div id="postDetails" dangerouslySetInnerHTML={{ __html: post.html }} />
       <Footer></Footer>
     </div>
