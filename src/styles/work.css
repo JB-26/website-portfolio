@@ -180,6 +180,11 @@ i.about-sub {
 
 
   @media (min-width: 1024px) {
+    .about-box {
+          width: 65%;
+          margin: auto;
+    }
+
     .card {
         width: 500px;
         height: fit-content;
