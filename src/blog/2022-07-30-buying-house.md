@@ -5,15 +5,15 @@ description: "And I didn’t even need to cancel Netflix to afford a deposit!"
 image: https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80
 ---
 
-Hi! It's been a while!
+Hi! It's been a while! 👋
 
-So recently, I’ve been _super_ busy with buying my first home! 🎉 Yes, despite the ongoing news of house prices going out of control since the pandemic began I’ve been able to actually buy a house! I am now the proud owner of a nice three bed semi detached home!
+So recently, I’ve been _super_ busy with buying my first home! 🎉 Yes, despite the ongoing news of house prices going out of control since the pandemic began I’ve been able to actually buy a house! I've recently exchanged contracts and am now the proud owner of a nice three bed semi detached home!
 
 So this post doesn’t have much to do with tech or anything. This is mostly me complaining about the housing market and my long journey to buying my own home. When I was writing this post in Bear, it estimated that the overall reading time was just over **10 minutes!** So be sure to grab a snack, a drink and get comfortable, this will be a _long_ read.
 
-Since I graduated, one of the goals that I had was to be a home owner by the time I was thirty years old. Quite the ambitious goal all things considered, especially the average age of a first time buyer is now _above_ thirty in every region in the UK according to [Halifax](https://www.theguardian.com/money/2022/jan/22/average-uk-first-time-buyer-is-now-older-than-30-says-halifax).
+Since I graduated, one of the goals that I had was to be a home owner by the time I was thirty years old. Quite the ambitious goal all things considered, especially since the average age of a first time buyer is now _above_ thirty in every region in the UK according to [Halifax](https://www.theguardian.com/money/2022/jan/22/average-uk-first-time-buyer-is-now-older-than-30-says-halifax).
 
-So let’s start at when I began to save for my home, in 2014 (which feels like a lifetime ago).
+So let’s start at when I began to save for my home, in 2014 (which feels like a lifetime ago, that's scary).
 
 ## 2014
 2014 was the year that I graduated from University with my degree in Computer Science. But in the spring of that year, I was close to completing my degree and I was beginning to think about what I wanted to do once I had graduated. At this time, I was in Cambridge (as I attended University at Anglia Ruskin’s Cambridge campus). Initially, I had this fantastic vision that I’d have an incredible apartment in the heart of the city, with out of this world furnishings and a good social life (basically, I visioned my rented apartment to be something similar to what Frasier Crane had in the TV show Frasier).
@@ -48,7 +48,7 @@ It was so small that you’d have to fit a small dining table and chair **under*
 
 Then there was the kitchen and the main bathroom on the ground floor. The kitchen was small but the bathroom was the smallest room in this house. I’d say it’s smaller than bathrooms you’d get in a hotel. Since all the plumbing was in one part of the house, the door to the tiny bathroom was in the kitchen (which was also where the front door was).
 
-I thankfully didn’t buy it but it made me realise that I wasn’t ready to buy a house _just_ yet if all I could afford was a tiny house. So I decided to go back to saving.
+I thankfully didn’t buy it but it made me realise that I wasn’t ready to buy a house _just_ yet if all I could afford was a tiny, one bedroom house. So I decided to go back to saving.
 
 ## 2020
 Then, the pandemic arrived and everything in the housing market in the UK was flipped upside down.
