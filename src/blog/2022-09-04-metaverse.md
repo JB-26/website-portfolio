@@ -13,13 +13,17 @@ I’ve been ignoring the Metaverse for long enough, and the recent image that Ma
 
 _Out of everything in this picture, the empty looking eyes scare me the most._
 
+Even MP Matt Hancock has joined the Metaverse with an equally creepy looking [avatar](https://uk.news.yahoo.com/matt-hancock-metaverse-avatar-creepy-125437801.html).
+
 If the future of communication involves me looking like _that_ then I don’t want a part of it. Especially if my avatar loses their legs as shown in the [Horizon Worlds](https://youtu.be/02kCEurWkqU) trailer.
 
 I’m just amazed that a company that’s worth **billions** of dollars, thinks that the screenshot by Mark would convince people that the Metaverse is the future is laughable.
 
-Graphically, I’d expect it to look better considering how much money Meta is throwing at the Metaverse (to be fair, Meta responded by sharing a somewhat improved screenshot [recently](https://www.theverge.com/2022/8/19/23313469/mark-zuckerberg-horizon-worlds-screenshot-memes-response-upgrades). But it still looks creepy.)
+Graphically, I’d expect it to look better considering how much money Meta is throwing at this (to be fair, Meta responded by sharing a somewhat improved screenshot [recently](https://www.theverge.com/2022/8/19/23313469/mark-zuckerberg-horizon-worlds-screenshot-memes-response-upgrades). But it still looks creepy.)
 
 In 2021, Meta spent at least [$10 billion](https://www.theverge.com/2021/10/25/22745381/facebook-reality-labs-10-billion-metaverse) on it’s Metaverse division. And I can only imagine that this figure will only increase as the years go on.
+
+By the way, Meta has now started calling their employees ['Metamates'](https://uk.finance.yahoo.com/news/zuckerberg-calls-staff-metamates-memo-060749258.html), which sounds _incredibly_ cringey (what's wrong with calling everyone employees?)
 
 I just cannot imagine sitting down for a serious business meeting or job interview and I have to use the Metaverse. The idea of that sounds awful. Even Microsoft is incorporating 3D avatars and virtual meeting spaces into [Teams](https://www.theverge.com/2021/11/2/22758974/microsoft-teams-metaverse-mesh-3d-avatars-meetings-features) called [Mesh](https://news.microsoft.com/innovation-stories/mesh-for-microsoft-teams/). I’m not sure how I’d feel if the person I was speaking to was a 3D avatar and not the actual person through a video call. It would be hard to judge the other person’s body language for example.
 
@@ -57,7 +61,9 @@ And it found success. It brought people together, and the community created cont
 
 However, there have been [safety](https://www.bbc.co.uk/news/technology-60415317) concerns about what words have been created by users. It’s a legitimate concern to have.
 
-Now don’t get me wrong, I think VR has a lot of potential to be a phenomenal platform.
+Speaking of safety, there is also privacy concerns around Meta itself. I'm sure whatever Metaverse they create will no doubt harvest data from it's users.
+
+Now don’t get me wrong, I think VR has a lot of potential to be a phenomenal platform. Thinking about it, would the Metaverse/VR be a good platform for those who have disabilities?
 
 Selling VR as a games platform has been established. Sony has [PlayStation VR](https://www.playstation.com/en-gb/ps-vr/) and Oculus has a fantastic range of games available.
 
@@ -73,6 +79,8 @@ But there are plenty of hurdles to jump over first:
 
 There are already early signs that the Metaverse is already failing to launch. Tinder, for example, [stepped back](https://www.theverge.com/2022/8/3/23290152/tinder-metaverse-tinderverse-coins-disappointing-earnings) from their Metaverse ambitions and parted ways with their CEO who had been in the job for less than a year.
 
+But it isn't stopping companies from exploring the Metaverse. [Kate Spade](https://www.yahoo.com/video/kate-spade-enters-metaverse-offer-164450002.html) has created a shopping experience, where there is a handbag that can only be purchased by using their virtual world.
+
 Even Meta themselves said that in [Q1 this year](https://techcrunch.com/2022/04/27/meta-facebook-q1-2022-earnings/) that their Metaverse division lost **$3B**. With Mark claiming that the year 2030 would be “exciting”. I’m not sure Meta’s investors can wait until 2030 to see the outcome of spending billions.
 
-I’m not sure what the future holds for the Metaverse. But whatever it is, I just hope avatars get legs.
+I’m not sure what the future holds for the Metaverse. I'm not convinced it's the next generation of the internet. But whatever it is, I just hope avatars get legs.
