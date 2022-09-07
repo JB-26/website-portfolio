@@ -76,13 +76,13 @@ There are also plenty of hurdles to jump over first:
 - VR headsets can be expensive (see headsets like the [Valve Index](https://store.steampowered.com/sub/354231/))
 - VR headsets can start to feel uncomfortable after a period of time
 - Motion sickness in VR
-- Not everyone is convinced by VR
-- Safety concerns
+- Not everyone is convinced by (or wants) VR
+- Safety concerns in a Metaverse
 
 There are already early signs that the Metaverse is already failing to launch. Tinder, for example, [stepped back](https://www.theverge.com/2022/8/3/23290152/tinder-metaverse-tinderverse-coins-disappointing-earnings) from their Metaverse ambitions and parted ways with their CEO who had been in the job for less than a year.
 
-Even Meta themselves said that in [Q1 this year](https://techcrunch.com/2022/04/27/meta-facebook-q1-2022-earnings/) that their Metaverse division lost **$3B**. With Mark claiming that the year 2030 would be “exciting”. I’m not sure Meta’s investors can wait until 2030 to see the outcome of spending billions.
+Even Meta themselves said that in [Q1 this year](https://techcrunch.com/2022/04/27/meta-facebook-q1-2022-earnings/) that their Metaverse division lost **$3B**. With Mark claiming that the year 2030 would be “exciting”. I’m not sure Meta’s investors can wait until 2030 to see the outcome of spending billions. Next month, [Meta Connect](https://www.theverge.com/2022/9/6/23339396/meta-connect-project-cambria-facebook-metaverse) will show the company's next high end VR headset.
 
-But it isn't stopping companies from exploring the Metaverse. [Kate Spade](https://www.yahoo.com/video/kate-spade-enters-metaverse-offer-164450002.html) has created a shopping experience, where there is a handbag that can only be purchased by using their virtual world.
+But the initial failures isn't stopping companies from exploring the Metaverse. [Kate Spade](https://www.yahoo.com/video/kate-spade-enters-metaverse-offer-164450002.html) has created a shopping experience, where there is a handbag that can only be purchased by using their virtual world.
 
 I’m not sure what the future holds for the Metaverse. I'm not convinced it's the next generation of the internet. But whatever it is, I just hope avatars get legs.
