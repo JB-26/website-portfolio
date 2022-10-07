@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Image from "../images/main_image_edited.jpg"
+import Image from "../images/main_image_edited_2.png"
 import { Helmet } from "react-helmet"
 
 export default () => (
