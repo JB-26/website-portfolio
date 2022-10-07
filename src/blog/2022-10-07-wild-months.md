@@ -28,6 +28,8 @@ So, what’s new? Smaller images. A problem I’ve noticed recently is that the 
 
 So, the images that are used now are _much_ smaller. So for new users, you won’t need to wait long to see an image on the website.
 
+While I was updating the images, I decided to update the packages I'm using via npm.
+
 Apart from some new fixes, what’s next? I’ve got a post about the meta verse coming up soon which I started working on before I got married, and a draft post about Mac applications that I use (which needs some more work). Plus, I’ve got some ideas for content about what I've learnt since buying a house (_and all the stress that comes with it_). Oh, and some tech related posts as well.
 
 Until next time!
