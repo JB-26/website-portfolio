@@ -2,8 +2,8 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Helmet } from "react-helmet"
-import Image from "../images/about-image.jpg"
-import Image2 from "../images/tokyo.jpg"
+import Image from "../images/about-image_2.png"
+import Image2 from "../images/tokyo_2.png"
 
 export default () => (
   <div>
