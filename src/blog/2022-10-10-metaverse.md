@@ -1,6 +1,6 @@
 ---
 title: "If the Metaverse is the future, then I don’t want to be a part of it"
-date: "2022-09-04"
+date: "2022-10-10"
 description: "And why don't avatars have any legs?"
 image: https://images.unsplash.com/photo-1637664067109-a6a00840d894?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80
 ---
@@ -24,6 +24,19 @@ Graphically, I’d expect it to look better considering how much money Meta is t
 In 2021, Meta spent at least [$10 billion](https://www.theverge.com/2021/10/25/22745381/facebook-reality-labs-10-billion-metaverse) on it’s Metaverse division. And I can only imagine that this figure will only increase as the years go on.
 
 By the way, Meta has now started calling their employees ['Metamates'](https://uk.finance.yahoo.com/news/zuckerberg-calls-staff-metamates-memo-060749258.html), which sounds _incredibly_ cringey (what's wrong with calling everyone employees?)
+
+To top it off, even Meta's own employees aren't using it. And now they have to use it [once a week](https://www.theverge.com/2022/10/6/23391895/meta-facebook-horizon-worlds-vr-social-network-too-buggy-leaked-memo). Meta's VP of Metaverse, Vishal Shah, said the following about Horizon:
+<blockquote>
+	"But currently feedback from our creators, users, playtesters, and many of us on the team is that the aggregate weight of papercuts, stability issues, and bugs is making it too hard for our community to experience the magic of Horizon. Simply put, for an experience to become delightful and retentive, it must first be usable and well crafted.”
+</blockquote>
+
+And:
+
+<blockquote>
+	“I want to be clear on this point. We are working on a product that has not found product market fit. If you are on Horizon, I need you to fully embrace ambiguity and change.”
+</blockquote>
+
+Bit worrying that the company is betting so much on a product that hasn't found it's market.
 
 You might be wondering _"what is the Metaverse anyway?"_, and put simply it's a digital space which is made of digital representations of things. Like people, objects, places etc. This [video](https://www.youtube.com/watch?v=Qw6UCwCt4bE) by Microsoft does a good job of explaining what the Metaverse is.
 
