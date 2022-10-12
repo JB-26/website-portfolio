@@ -38,6 +38,10 @@ And:
 
 Bit worrying that the company is betting so much on a product that hasn't found it's market. As well as forcing employees to use the product.
 
+But given that Meta recently announced the [Meta Quest Pro](https://www.meta.com/gb/quest/quest-pro/#overview) (which is priced at an eye watering £1,499.99), the market could be aiming more towards professionals rather than consumers. Also, as [CNET](https://www.cnet.com/tech/computing/meta-quest-pro-vr-headset-hands-on-a-new-1500-headset-is-unveiled/) reported, the battery life of the device is **one to two hours.** Which doesn't seem great if you're trying to convince professionals that the metaverse is the future of computing. Meta's [stock](https://www.hl.co.uk/shares/shares-search-results/m/meta-platforms-inc-com-usd0.000006) also went down following the announcement.
+
+_I also love the fact that under the [experiences](https://www.meta.com/gb/quest/quest-pro/#overview) section on the Meta Quest Pro page, Adobe Acrobat is listed along with Dropbox and LastPass. I can't wait to manage PDFs, documents and passwords with my super expensive headset!_ 
+
 You might be wondering _"what is the Metaverse anyway?"_, and put simply it's a digital space which is made of digital representations of things. Like people, objects, places etc. This [video](https://www.youtube.com/watch?v=Qw6UCwCt4bE) by Microsoft does a good job of explaining what the Metaverse is.
 
 I just cannot imagine sitting down for a serious business meeting or job interview and I have to use the Metaverse. The idea of that sounds awful and awkward. Even Microsoft is incorporating 3D avatars and virtual meeting spaces into [Teams](https://www.theverge.com/2021/11/2/22758974/microsoft-teams-metaverse-mesh-3d-avatars-meetings-features) called [Mesh](https://news.microsoft.com/innovation-stories/mesh-for-microsoft-teams/). I’m not sure how I’d feel if the person I was speaking to was a 3D avatar and not the actual person through a video call at a job interview. It would be hard to judge the other person’s body language for example.
@@ -48,7 +52,7 @@ With hybrid working and video calls being the norm, I'm not sure if the Metavers
 
 _I just want to have legs!_
 
-On a related note, can you imagine people using underpowered business laptops and trying to render 3D avatars and virtual meeting spaces in Teams? I know Teams doesn't have amazing performance to begin with (thanks Electron) but I can't imagine rendering 3D environments would make things any better. Plus, I don't think businesses are going to rush out and buy VR headsets as those are still expensive.
+On a related note, can you imagine people using underpowered business laptops and trying to render 3D avatars and virtual meeting spaces in Teams? I know Teams doesn't have amazing performance to begin with (thanks Electron) but I can't imagine rendering 3D environments would make things any better. Plus, I don't think businesses are going to rush out and buy new work machines and VR headsets as those are still expensive.
 
 I struggle to understand the following about the Metaverse:
 
@@ -99,7 +103,7 @@ There are also plenty of hurdles to jump over first:
 
 There are already early signs that the Metaverse is already failing to launch. Tinder, for example, [stepped back](https://www.theverge.com/2022/8/3/23290152/tinder-metaverse-tinderverse-coins-disappointing-earnings) from their Metaverse ambitions and parted ways with their CEO who had been in the job for less than a year.
 
-Even Meta themselves said that in [Q1 this year](https://techcrunch.com/2022/04/27/meta-facebook-q1-2022-earnings/) that their Metaverse division lost **$3B**. With Mark claiming that the year 2030 would be “exciting”. I’m not sure Meta’s investors can wait until 2030 to see the outcome of spending billions. Next month, [Meta Connect](https://www.theverge.com/2022/9/6/23339396/meta-connect-project-cambria-facebook-metaverse) will show the company's next high end VR headset.
+Even Meta themselves said that in [Q1 this year](https://techcrunch.com/2022/04/27/meta-facebook-q1-2022-earnings/) that their Metaverse division lost **$3B**. With Mark claiming that the year 2030 would be “exciting”. I’m not sure Meta’s investors can wait until 2030 to see the outcome of spending billions.
 
 But the initial failures isn't stopping companies from exploring the Metaverse. [Kate Spade](https://www.yahoo.com/video/kate-spade-enters-metaverse-offer-164450002.html) has created a shopping experience, where there is a handbag that can only be purchased by using their virtual world.
 
