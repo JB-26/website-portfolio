@@ -32,6 +32,9 @@ export default ({ data }) => {
 			  </Link>
 			</div>
 			<div class="box-archive">
+				<p id="postSubtitle">
+				{node.frontmatter.description}
+			  </p>
 			  <p id="postSubtitle">
 				Published on - {node.frontmatter.date}
 			  </p>
