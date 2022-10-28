@@ -8,11 +8,13 @@ image: https://images.unsplash.com/photo-1623043453741-11aef9cb59b5?ixlib=rb-4.0
 Recently, me and my wife been assembling flat pack furniture in our new home. **A lot** of flat pack furniture (I’ve created quite the collection of Allen keys). And during the fun process of unpacking and then assembling furniture, I actually learnt a few important lessons in regards to problem solving.
 
 ## Patience
-I have a lot of patience when it comes to most things. But assembling furniture however, taught me that patience is part of the process in understanding something. I spend a lot of time reading the instructions of the funiture before I start building the furniture.
+I have a lot of patience when it comes to most things. But assembling furniture however, taught me that having patience is part of the process in understanding something. I ended up spending a lot of time reading the instructions of the funiture before I start building it.
 
 It might sound odd, but trust me on this.
 
 It takes patience to understand what you need to do _and_ how to do it. It’s like when I started learning Python. It took patience to understand the concepts of the programming language and putting my knowledge into practice.
+
+I bought a set of two matching bedside tables (both look great by the way), and once I had an understanding of what I was doing, assembling them was pretty simple!
 
 
 ## Take a break (and then come back to it)
@@ -33,13 +35,13 @@ And when I got back, I had the complete bench assembled in no time. I had the id
 
 ## Get a second opinion
 
-There were a few times when I needed to check if I was doing something correctly. And on a few times, I needed that second opinion from my wife.
+There were a few times when I needed to check if I was doing something correctly. And on a few times, I needed that second opinion from my wife. I could've made some terrible mistakes!
 
-
+I've honestly learnt that sometimes it's better to get a second opionion, you never knew what you might have missed.
 
 ## Team work!
 
-Some things need more than one person, and that's what I found on a few flat packs. I did try and attempt it by myself but I quickly found that I needed some help.
+Some things need more than one person, and that's what I found on a few flat packs. I did try and attempt it by myself but I quickly found that I needed some help. And sometimes, when you get help, the problem that you're working on could be solved faster.
 
 And that’s about it!
 
