@@ -12,9 +12,9 @@ I have a lot of patience when it comes to most things. But assembling furniture 
 
 It might sound odd, but trust me on this.
 
-It takes patience to understand what you need to do _and_ how to do it. It’s like when I started learning Python. It took patience to understand the concepts of the programming language and putting my knowledge into practice.
+It takes patience to understand what you need to do _and_ how to do it.
 
-I bought a set of two matching bedside tables (both look great by the way), and once I had an understanding of what I was doing, assembling them was pretty simple!
+I bought a set of two matching bedside tables (both look great by the way), and once I had an understanding of what I was doing, assembling them was pretty simple! In fact, I probably spent less time building the second one than I did on the first one, as I was familiar on how to build the bed side table.
 
 
 ## Take a break (and then come back to it)
@@ -32,18 +32,27 @@ During the lunch break, I was able to think and recharge. And that moment of bei
 
 And when I got back, I had the complete bench assembled in no time. I had the idea of assembling the furniture on the floor instead of a box of another flat pack, and that made all the difference.
 
+I guess being away from the problem provided me with an opportunity to think about the problem clearly.
 
 ## Get a second opinion
 
 There were a few times when I needed to check if I was doing something correctly. And on a few times, I needed that second opinion from my wife. I could've made some terrible mistakes!
 
+When we were building a TV stand, I wasn't too sure which way the partially constructed furniture should be facing. Was it with the wood facing _towards_ me or _away_ from me? The instructions weren't the best quality as the paper was slightly faded.
+
+But after discussing the instructions with my wife, we were able to understand what was needed to be done. For those wondering, it was with the wood facing towards me.
+
 I've honestly learnt that sometimes it's better to get a second opionion, you never knew what you might have missed.
 
 ## Team work!
 
-Some things need more than one person, and that's what I found on a few flat packs. I did try and attempt it by myself but I quickly found that I needed some help. And sometimes, when you get help, the problem that you're working on could be solved faster.
+Some things need more than one person, and that's what I found on a few flat packs. I did try and attempt it by myself but I quickly found that I needed some help. And sometimes, when you get help, the problem that you're working on could be solved faster. Plus, you can learn some new skills along the way.
+
+It also helps to take note of the instructions, especially when the instructions state that two people are needed to assemble the furniture.
 
 And that’s about it!
+
+I'm not sure what the moral of this blog post is, maybe buy and assemble more flat packs to learn a lesson in problem solving? Maybe!
 
 I’m pretty sure that after this move, I am never going to want to go through another flat pack ever again.
 
