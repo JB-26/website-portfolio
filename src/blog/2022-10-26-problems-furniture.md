@@ -5,9 +5,13 @@ description: "I don’t want any more Allen keys!"
 image: https://images.unsplash.com/photo-1623043453741-11aef9cb59b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxhdHBhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60
 ---
 
-Recently, me and my wife been assembling flat pack furniture in our new home. **A lot** of flat pack furniture (I’ve created quite the collection of Allen keys). And during the fun process of unpacking and then assembling furniture, I actually learnt a few important lessons in regards to problem solving.
+![](https://images.unsplash.com/photo-1623043453741-11aef9cb59b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxhdHBhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60)
 
-## Patience
+Recently, me and my [wife](https://www.linkedin.com/in/alexis-pruitt-1086b6175/) been assembling flat pack furniture in our new home. **A lot** of flat pack furniture (I’ve created quite the collection of Allen keys). We've had so much cardboard that we've had to use a bin that's at a nearby supermarket that allows people to recycle cardboard and mixed paper.
+
+And during the fun process of unpacking and then assembling furniture, I actually learnt a few important lessons in regards to problem solving.
+
+## Patience is part of problem solving
 I have a lot of patience when it comes to most things. But assembling furniture however, taught me that having patience is part of the process in understanding something. I ended up spending a lot of time reading the instructions of the funiture before I start building it.
 
 It might sound odd, but trust me on this.
@@ -50,7 +54,9 @@ Some things need more than one person, and that's what I found on a few flat pac
 
 It also helps to take note of the instructions, especially when the instructions state that two people are needed to assemble the furniture.
 
-And that’s about it!
+## Conclusion
+
+And those are the lessons that I've learnt so far from assembling flat pack furniture.
 
 I'm not sure what the moral of this blog post is, maybe buy and assemble more flat packs to learn a lesson in problem solving? Maybe!
 
