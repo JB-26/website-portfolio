@@ -10,6 +10,7 @@ html {
     min-width: 300px;
     /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 @font-face {
