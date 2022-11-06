@@ -26,6 +26,9 @@ export default () => (
       <a href="#CurrencyExchange">Currency and Exchange Rates</a>
     </p>
     <p>
+      <a href="#Culture">Culture</a>
+    </p>
+    <p>
       <a href="#Travel">Travel</a>
     </p>
     <p>
@@ -97,6 +100,11 @@ export default () => (
       </ul>
 
       <p>
+        Since the UK is moving away from cash, you honestly won't need to bring
+        a lot of cash with you. Doesn't hurt to bring some just in case.
+      </p>
+
+      <p>
         When I travel, I tend to use my{" "}
         <a href="https://www.revolut.com">Revolut</a> card. I treat it as a
         reloadable card so I don’t need to worry about it too much should
@@ -105,6 +113,21 @@ export default () => (
       </p>
 
       <p>Revolut is free to sign up and use.</p>
+    </div>
+
+    <div id="Culture">
+      <h2>Culture</h2>
+      <p>
+        There are a few important things to keep in mind when it comes to
+        British culture:
+      </p>
+      <ul>
+        <li>We keep ourselves to ourselves.</li>
+        <li>We don't talk to random strangers on the street.</li>
+        <li>Alcohol is a big part of UK culture (sadly)</li>
+        <li>Banter is common among friends.</li>
+        <li>Tipping at restaurants etc is not expected.</li>
+      </ul>
     </div>
 
     <div id="Travel">
@@ -403,6 +426,7 @@ export default () => (
           The design museum - a museum about contemporary design and innovation
         </li>
         <li>The Tower of London - go see the famous ravens!</li>
+        <li>The London Zoo - pretty big zoo</li>
       </ul>
 
       <h3 id="Staying safe">Staying safe</h3>
