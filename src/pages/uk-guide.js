@@ -10,7 +10,9 @@ export default () => (
       <title>Guide to the UK</title>
     </Helmet>
     <Header></Header>
-    <h1 class="work_title">Guide to the UK (for Americans)</h1>
+    <div id="top">
+      <h1 class="work_title">Guide to the UK (for Americans)</h1>
+    </div>
     <p>Welcome to the United Kingdom!</p>
     <p>
       Use this handy page to give you information about currency, exchange
@@ -69,6 +71,9 @@ export default () => (
         your accommodation. Double check if your hotel offers a shuttle bus
         service to and from the airport.
       </p>
+      <p>
+        <a href="#top">Return to top</a>
+      </p>
     </div>
     <div id="CurrencyExchange">
       <h2>Currency and exchange rates</h2>
@@ -113,6 +118,10 @@ export default () => (
       </p>
 
       <p>Revolut is free to sign up and use.</p>
+
+      <p>
+        <a href="#top">Return to top</a>
+      </p>
     </div>
 
     <div id="Culture">
@@ -128,6 +137,18 @@ export default () => (
         <li>Banter is common among friends.</li>
         <li>Tipping at restaurants etc is not expected.</li>
       </ul>
+
+      <p>
+        British culture does share some similarities to American culture, with
+        some minor differences.
+      </p>
+      <p>
+        We don't live in our cars for one, we tend to get out and walk more. We
+        also rely on public transport such as trains and buses.
+      </p>
+      <p>
+        <a href="#top">Return to top</a>
+      </p>
     </div>
 
     <div id="Travel">
@@ -290,6 +311,10 @@ export default () => (
         All of these are accessible by train from London. I still wouldn’t
         recommend hiring a car. Most major cities will have public transport.
       </p>
+
+      <p>
+        <a href="#top">Return to top</a>
+      </p>
     </div>
 
     <div id="London">
@@ -442,6 +467,10 @@ export default () => (
         <li>Check to make sure you have your personal belongings</li>
         <li>Keep bags close to you, and avoid bringing large backpacks</li>
       </ul>
+
+      <p>
+        <a href="#top">Return to top</a>
+      </p>
     </div>
     <Footer></Footer>
   </div>
