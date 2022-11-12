@@ -143,8 +143,14 @@ export default () => (
         some minor differences.
       </p>
       <p>
-        We don't live in our cars for one, we tend to get out and walk more. We
-        also rely on public transport such as trains and buses.
+        We don't live in our cars for one, we tend to get out and walk more (so
+        this does mean we don't have drive though ATMs or pharmacies). We also
+        rely on public transport such as trains and buses.
+      </p>
+      <p>
+        The Royal Family is also a part of British culture. From afternoon tea,
+        to Corgis. It's important to note that the Royal Family isn't involved
+        in British politics. They remain neutral in politics.
       </p>
       <p>
         <a href="#top">Return to top</a>
@@ -452,6 +458,11 @@ export default () => (
         </li>
         <li>The Tower of London - go see the famous ravens!</li>
         <li>The London Zoo - pretty big zoo</li>
+        <li>St. Paul's Cathedral - Churchyard and gardens</li>
+        <li>
+          Palace of Westminster - Seat of the UK Government. Guided tours are
+          available.
+        </li>
       </ul>
 
       <h3 id="Staying safe">Staying safe</h3>
