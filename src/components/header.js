@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import Bolt from "../images/favicon-32x32.png"
 
-export default () => (
+const header = () => (
   <header>
     <div class="header-item">
-      <Link to="/about/" className="blog">About</Link>
+      <Link to="/about/" className="blog">
+        About
+      </Link>
     </div>
     <div id="bolt">
       <Link to="/" className="blog">
@@ -13,7 +15,11 @@ export default () => (
       </Link>
     </div>
     <div class="header-item">
-      <Link to="/blog/" className="blog">Blog</Link>
+      <Link to="/blog/" className="blog">
+        Blog
+      </Link>
     </div>
   </header>
 )
+
+export default header

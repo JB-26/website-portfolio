@@ -4,11 +4,15 @@ import Footer from "../components/footer"
 import Image from "../images/main_image_edited_2.png"
 import { Helmet } from "react-helmet"
 
-export default () => (
+const index = () => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
       <title>Joshua Blewitt - Home</title>
+      <script
+        src="https://kit.fontawesome.com/af67ca5a39.js"
+        crossorigin="anonymous"
+      ></script>
     </Helmet>
     <Header></Header>
     <div className="content">
@@ -22,7 +26,11 @@ export default () => (
         <hr className="fill"></hr>
         <i id="known">Also known as JB.</i>
         <p>
-          I'm a hobbyist developer, technology advocate and curious mind that's based in the United Kingdom. My current work as a Test Engineer allows me to explore software and champion quality. In my spare time, I enjoy collecting and playing retro games, listening to podcasts, and travelling.
+          I'm a hobbyist developer, technology advocate and curious mind that's
+          based in the United Kingdom. My current work as a Test Engineer allows
+          me to explore software and champion quality. In my spare time, I enjoy
+          collecting and playing retro games, listening to podcasts, and
+          travelling.
         </p>
         <div id="buttonContainer">
           <a id="emailButton" href="mailto:joshblewitt@protonmail.com">
@@ -37,3 +45,5 @@ export default () => (
     <Footer></Footer>
   </div>
 )
+
+export default index

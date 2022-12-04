@@ -4,13 +4,17 @@ import Footer from "../components/footer"
 import { Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-export default ({ data }) => {
+const blog = ({ data }) => {
   console.log(data)
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Joshua Blewitt - Blog</title>
+        <script
+          src="https://kit.fontawesome.com/af67ca5a39.js"
+          crossorigin="anonymous"
+        ></script>
       </Helmet>
       <Header></Header>
       <div>
@@ -21,13 +25,20 @@ export default ({ data }) => {
         </h2>
         <h2 id="blogSubtitle">Opinions are my own.</h2>
         <div id="postCount">
-          <h4>Want to see all posts? Visit the <Link to='/archive/'>Archive.</Link></h4>
+          <h4>
+            Want to see all posts? Visit the{" "}
+            <Link to="/archive/">Archive.</Link>
+          </h4>
         </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
             <div class="row">
               <div class="boxImage">
-                <img src={node.frontmatter.image} class="image"></img>
+                <img
+                  src={node.frontmatter.image}
+                  class="image"
+                  alt={node.frontmatter.title}
+                ></img>
               </div>
               <div class="column">
                 <div class="box">
@@ -54,7 +65,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC } limit:5) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 5
+    ) {
       totalCount
       edges {
         node {
@@ -74,3 +88,4 @@ export const query = graphql`
     }
   }
 `
+export default blog

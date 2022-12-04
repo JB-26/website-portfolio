@@ -4,7 +4,7 @@ import Footer from "../components/footer"
 import { graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-export default ({ data }) => {
+const blogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <div className="postFormat">
@@ -23,7 +23,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -32,3 +32,5 @@ export const query = graphql`
     }
   }
 `
+
+export default blogPost
