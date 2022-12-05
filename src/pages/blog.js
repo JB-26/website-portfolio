@@ -2,20 +2,11 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { Link, graphql } from "gatsby"
-import { Helmet } from "react-helmet"
 
 const blog = ({ data }) => {
   console.log(data)
   return (
     <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Joshua Blewitt - Blog</title>
-        <script
-          src="https://kit.fontawesome.com/af67ca5a39.js"
-          crossorigin="anonymous"
-        ></script>
-      </Helmet>
       <Header></Header>
       <div>
         <h1 id="blogTitle">It works on my machine</h1>
@@ -65,10 +56,7 @@ const blog = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
-    ) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 5) {
       totalCount
       edges {
         node {
@@ -89,3 +77,16 @@ export const query = graphql`
   }
 `
 export default blog
+
+export function Head() {
+  return (
+    <>
+      <meta charSet="utf-8" />
+      <title>Joshua Blewitt - Blog</title>
+      <script
+        src="https://kit.fontawesome.com/af67ca5a39.js"
+        crossorigin="anonymous"
+      ></script>
+    </>
+  )
+}

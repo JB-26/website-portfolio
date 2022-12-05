@@ -1,18 +1,9 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import { Helmet } from "react-helmet"
 
 const work = () => (
   <div>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Joshua Blewitt - Work</title>
-      <script
-        src="https://kit.fontawesome.com/af67ca5a39.js"
-        crossorigin="anonymous"
-      ></script>
-    </Helmet>
     <Header></Header>
     <h1 class="work_title">Work 🛠</h1>
     <h2>Checkout some of my personal projects!</h2>
@@ -136,3 +127,16 @@ const work = () => (
 )
 
 export default work
+
+export function Head() {
+  return (
+    <>
+      <meta charSet="utf-8" />
+      <title>Joshua Blewitt - Work</title>
+      <script
+        src="https://kit.fontawesome.com/af67ca5a39.js"
+        crossorigin="anonymous"
+      ></script>
+    </>
+  )
+}
