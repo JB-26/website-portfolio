@@ -2,16 +2,11 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
 
-export default ({ data }) => {
+const blogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <div className="postFormat">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Joshua Blewitt - {post.frontmatter.title}</title>
-      </Helmet>
       <Header></Header>
       <div id="titleDivider">
         <h1 id="blogHeader">{post.frontmatter.title}</h1>
@@ -23,7 +18,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -32,3 +27,19 @@ export const query = graphql`
     }
   }
 `
+
+export default blogPost
+
+export function Head({ data }) {
+  const post = data.markdownRemark
+  return (
+    <>
+      <meta charSet="utf-8" />
+      <title>Joshua Blewitt - {post.frontmatter.title}</title>
+      <script
+        src="https://kit.fontawesome.com/af67ca5a39.js"
+        crossorigin="anonymous"
+      ></script>
+    </>
+  )
+}

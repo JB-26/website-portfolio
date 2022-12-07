@@ -4,7 +4,7 @@ module.exports = {
     description: `A portfolio website showing the work and information about Joshua Blewitt - an aspiring Web Developer`,
     author: `Joshua Blewitt`,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: {},
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -39,6 +39,7 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-     `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    "gatsby-plugin-netlify",
   ],
 }

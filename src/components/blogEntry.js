@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "gatsby"
 
-export default props => (
+const props = () => (
   <div class="container">
     <div class="row">
       <div class="boxImage">
@@ -22,3 +22,5 @@ export default props => (
     </div>
   </div>
 )
+
+export default props

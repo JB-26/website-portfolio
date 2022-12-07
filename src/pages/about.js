@@ -1,16 +1,11 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import { Helmet } from "react-helmet"
 import Image from "../images/about-image_2.png"
 import Image2 from "../images/tokyo_2.png"
 
-export default () => (
+const about = () => (
   <div>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>Joshua Blewitt - About</title>
-    </Helmet>
     <Header></Header>
     <h1 class="work_title">A bit about Joshua Blewitt</h1>
     <i class="about-sub">
@@ -66,3 +61,18 @@ export default () => (
     <Footer></Footer>
   </div>
 )
+
+export default about
+
+export function Head() {
+  return (
+    <>
+      <title>Joshua Blewitt - About</title>
+      <meta charSet="utf-8" />
+      <script
+        src="https://kit.fontawesome.com/af67ca5a39.js"
+        crossorigin="anonymous"
+      ></script>
+    </>
+  )
+}
