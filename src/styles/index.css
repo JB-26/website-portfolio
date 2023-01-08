@@ -20,7 +20,7 @@
 }
 
 .left p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #known {
@@ -60,7 +60,7 @@
   word-wrap: break-word;
   text-align: center;
   text-decoration: none;
-  font-size: 29px;
+  font-size: 36px;
   /* allows for smoother animation */
   transform-origin: center;
   transition-duration: 150ms;
@@ -93,7 +93,7 @@
   }
 
   .left h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .right {
@@ -115,6 +115,10 @@
   #emailButton {
     padding: 0.25em 0.9em;
   }
+  
+  #known {
+    font-size: 18px
+  }
 }
 
 @media (min-width: 1024px) {
@@ -133,6 +137,6 @@
   }
 
   #emailButton {
-    padding: 0.5em 4.4em;
+    padding: 0.25em 0.9em;
   }
 }

@@ -1,8 +1,6 @@
 html {
-    background-color: rgb(239, 233, 228);
-    font-family: "RobotoSerif-Bold";
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    background-color: #f2f2f2;
+    font-family: "DM Sans-Bold";
     line-height: 1.4;
     /*ensures the page to be at least as tall as 100% of the viewport height */
     min-height: 100vh;
@@ -11,6 +9,23 @@ html {
     /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'DM Sans-Bold';
+    src: url("../fonts/DMSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-facee {
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    src: url("../fonts/PlayfairDisplay.ttf");
 }
 
 @font-face {
@@ -34,7 +49,7 @@ h2 {
 }
 
 p {
-    font-family: "VollkornRegular";
+    font-family: "Playfair Display";
 }
 
 /* header */
@@ -59,7 +74,7 @@ a:visited.blog {
 header {
     display: flex;
     flex-direction: row;
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
     padding: 10px 0px 0px 0px;
     position: fixed;
@@ -67,7 +82,7 @@ header {
     width: 100%;
     top: 0px;
     margin: 0px 0px 50px 0px;
-    background: rgb(239, 233, 228);
+    background: #f2f2f2;
 }
 
 .header-item {
@@ -113,7 +128,7 @@ footer {
 
     header {
         padding: 10px 0px 0px 0px;
-        font-size: 25px;
+        font-size: 30px;
         width: 100%;
         justify-content: center;
     }

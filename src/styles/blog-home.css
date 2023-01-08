@@ -3,6 +3,11 @@
     font-size: 35px;
 }
 
+#blogHeaderImage {
+    height: 250px;
+    width: 250px;
+}
+
 #blogSubtitle {
     font-family: "VollkornRegular";
 }
