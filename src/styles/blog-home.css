@@ -1,11 +1,21 @@
 #blogTitle {
     margin-top: 50px;
     font-size: 35px;
+    font-family: 'Bebas Neue';
+    font-size: 65px;
 }
 
 #blogHeaderImage {
-    height: 250px;
-    width: 250px;
+    height: 357.5px;
+    width: 636px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#blogImages {
+    height: 357.5px;
+    width: 636px;
 }
 
 #blogSubtitle {
@@ -38,6 +48,10 @@ hr {
     font-family: "VollkornRegular";
     margin-bottom: 0px;
     font-style: italic;
+}
+
+#blogHeaderImageContainer {
+    position: relative;
 }
 
 

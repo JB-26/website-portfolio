@@ -11,14 +11,16 @@ const blog = ({ data }) => {
       <Header></Header>
       <div>
         <h1 id="blogTitle">It works on my machine</h1>
-        <img
-        src={BlogImage}
-        alt="Leaked photo of what's it like working in IT." id="blogHeaderImage"></img>
+        <div id="blogHeaderImageContainer">
+          <img
+          src={BlogImage}
+          alt="Leaked photo of what's it like working in IT." id="blogHeaderImage"></img>
+        </div>
         <h2 id="blogSubtitle">
-          A blog about development, UX, work, tech and everything that comes
+          An entertaining and fun blog about development, UX, work, tech and everything that comes
           with it.
         </h2>
-        <h2 id="blogSubtitle">Opinions are my own.</h2>
+        <h2 id="blogSubtitle">Opinions (and typos) are my own.</h2>
         <div id="postCount">
           <h4>
             Want to see all posts? Visit the{" "}
@@ -31,7 +33,7 @@ const blog = ({ data }) => {
               <div class="boxImage">
                 <img
                   src={node.frontmatter.image}
-                  class="image"
+                  id="blogImages"
                   alt={node.frontmatter.title}
                 ></img>
               </div>

@@ -28,6 +28,11 @@ html {
     src: url("../fonts/PlayfairDisplay.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face  {
+    font-family: 'Bebas Neue', cursive;
+}
+
 @font-face {
     font-family: "RobotoSlab";
     src: url("../fonts/RobotoSlabBold-PKGJr.ttf");
