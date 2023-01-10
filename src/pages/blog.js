@@ -31,11 +31,13 @@ const blog = ({ data }) => {
           <div class="container" key={node.id}>
             <div class="row">
               <div class="boxImage">
+              <Link to={node.fields.slug} className="posts">
                 <img
                   src={node.frontmatter.image}
                   id="blogImages"
                   alt={node.frontmatter.title}
                 ></img>
+              </Link>
               </div>
               <div class="column">
                 <div class="box">
