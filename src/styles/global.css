@@ -54,7 +54,7 @@ h2 {
 }
 
 p {
-    font-family: "Playfair Display";
+    font-family: "VollkornRegular";
 }
 
 /* header */
@@ -134,7 +134,7 @@ footer {
 
     header {
         padding: 10px 0px 0px 0px;
-        font-size: 30px;
+        font-size: 33px;
         width: 100%;
         justify-content: center;
     }

@@ -1,5 +1,6 @@
 #blogTitle {
     margin-top: 50px;
+    margin-bottom: 0px;
     font-size: 35px;
     font-family: 'Bebas Neue';
     font-size: 65px;
@@ -19,7 +20,7 @@
 }
 
 #blogSubtitle {
-    font-family: "Playfair Display";
+    font-family: "VollkornRegular";
 }
 
 #postCount {
