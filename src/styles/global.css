@@ -2,6 +2,8 @@ html {
     background-color: #f2f2f2;
     font-family: "DM Sans-Bold";
     line-height: 1.4;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     /*ensures the page to be at least as tall as 100% of the viewport height */
     min-height: 100vh;
     /*prevents the page from being too narrow to be readable*/

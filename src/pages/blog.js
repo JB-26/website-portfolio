@@ -14,7 +14,7 @@ const blog = ({ data }) => {
         <div id="blogHeaderImageContainer">
           <img
           src={BlogImage}
-          alt="Leaked photo of what's it like working in IT." id="blogHeaderImage"></img>
+          alt="What's it like working in IT." id="blogHeaderImage"></img>
         </div>
         <h2 id="blogSubtitle">
           An entertaining and fun blog about development, UX, work, tech and everything that comes
