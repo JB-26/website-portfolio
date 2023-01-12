@@ -27,6 +27,7 @@ const blog = ({ data }) => {
             <Link to="/archive/">Archive.</Link>
           </h4>
         </div>
+        <p id="mobileScroll">Scroll left to right to view the most recent posts!</p>
         <div class="outer">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
