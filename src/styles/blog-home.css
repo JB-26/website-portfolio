@@ -48,6 +48,7 @@ hr {
 #postSubtitle {
     font-family: "VollkornRegular";
     margin-bottom: 0px;
+    margin-top: 15px;
     font-style: italic;
     font-size: 18px;
 }
