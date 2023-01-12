@@ -56,8 +56,19 @@ hr {
     position: relative;
 }
 
+.outer {
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
 
 @media (min-width: 768px) {
+    .outer {
+        white-space: pre-wrap;
+    }
+    
     #postSubtitle {
         font-family: "VollkornRegular";
         margin-bottom: 0px;

@@ -27,6 +27,7 @@ const blog = ({ data }) => {
             <Link to="/archive/">Archive.</Link>
           </h4>
         </div>
+        <div class="outer">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
             <div class="row">
@@ -56,6 +57,7 @@ const blog = ({ data }) => {
             </div>
           </div>
         ))}
+        </div>
       </div>
       <Footer></Footer>
     </div>
