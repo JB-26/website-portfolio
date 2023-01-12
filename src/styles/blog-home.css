@@ -67,6 +67,7 @@ hr {
 @media (min-width: 768px) {
     .outer {
         white-space: pre-wrap;
+        overflow-x: hidden;
     }
     
     #postSubtitle {
