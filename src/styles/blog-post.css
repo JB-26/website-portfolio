@@ -59,7 +59,7 @@ a:visited.posts {
 }
 
 #title {
-  font-size: 15px;
+  font-size: 23px;
 }
 
 ul {
@@ -129,5 +129,9 @@ img {
     margin-left: auto;
     padding-right: 30px;
     padding-left: 30px;
+  }
+  
+  #title {
+    font-size: 33px;
   }
 }

@@ -11,10 +11,10 @@ const archive = ({ data }) => {
       <div>
         <h1 id="blogTitle">It works on my machine</h1>
         <h2 id="blogSubtitle">
-          A blog about development, UX, work, tech and everything that comes
+          An entertaining and fun blog about development, UX, work, tech and everything that comes
           with it.
         </h2>
-        <h2 id="blogSubtitle">Opinions are my own.</h2>
+        <h2 id="blogSubtitle">Opinions (and typos) are my own.</h2>
         <div id="postCount">
           <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         </div>

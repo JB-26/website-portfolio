@@ -27,16 +27,6 @@ const Footer = () => (
         <li className="blog">
           <a
             className="blog"
-            href="https://www.freecodecamp.org/fcc2927573c-68b6-4b92-954b-d97d1ea76b7f"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <i class="fa-brands fa-free-code-camp icon"></i>
-          </a>
-        </li>
-        <li className="blog">
-          <a
-            className="blog"
             href="https://www.linkedin.com/in/jblewitt/"
             rel="noopener noreferrer"
             target="_blank"

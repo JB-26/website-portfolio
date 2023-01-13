@@ -1,9 +1,9 @@
 html {
-    background-color: rgb(239, 233, 228);
-    font-family: "RobotoSerif-Bold";
+    background-color: #f2f2f2;
+    font-family: "DM Sans-Bold";
+    line-height: 1.4;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    line-height: 1.4;
     /*ensures the page to be at least as tall as 100% of the viewport height */
     min-height: 100vh;
     /*prevents the page from being too narrow to be readable*/
@@ -11,6 +11,28 @@ html {
     /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'DM Sans-Bold';
+    src: url("../fonts/DMSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url("../fonts/DMSans-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-facee {
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    src: url("../fonts/PlayfairDisplay.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face  {
+    font-family: 'Bebas Neue', cursive;
 }
 
 @font-face {
@@ -54,12 +76,13 @@ a:visited.blog {
 #bolt {
     padding-left: 9px;
     padding-right: 9px;
+    margin-top: 3.5px;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
     padding: 10px 0px 0px 0px;
     position: fixed;
@@ -67,7 +90,7 @@ header {
     width: 100%;
     top: 0px;
     margin: 0px 0px 50px 0px;
-    background: rgb(239, 233, 228);
+    background: #f2f2f2;
 }
 
 .header-item {
@@ -113,7 +136,7 @@ footer {
 
     header {
         padding: 10px 0px 0px 0px;
-        font-size: 25px;
+        font-size: 33px;
         width: 100%;
         justify-content: center;
     }

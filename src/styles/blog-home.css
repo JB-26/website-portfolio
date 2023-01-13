@@ -1,6 +1,22 @@
 #blogTitle {
     margin-top: 50px;
+    margin-bottom: 0px;
     font-size: 35px;
+    font-family: 'Bebas Neue';
+    font-size: 65px;
+}
+
+#blogHeaderImage {
+    height: 357.5px;
+    width: 636px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#blogImages {
+    height: 357.5px;
+    width: 525px;
 }
 
 #blogSubtitle {
@@ -32,15 +48,49 @@ hr {
 #postSubtitle {
     font-family: "VollkornRegular";
     margin-bottom: 0px;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#blogHeaderImageContainer {
+    position: relative;
+}
+
+#mobileScroll {
+    font-family: "VollkornRegular";
+    font-size: 18px;
+    text-align: center;
     font-style: italic;
 }
 
+.outer {
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
 
 @media (min-width: 768px) {
+    #mobileScroll {
+        display: none;
+    }
+    
+    .outer {
+        white-space: pre-wrap;
+        overflow-x: hidden;
+    }
+    
     #postSubtitle {
         font-family: "VollkornRegular";
         margin-bottom: 0px;
         justify-content: center;
+    }
+    
+    #blogImages {
+        height: 357.5px;
+        width: 636px;
     }
 }
 
@@ -49,5 +99,6 @@ hr {
         font-family: "VollkornRegular";
         margin-bottom: 0px;
         justify-content: center;
+        font-size: 21px;
     }
 }

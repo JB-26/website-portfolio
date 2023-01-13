@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import BlogImage from "../images/blog-header.png"
 import { Link, graphql } from "gatsby"
 
 const blog = ({ data }) => {
@@ -10,26 +11,35 @@ const blog = ({ data }) => {
       <Header></Header>
       <div>
         <h1 id="blogTitle">It works on my machine</h1>
+        <div id="blogHeaderImageContainer">
+          <img
+          src={BlogImage}
+          alt="What's it like working in IT." id="blogHeaderImage"></img>
+        </div>
         <h2 id="blogSubtitle">
-          A blog about development, UX, work, tech and everything that comes
+          An entertaining and fun blog about development, UX, work, tech and everything that comes
           with it.
         </h2>
-        <h2 id="blogSubtitle">Opinions are my own.</h2>
+        <h2 id="blogSubtitle">Opinions (and typos) are my own.</h2>
         <div id="postCount">
           <h4>
             Want to see all posts? Visit the{" "}
             <Link to="/archive/">Archive.</Link>
           </h4>
         </div>
+        <p id="mobileScroll">Scroll left and right to view the most recent posts!</p>
+        <div class="outer">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
             <div class="row">
               <div class="boxImage">
+              <Link to={node.fields.slug} className="posts">
                 <img
                   src={node.frontmatter.image}
-                  class="image"
+                  id="blogImages"
                   alt={node.frontmatter.title}
                 ></img>
+              </Link>
               </div>
               <div class="column">
                 <div class="box">
@@ -48,6 +58,7 @@ const blog = ({ data }) => {
             </div>
           </div>
         ))}
+        </div>
       </div>
       <Footer></Footer>
     </div>
