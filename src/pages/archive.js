@@ -10,17 +10,12 @@ const archive = ({ data }) => {
       <Header></Header>
       <div>
         <h1 id="blogTitle">It works on my machine</h1>
-        <h2 id="blogSubtitle">
-          An entertaining and fun blog about development, UX, work, tech and everything that comes
-          with it.
-        </h2>
-        <h2 id="blogSubtitle">Opinions (and typos) are my own.</h2>
         <div id="postCount">
           <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div class="container" key={node.id}>
-            <div class="row">
+            <div class="row-archive">
               <div class="box-archive">
                 <Link to={node.fields.slug} className="posts">
                   <h3 id="title">{node.frontmatter.title}</h3>
