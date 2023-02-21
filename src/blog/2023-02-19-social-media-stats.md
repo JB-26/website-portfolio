@@ -1,6 +1,6 @@
 ---
 title: "Exploring Social Media stats in the United Kingdom with Python"
-date: "2023-02-19"
+date: "2023-02-21"
 description: "Is Facebook on it’s way out?"
 image: https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=7200
 ---
@@ -99,4 +99,16 @@ fig.update_layout(
 )
 fig.show(renderer="iframe")
 ```
+And this is what we get:
 
+![](https://i.imgur.com/OEo14LU.png)
+
+The steady rise of Instagram is interesting to see. Spiking during the pandemic and then seeing a steady rise is something to take note. What I am surprised about is that Reddit isn't as popular as I thought it would be. I thought Reddit would be sitting comfortably above YouTube. I'm also suprirsed to see that LinkedIn is more popular than Tumblr (yes, LinkedIn is more popular than Tumblr in the UK. I'm not sure if that's a good thing, or a bad thing).
+
+So we can tell that Facebook and Twitter are the main two platforms. Let's create a box plot quickly to compare the two:
+
+![](https://i.imgur.com/o9K1nOk.png)
+
+So, why don't we see if we can split and train the data and perform some linear regression?
+
+For this, I'll be using [PyTorch](https://pytorch.org/) - an open source machine learning framework.
