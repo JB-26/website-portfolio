@@ -125,7 +125,31 @@ So, according to ChatGPT - I’m based in Australia?
 
 It’s wrong that I have a contact page, even a link to this non-existent page.
 
-The way I view AI at the moment is that it's not in a position to be seen as a replacement for anything, but more of an additional tool to enhance our work. AI such as ChatGPT is not in a position to replace anyone. Besides, ChatGPT doesn't have a web browser, it can only provide information on the content of the website. Here's an example:
+The way I view AI at the moment is that it's not in a position to be seen as a replacement for anything, but more of an additional tool to enhance our work. Here's an example of me asking ChatGPT how to create a class in Python
+
+>In Python, you can define a class using the class keyword followed by the name of the class. Here is a basic example:
+>
+>class MyClass:
+>	pass
+>
+>In this example, we define a class called MyClass using the class keyword, and we include the keyword pass to indicate that there are no methods or attributes defined in this class.
+>
+>To define methods and attributes within a class, you can use the same syntax as you would when defining functions and variables outside of a class. Here is an example of a class with some methods and attributes:
+>
+>
+>class Person:
+>	def __init__(self, name, age):
+>		self.name = name
+>		self.age = age
+>		
+>	def say_hello(self):
+>		print("Hello, my name is", self.name)
+>		
+>	def get_age(self):
+>		return self.age
+>
+
+AI such as ChatGPT is not in a position to replace anyone. Besides, ChatGPT doesn't have a web browser, it can only provide information on the content of the website. Here's an example:
 
 > As an AI language model, I don't have a web browser to visit websites like humans do. However, based on the website's URL you provided, "https://joshblewitt.dev/", I can provide you with some information about the website's content.
 
