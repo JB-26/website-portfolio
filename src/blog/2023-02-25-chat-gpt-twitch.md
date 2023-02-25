@@ -41,7 +41,7 @@ But each episode’s dialogue will be different, and the results are *incredible
 
 Here's an example:
 
-<iframe src="https://clips.twitch.tv/embed?clip=RenownedElegantLocustNinjaGrumpy-OwGZESuxhnFW-VOU&parent=https://joshblewitt.dev/" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=RenownedElegantLocustNinjaGrumpy-OwGZESuxhnFW-VOU&parent=https://joshblewitt.dev/blog/2023-02-25-chat-gpt-twitch/" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 From ghosts, volcanic lightning, Skinner denying the fire is happening and even swearing. The stream has it all! I’ve laughed hard plenty of times at the wild scripts that ChatGPT comes up with.
 
