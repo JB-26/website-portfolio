@@ -99,6 +99,14 @@ img {
   margin: 0px;
 }
 
+@media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
 /* tablet/desktop design */
 @media (min-width: 768px) {
   #title {
