@@ -105,10 +105,9 @@ The audience laughing hard at the set up and then absolute silence at the punch 
 While I was exploring ChatGPT I asked it what it thought of this website, and it gave an ************interesting************ response:
 
 > Based on my analysis, [https://joshblewitt.dev/](https://joshblewitt.dev/) appears to be the personal website of Josh Blewitt, a software engineer based in Melbourne, Australia.
-
-The website showcases Josh's portfolio of software projects and his blog posts on various topics related to software development, including front-end development, back-end development, and software architecture. The website also provides information about Josh's skills and experience as a software engineer, as well as his contact details.
-
-Overall, the website appears to be well-designed, user-friendly, and informative. If you are interested in software development, particularly in the context of web development, you may find Josh's website to be a useful resource.
+>The website showcases Josh's portfolio of software projects and his blog posts on various topics related to software development, including front-end development, back-end development, and software architecture. The website also provides information about Josh's skills and experience as a software engineer, as well as his contact details.
+>
+>Overall, the website appears to be well-designed, user-friendly, and informative. If you are interested in software development, particularly in the context of web development, you may find Josh's website to be a useful resource.
 
 So, according to ChatGPT - I’m based in Australia?
 
