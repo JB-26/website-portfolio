@@ -44,6 +44,16 @@ const Footer = () => (
             <i class="fa-brands fa-mastodon icon"></i>
           </a>
         </li>
+        <li className="blog">
+          <a
+            className="blog"
+            href="/rss.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="fa-solid fa-square-rss icon"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </footer>

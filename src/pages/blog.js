@@ -24,7 +24,8 @@ const blog = ({ data }) => {
         <div id="postCount">
           <h4>
             Want to see all posts? Visit the{" "}
-            <Link to="/archive/">Archive.</Link>
+            <Link to="/archive/">Archive.</Link> <br />
+            Or if you want to, you can add this blog to your favourite RSS reader! Click <a href="/rss.xml" target="_blank" rel="noopener noreferrer">here</a> for the XML.
           </h4>
         </div>
         <p id="mobileScroll">Scroll left and right to view the most recent posts!</p>
