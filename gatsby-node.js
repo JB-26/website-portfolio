@@ -7,10 +7,15 @@
 // You can delete this file if you're not using it
 
 /* this looks for markdown files only*/
-exports.onCreateNode = ({ node, getNode }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const fileNode = getNode(node.parent)
-    console.log(`\n`, fileNode.relativePath)
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
   }
 }
 
