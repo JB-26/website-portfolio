@@ -8,7 +8,7 @@ const props = () => (
       </div>
       <div class="bottom">
         <h2>Introduction</h2>
-        <p>{props.introText}</p>
+        <p>{props.introText}</p
         <hr></hr>
         <h2>Tech Stack</h2>
         <p>{props.techText}</p>
