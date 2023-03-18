@@ -14,7 +14,7 @@ const errorPage = () => (
       </h1>
       <h2>You've found the error page!</h2>
       <h2>
-        Why not press the lightning bolt icon to go back to the home page?
+        Why not press the icon at the top to go back to the home page?
       </h2>
     </div>
     <Footer></Footer>
