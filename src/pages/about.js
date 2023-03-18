@@ -9,8 +9,7 @@ const about = () => (
     <Header></Header>
     <h1 class="work_title">A bit about Joshua Blewitt</h1>
     <i class="about-sub">
-      Joshua Blewitt is a Test Engineer, hobbyist developer and aspiring Data
-      Scientist/Data Analyst.
+      Joshua Blewitt is a Test Engineer, hobbyist developer and aspiring software developer.
     </i>
     <div class="about-box">
       <div class="column-about">
