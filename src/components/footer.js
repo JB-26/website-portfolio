@@ -37,11 +37,11 @@ const Footer = () => (
         <li className="blog">
           <a
             className="blog"
-            href="https://mastodon.social/@jblewitt"
-            rel="me noreferrer"
+            href="https://twitter.com/jblewtt_"
+            rel="noopener noreferrer"
             target="_blank"
           >
-            <i class="fa-brands fa-mastodon icon"></i>
+            <i class="fa-brands fa-twitter icon"></i>
           </a>
         </li>
         <li className="blog">
