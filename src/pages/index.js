@@ -25,7 +25,7 @@ const index = () => (
         </p>
         <div id="buttonContainer">
           <a id="emailButton" href="mailto:joshblewitt@protonmail.com">
-            Get in touch!
+            Get in touch! <i class="fa-regular fa-envelope fa-bounce"></i>
           </a>
         </div>
       </div>

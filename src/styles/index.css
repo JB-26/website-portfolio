@@ -48,7 +48,6 @@
   background: linear-gradient(90deg, #f6e5d6 2px, transparent 1%) center,
     linear-gradient(#fff 2px, transparent 1%) center, #ccc;
   background-size: 4px 4px;
-  display: flex;
   flex-direction: column;
   width: 300px;
   height: 60px;
@@ -89,7 +88,7 @@
     justify-content: center;
     /* makes the content centered on the cross axis (horizontal) */
     /* prevents the content from touching the viewport edges, giving it space to breath*/
-    padding: 4.0rem 3rem;
+    padding: 4rem 3rem;
   }
 
   .left h1 {
@@ -115,9 +114,9 @@
   #emailButton {
     padding: 0.25em 0.9em;
   }
-  
+
   #known {
-    font-size: 18px
+    font-size: 18px;
   }
 }
 
