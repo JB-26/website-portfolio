@@ -1,7 +1,7 @@
 .content {
   padding-top: 2.6rem;
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
+  padding-left: 2.1rem;
+  padding-right: 2.1rem;
   /* both right and left classes are flexbox items */
   display: flex;
   flex-direction: column-reverse;
