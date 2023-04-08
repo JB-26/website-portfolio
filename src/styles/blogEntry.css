@@ -1,161 +1,201 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 0px;
-  float: none;
-  margin: 5px;
-  display: inline-block;
-  zoom: 1;
-  flex-wrap: wrap;
-  word-wrap: break-word;
-  overflow: hidden;
-  width:100%;
-  max-height: 25%;
-  white-space: pre-line;
-}
-
-.box {
-  text-align: center;
-  border-radius: 10px;
-  font-size: 15px;
-  display: block;
-}
-
-.box-archive {
-  padding: 10px 10px 10px 10px;
-  text-align: center;
-  border-radius: 10px;
-  width: 50%;
-}
-
-.boxImage {
-  text-align: center;
-  border-radius: 10px;
-  height: 20%;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10px 0px 10px 0px;
-}
-
-.row-archive {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 10px 0px 10px 0px;
-}
-
-.column {
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  height: 250px;
-  white-space: pre-line;
-}
-
-.image {
-  height: 310px;
-  max-width: 150px;
-}
-
-@media (min-width: 768px) {
-  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 0px;
-  }
+    float: none;
+    margin: 5px;
+    display: inline-block;
+    zoom: 1;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+    max-height: 25%;
+    white-space: pre-line;
+}
 
-  .box {
-    padding: 0px 20px 10px 20px;
+.box {
     text-align: center;
     border-radius: 10px;
-    width: 490px;
-  }
+    font-size: 15px;
+    display: block;
+}
 
-  .boxImage {
+.box-archive {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.boxImage {
     text-align: center;
     border-radius: 10px;
     height: 20%;
-    padding-left: 0px;
-  }
+}
 
-  .row {
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.rowPinned {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px;
+}
+
+.row-archive {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 10px 0px 10px 0px;
-  }
+}
 
-  .column {
+.column {
+    width: 350px;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 0%;
-  }
+    width: 350px;
+    height: 250px;
+    white-space: pre-line;
+}
 
-  .image {
-    height: 200px;
-    width: 255px;
-    max-width: none;
-  }
+.image {
+    height: 310px;
+    max-width: 150px;
+}
 
-  h3 {
-      margin-top: 0px;
-  }
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .box {
+        padding: 0px 20px 10px 20px;
+        text-align: center;
+        border-radius: 10px;
+        width: 490px;
+    }
+
+    .boxImage {
+        text-align: center;
+        border-radius: 10px;
+        height: 20%;
+        padding-left: 0px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .rowPinned {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-left-width: 2px;
+        border-bottom-width: 2px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .image {
+        height: 200px;
+        width: 255px;
+        max-width: none;
+    }
+
+    h3 {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 1024px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
-  }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
 
-  .box {
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    border-radius: 10px;
-    width: 405px;
-  }
+    .box {
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        border-radius: 10px;
+        width: 405px;
+    }
 
-  .boxImage {
-    text-align: center;
-    border-radius: 10px;
-    height: 20%;
-    padding-left: 0px;
-  }
+    .boxImage {
+        text-align: center;
+        border-radius: 10px;
+        height: 20%;
+        padding-left: 0px;
+    }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px 10px 10px 10px;
-  }
-  
-  .row-archive {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 75%;
-    margin: 10px 10px 10px 10px;
-  }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+    }
 
-  .column {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-  }
+    .rowPinned {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-left-width: 2px;
+        border-bottom-width: 2px;
+        border-style: solid;
+        border-color: black;
+    }
 
-  .image {
-    height: 310px;
-    width: 225px;
-  }
+    .row-archive {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 75%;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .image {
+        height: 310px;
+        width: 225px;
+    }
 }

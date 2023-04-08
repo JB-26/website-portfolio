@@ -1,11 +1,11 @@
 import * as React from 'react'
 import Header from "../components/header"
 import Footer from "../components/footer"
+import PinnedPost from "../hooks/pinnedPostQuery"
 import BlogImage from "../images/blog-header.png"
 import { Link, graphql } from "gatsby"
 
 const blog = ({ data }) => {
-  console.log(data)
   return (
     <div>
       <Header></Header>
@@ -35,6 +35,8 @@ const blog = ({ data }) => {
             for the XML.
           </h4>
         </div>
+        <PinnedPost></PinnedPost>
+        <h1>What's new? <i class="fa-solid fa-star"></i></h1>
         <p id="mobileScroll">
           <span class="material-symbols-outlined">swipe_left</span>
           Swipe left and right to view posts!{" "}
