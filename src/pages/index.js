@@ -16,7 +16,7 @@ const index = () => {
             </span>
           </h1>
           <hr className="fill"></hr>
-          <i id="known">Also known as JB.</i>
+          <i id="known">But you can call me JB.</i>
           <p>
             I'm a hobbyist developer, technology advocate and curious mind that's
             based in the United Kingdom. My current work as a Test Engineer allows
