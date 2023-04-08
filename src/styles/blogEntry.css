@@ -15,6 +15,22 @@
     white-space: pre-line;
 }
 
+.containerPinned {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    float: none;
+    display: inline-block;
+    zoom: 1;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 100%;
+    max-height: 25%;
+    white-space: pre-line;
+}
+
 .box {
     text-align: center;
     border-radius: 10px;
@@ -85,6 +101,13 @@
         margin-right: 0px;
     }
 
+    .containerPinned {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
     .box {
         padding: 0px 20px 10px 20px;
         text-align: center;
@@ -144,6 +167,14 @@
         justify-content: center;
         align-items: center;
         margin-right: 0px;
+    }
+
+    .containerPinned {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0px;
     }
 
     .box {

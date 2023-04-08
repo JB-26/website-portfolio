@@ -31,7 +31,7 @@ const pinnedPost = () => {
                     <div class="outerPinned">
                         <h1>Pinned Post <i class="fa-solid fa-thumbtack"></i></h1>
                         {data.allMarkdownRemark.edges.map(({node}) => (
-                            <div class="container" key={node.id}>
+                            <div class="containerPinned" key={node.id}>
                                 <div class="rowPinned">
                                     <div class="boxImage">
                                         <Link to={node.fields.slug} className="posts">
