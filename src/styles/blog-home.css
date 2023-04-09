@@ -16,7 +16,7 @@
 
 #blogImages {
   height: 357.5px;
-  width: 525px;
+  width: 520px;
 }
 
 #blogSubtitle {
@@ -70,6 +70,25 @@ hr {
   overflow-x: scroll;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.outerPinned {
+  -webkit-overflow-scrolling: touch;
+  word-wrap: break-word;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* customising font awesome icon */
+
+.fa-thumbtack {
+  transform: rotate(38deg) !important;
 }
 
 /* customising google icons */
