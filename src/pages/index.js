@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Image from "../images/main_image_edited_2.png"
+import Image from "../images/new_2023.jpg"
 
 const index = () => {
   return (
@@ -18,11 +18,11 @@ const index = () => {
           <hr className="fill"></hr>
           <i id="known">But you can call me JB.</i>
           <p>
-            I'm a hobbyist developer, technology advocate and curious mind that's
-            based in the United Kingdom. My current work as a Test Engineer allows
-            me to explore software and champion quality. In my spare time, I enjoy
-            collecting and playing retro games, listening to podcasts, and
-            travelling.
+            I'm a hobbyist developer, technology advocate and curious mind
+            that's based in the United Kingdom. My current work as a Test
+            Engineer allows me to explore software and champion quality. In my
+            spare time, I enjoy collecting and playing retro games, listening to
+            podcasts, and travelling.
           </p>
           <div id="buttonContainer">
             <a id="emailButton" href="mailto:joshblewitt@protonmail.com">
@@ -31,12 +31,12 @@ const index = () => {
           </div>
         </div>
         <div className="right">
-          <img id="image" src={Image} alt="Me at the pub!"></img>
+          <img id="image" src={Image} alt="Me at Dishoom in London!"></img>
         </div>
       </div>
       <Footer></Footer>
     </div>
-    )
+  )
 }
 
 export default index

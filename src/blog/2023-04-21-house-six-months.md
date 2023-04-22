@@ -37,7 +37,7 @@ And for furniture I’ve bought:
 - Chest of drawers
 - Free standing Mirror
 - Lamp shades x9
-- Ring alarm system (_it’s honestly cool_)
+- Ring alarm system (_it’s honestly cool, I'm tempted to write up a post about it_)
 
 And in terms of what I need to buy:
 
@@ -54,18 +54,28 @@ And in terms of what I need to buy:
 
 As you can see, there is a mountain of work left to do.
 
-There’s probably some things that I’ve forgotten from this list, and thinking about it, I could probably put more furniture in the bedroom (as it’s quite big, even bigger than the bedroom my parents had when I was a kid!)
+There’s probably some things that I’ve forgotten from this list, and thinking about it, I could probably put more furniture in the bedroom (as it’s quite big, even bigger than the bedroom my parents had when I was a kid!). Maybe add a table in a corner somewhere with some draws to create some more storage.
 
-The garden is another problem, the grass is getting long so I need to buy a mower and cut it.
+Decorations is also another thought (and something else I need to spend money) to make the place feel more like a home and more complete. I'll need to purchase plenty of pictures, objects etc to decorate the home. All of this will take time (_and money_)
 
-I’ll admit that I didn’t think about the permanent fixtures that I’d need to buy in the first place. It was something I honestly thought that I didn’t need to buy!
+The garden is another problem, the grass is getting long so I need to buy a mower and cut it. Plus, with the summer months approaching it'll be good to have some furniture so me and my Wife can eat outside (plus, handy when entertaining guests).
 
-In terms of how much I’ve spent, it’s hard to give an accurate answer but roughly I’d say somewhere between £2K and £3K. Furniture is pretty expensive, and I’ve been buying mine from Argos and IKEA most of the time. And with paying a mortgage, bills and cost of living, I would’ve liked to have done more but have been unable to.
+In terms of how much I’ve spent, I don't have an accurate answer but roughly I’d say somewhere between £2K and £3K. Furniture is pretty expensive, and I’ve been buying mine from Argos and IKEA most of the time. And with paying a mortgage, bills and cost of living, I would’ve liked to have done more but have been unable to.
 
-Don’t get me wrong, I’ve enjoyed working on the house, it’s great to turn an empty house into a home. Working on the house has been a priority and has taken time away from other things (like updating this blog!).
+Don’t get me wrong, I’ve enjoyed working on the house, it’s great to turn an empty house into a home. Working on the house has been a priority and has taken time away from other things (like updating this blog and working on my other hobby projects!).
 
 I’ve also written up some key points that I’ve learnt about owning a home.
 
 **Take your time**
 
-At first I thought I could get majority of the house ready in a couple of weeks. I was _hugely_ wrong. Turns out buying and assembling furniture takes time. I will say, I’m quite good at assembling furniture.
+At first I thought I could get majority of the house ready in a couple of weeks. I was _hugely_ wrong. Turns out buying and assembling furniture takes time. I will say, I’m quite good at assembling furniture now. But it's taken me plenty of attempts to get good at it.
+
+You still need to measure for furniture, plan out where everything will go and organise which rooms have the highest priority. All of this takes time, and think of it as a sprint, not a race.
+
+**Budget it!**
+
+Can you believe how expensive furniture is? The cost of lampshades took me by surprise. I had an idea of buying plenty of furniture and then building it over time. Turns out, that plan wouldn't work. I can only guess that the cost of living crisis played a part in why furniture is so expensive. I know that I'll need to save up over a few months so I can buy a wardrobe (_which are very expensive_).
+
+**Research**
+
+So the windows I have in my bedroom are so unique that they have their own _unique serial numbers_. Yes, that's not a lie. Each window has their own unique serial number (no firmware thankfully, yet). And if you guessed if these special windows require special blinds then you are correct, and the special blinds are very expensive.
