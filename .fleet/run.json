@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Gatsby Develop",
+            "program": ".fleet/script.sh",
+        },
+        
+    ]
+}
