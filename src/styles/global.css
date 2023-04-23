@@ -1,160 +1,158 @@
 html {
-    background-color: #f2f2f2;
-    font-family: "DM Sans-Bold";
-    line-height: 1.4;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    /*ensures the page to be at least as tall as 100% of the viewport height */
-    min-height: 100vh;
-    /*prevents the page from being too narrow to be readable*/
-    min-width: 300px;
-    /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  background-color: #f2f2f2;
+  font-family: "DM Sans-Bold";
+  line-height: 1.4;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /*ensures the page to be at least as tall as 100% of the viewport height */
+  min-height: 100vh;
+  /*prevents the page from being too narrow to be readable*/
+  min-width: 300px;
+  /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
+  overflow-x: hidden;
 }
 
 @font-face {
-    font-family: 'DM Sans-Bold';
-    src: url("../fonts/DMSans-Bold.ttf");
+  font-family: "DM Sans-Bold";
+  src: url("../fonts/DMSans-Bold.ttf");
 }
 
 @font-face {
-    font-family: 'DM Sans', sans-serif;
-    src: url("../fonts/DMSans-Regular.ttf");
+  font-family: "DM Sans", sans-serif;
+  src: url("../fonts/DMSans-Regular.ttf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @font-facee {
-    font-family: "Playfair Display", serif;
-    font-weight: 400px;
-    src: url("../fonts/PlayfairDisplay.ttf");
+  font-family: "Playfair Display", serif;
+  font-weight: 400px;
+  src: url("../fonts/PlayfairDisplay.ttf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@font-face  {
-    font-family: 'Bebas Neue', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: "Bebas Neue", cursive;
 }
 
 @font-face {
-    font-family: "RobotoSlab";
-    src: url("../fonts/RobotoSlabBold-PKGJr.ttf");
+  font-family: "RobotoSlab";
+  src: url("../fonts/RobotoSlabBold-PKGJr.ttf");
 }
 
 @font-face {
-    font-family: "RobotoSerif-Bold";
-    src: url("../fonts/RobotoSerif-Bold.ttf");
+  font-family: "RobotoSerif-Bold";
+  src: url("../fonts/RobotoSerif-Bold.ttf");
 }
 
 @font-face {
-    font-family: "VollkornRegular";
-    src: url("../fonts/VollkornRegular.ttf");
+  font-family: "VollkornRegular";
+  src: url("../fonts/VollkornRegular.ttf");
 }
 
 h2 {
-    text-align: center;
-    font-family: "RobotoSerif-Bold";
+  text-align: center;
+  font-family: "RobotoSerif-Bold";
 }
 
 p {
-    font-family: "VollkornRegular";
+  font-family: "VollkornRegular";
 }
 
 /* header */
 
 a:link.blog {
-    text-decoration: none;
-    text-shadow: none;
-    color: black;
-  }
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
+}
 
 a:visited.blog {
-    text-decoration: none;
-    text-shadow: none;
-    color: black;
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
 }
 
 #bolt {
-    padding-left: 9px;
-    padding-right: 9px;
-    margin-top: 3.5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-top: 3.5px;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    justify-content: center;
-    padding: 10px 0px 0px 0px;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    top: 0px;
-    margin: 0px 0px 50px 0px;
-    background: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  margin: 0px 0px 50px 0px;
+  background: #f2f2f2;
 }
 
 .header-item {
-    padding-left: 9px;
-    padding-right: 9px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 /* footer */
 
 ul.footer {
-    padding: 0px;
-    list-style-type: none;
-    text-align: center;
-    font-size: 35px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 35px;
 }
 
 li.blog {
-    display: inline;
-    text-align: center;
+  display: inline;
+  text-align: center;
 }
 
 footer {
-    display: inline;    
-    font-size: 35px;
+  display: inline;
+  font-size: 35px;
 }
 
 .icon {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* tablet design */
 @media (min-width: 768px) {
+  li.blog {
+    text-align: center;
+  }
 
-    li.blog {
-        text-align: center;
-    }
+  #bolt {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-    #bolt {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  header {
+    padding: 10px 0px 0px 0px;
+    font-size: 33px;
+    width: 100%;
+    justify-content: center;
+  }
 
-    header {
-        padding: 10px 0px 0px 0px;
-        font-size: 33px;
-        width: 100%;
-        justify-content: center;
-    }
+  .header-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-    .header-item {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    #header-menu {
-        display: none;
-    }
+  #header-menu {
+    display: none;
+  }
 }
 
 /* desktop design */
 @media (min-width: 1024px) {
-    header {
-        width: 100%;
-        justify-content: center;
-    }
+  header {
+    width: 100%;
+    justify-content: center;
+  }
 }
