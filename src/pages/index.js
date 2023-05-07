@@ -9,8 +9,8 @@ const index = () => {
       <Header></Header>
       <div className="content">
         <div className="left">
-          <h1>
-            Hey, I'm Joshua Blewitt{" "}
+          <h1 id="indexHeader">
+            Hey, I'm <h1 id="name">Joshua Blewitt{" "}</h1>
             <span role="img" aria-label="string">
               👋
             </span>

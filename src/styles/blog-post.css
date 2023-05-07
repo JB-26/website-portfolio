@@ -86,6 +86,7 @@ img {
 
 #blogHeader {
   margin-top: 50px;
+  font-family: "TiltWarp";
 }
 
 #postDetails {
@@ -141,5 +142,6 @@ img {
   
   #title {
     font-size: 33px;
+    font-family: "TiltWarp";
   }
 }

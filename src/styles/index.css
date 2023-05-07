@@ -23,6 +23,16 @@
   font-size: 20px;
 }
 
+#name {
+  display: inline;
+  color: #FFC93C;
+  text-shadow: 4px 1px #155263;
+}
+
+#indexHeader {
+  font-family: "TiltWarp";
+}
+
 #known {
   text-align: center;
   font-family: "VollkornRegular";
@@ -49,6 +59,7 @@
     linear-gradient(#fff 2px, transparent 1%) center, #ccc;
   background-size: 4px 4px;
   flex-direction: column;
+  font-family: "TiltWarp";
   width: 300px;
   height: 60px;
   padding-top: 10px;

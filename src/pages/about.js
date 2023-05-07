@@ -29,7 +29,7 @@ const about = () => {
             graduated with a First Class Degree with honours in Computer Science
             in 2014. During my time at University I secured an internship with
             Citrix. Throughout my time studying I began to discover my interests
-            in development and UX.
+            in development, UX and analysis.
           </p>
         </div>
       </div>
@@ -48,6 +48,9 @@ const about = () => {
             LinkedIn Learning covering Python, UX, and Web Development. I use the knowledge that I've gained from these
             courses on various personal projects such as the{" "}
             <a href="https://github.com/JB-26/f1-2022-analysis">F1 Data Analysis project.</a>
+            <br></br>
+            <br></br>
+            I continue to learn by reading, watching videos and taking courses to expand my knowledge and way of thinking. Personal devleopment continues to be important to me as I want to improve my skills in being a better problem solver.
             <br></br>
             <br></br>
             I'm a big fan of retro games (I mostly collect games for the Sega

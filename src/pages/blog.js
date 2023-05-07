@@ -24,7 +24,7 @@ const blog = ({ data }) => {
         </h2>
         <h2 id="blogSubtitle">Opinions (and typos) are my own.</h2>
         <div id="postCount">
-          <h4>
+          <h4 id="blogSubtitle">
             Want to see all posts? Visit the{" "}
             <Link to="/archive/">Archive.</Link> <br />
             Or if you want to, you can add this blog to your favourite RSS
@@ -36,7 +36,7 @@ const blog = ({ data }) => {
           </h4>
         </div>
         <PinnedPost></PinnedPost>
-        <h1>What's new? <i class="fa-solid fa-star"></i></h1>
+        <h1 class="blogSectionTitle">What's new? <i class="fa-solid fa-star"></i></h1>
         <p id="mobileScroll">
           <span class="material-symbols-outlined">swipe_left</span>
           Swipe left and right to view posts!{" "}
