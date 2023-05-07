@@ -1,10 +1,10 @@
-import * as React from 'react'
-import Header from "../components/header"
-import Footer from "../components/footer"
-import { Link, graphql } from "gatsby"
+import * as React from 'react';
+import Header from "../components/header";
+import Footer from "../components/footer";
+import { Link, graphql } from "gatsby";
 
 const archive = ({ data }) => {
-  console.log(data)
+  console.log(data);
   return (
     <div>
       <Header></Header>

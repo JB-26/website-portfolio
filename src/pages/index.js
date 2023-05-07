@@ -1,7 +1,7 @@
-import * as React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import Image from "../images/new_2023.jpg"
+import * as React from "react";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Image from "../images/new_2023.jpg";
 
 const index = () => {
   return (

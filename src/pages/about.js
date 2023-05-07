@@ -1,8 +1,8 @@
-import * as React from 'react'
-import Header from "../components/header"
-import Footer from "../components/footer"
-import Image from "../images/about-image_2.png"
-import Image2 from "../images/tokyo_2.png"
+import * as React from 'react';
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Image from "../images/about-image_2.png";
+import Image2 from "../images/tokyo_2.png";
 
 const about = () => {
   return (

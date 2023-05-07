@@ -1,9 +1,9 @@
-import * as React from 'react'
-import Header from "../components/header"
-import Footer from "../components/footer"
-import PinnedPost from "../hooks/pinnedPostQuery"
-import BlogImage from "../images/blog-header.png"
-import { Link, graphql } from "gatsby"
+import * as React from 'react';
+import Header from "../components/header";
+import Footer from "../components/footer";
+import PinnedPost from "../hooks/pinnedPostQuery";
+import BlogImage from "../images/blog-header.png";
+import { Link, graphql } from "gatsby";
 
 const blog = ({ data }) => {
   return (

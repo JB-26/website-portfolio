@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { Link } from "gatsby"
-import Bolt from "../images/favicon-32x32.png"
+import * as React from 'react';
+import { Link } from "gatsby";
+import Bolt from "../images/favicon-32x32.png";
 
 const header = () => {
   return (
