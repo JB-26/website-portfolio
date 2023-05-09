@@ -27,10 +27,12 @@
   display: inline;
   color: #FFC93C;
   text-shadow: 4px 1px #155263;
+  font-size: inherit;
 }
 
 #indexHeader {
   font-family: "TiltWarp";
+  font-size: 23px;
 }
 
 #known {
@@ -128,6 +130,10 @@
 
   #known {
     font-size: 18px;
+  }
+
+  #indexHeader {
+    font-size: 36px;
   }
 }
 
