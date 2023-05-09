@@ -1,9 +1,8 @@
 #blogTitle {
   margin-top: 50px;
   margin-bottom: 0px;
-  font-size: 35px;
-  font-family: "Bebas Neue";
-  font-size: 65px;
+  font-family: "TiltWarp";
+  font-size: 45px;
 }
 
 #blogHeaderImage {
@@ -83,6 +82,10 @@ hr {
   word-wrap: break-word;
   text-decoration: none;
   text-align: center;
+}
+
+.blogSectionTitle {
+  font-family: "TiltWarp";
 }
 
 /* customising font awesome icon */

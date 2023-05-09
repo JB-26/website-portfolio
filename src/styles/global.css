@@ -49,9 +49,14 @@ html {
   src: url("../fonts/VollkornRegular.ttf");
 }
 
+@font-face {
+  font-family: "TiltWarp";
+  src: url("../fonts/Tilt_Warp/TiltWarp-Regular-VariableFont_XROT,YROT.ttf")
+}
+
 h2 {
   text-align: center;
-  font-family: "RobotoSerif-Bold";
+  font-family: "TiltWarp";
 }
 
 p {
@@ -93,6 +98,7 @@ header {
 }
 
 .header-item {
+  font-family: "TiltWarp";
   padding-left: 9px;
   padding-right: 9px;
 }
