@@ -5,31 +5,33 @@ description: "A real double-edged sword."
 image: https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=6000
 ---
 
+![](https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=6000)
+
 I’ve recently been doing some courses to expand my knowledge on Business Analysis recently and one part of the course that stood out to me was the view of scope creep.
 
-In some ways, scope creep can be seen as a good thing. I thought *************“What? There’s no way that can be right!”*************
+In some ways, scope creep can be seen as a good thing. I thought _“What? There’s no way that can be right!”_
 
-First, let’s ask the question of **********************what is scope creep, anyway?**********************
+First, let’s ask the question of _what is scope creep, anyway?_
 
 Well, it’s when deliverables exceed the agreed project scope.
 
-During my time as a software tester for nine years (****that’s a long time****), scope creep was probably the worst thing that could happen. To be fair, as the software tester, I would be one of the last people involved in the development cycle. So the added stress and frustration didn’t help me. Especially if the deadline didn’t move.
+During my time as a software tester for nine years (_that’s a long time_), scope creep was probably the worst thing that could happen. To be fair, as the software tester, I would be one of the last people involved in the development cycle. So the added stress and frustration didn’t help me. Especially if the deadline didn’t move.
 
-But during my courses I’ve taken I can *********somewhat********* see the reasons why scope creep can be a good thing. Let’s take a fair and balanced approach to this (or try to at least).
+But during the courses I’ve taken I can _somewhat_ see the reasons why scope creep can be a good thing. Let’s take a fair and balanced approach to this (or try to at least).
 
 # The argument for Scope Creep
 
-********************************************************Unlocking new opportunities********************************************************
+**Unlocking new opportunities**
 
 Okay, I will say this. If the Scope Creep is necessary, justified and required, then it can unlock new opportunities to enhance what is being delivered.
 
 At the end of the day, the project is something that delivers the product. We want to make sure that right product gets built, right?
 
-********************************Avoids disaster********************************
+**Avoids disaster**
 
 Sometimes, you need Scope Creep to prevent the project from failing. Something can get missed (I mean, let’s be real, mistakes happen)
 
-**************************************************Just-in-time requirements**************************************************
+**Just-in-time requirements**
 
 In Business Analysis, there’s an acronym called VUCA. Which stands for; Volatility, Uncertainty, Complexity and Ambiguity. Scope Creep can refer to Volatility (being ready for changing requirements) and Uncertainty (creating just-in-time requirements). It could be argued that Complexity also refers to Scope Creep as that relates to adjusting complexity as we go. 
 
@@ -37,13 +39,13 @@ With this mind, Scope Creep is inevitable and could be argued as being welcomed 
 
 # The argument against Scope Creep
 
-******************************************Last minute decisions lead to chaos******************************************
+**Last minute decisions lead to chaos**
 
 I’ve been on sprint teams where scope creep has been brought in at the last minute, and the original deadline is upheld. This leads to people rushing to get the new requirements in, which only leads to defects being introduced.
 
-I’ve seen this happen so many times, and people wonder why introducing new requirements late into the development cycle never seems to work (*********************it’s a real mystery*********************)
+I’ve seen this happen so many times, and people wonder why introducing new requirements late into the development cycle never seems to work (_it’s a real mystery_)
 
-**********Lost confidence in stakeholders**********
+**Lost confidence in stakeholders**
 
 When Scope Creep happens, I’ve seen teams lose confidence and become less trusting in the stakeholders as a result of this. Especially if it happens repeatedly.
 
