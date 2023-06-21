@@ -14,7 +14,7 @@ I’ve been running this blog (I don’t think it’s fair to call it a website 
 - upgrading packages
 - a new post
 
-This project has been fun to work on. Plus, it’s even helped me get job interviews and offers. Whenever I attend a job interview, this blog always gets brought up. So I decided to write up this post about how you can get started with a blog. I covered on *why* you should start a blog back in [2021](https://joshblewitt.dev/blog/2021-11-28-why-blog/) (which honestly feels like a lifetime ago, the info in that post is still valid so go read it), but this post is more about ****how**** you can get started with a blog.
+This project has been fun to work on. Plus, it’s even helped me get job interviews and offers. Whenever I attend a job interview, this blog always gets brought up. Plus, I've learnt a lot about CSS and working with mobile devices along the way! So I decided to write up this post about how you can get started with a blog. I covered on *why* you should start a blog back in [2021](https://joshblewitt.dev/blog/2021-11-28-why-blog/) (which honestly feels like a lifetime ago, the info in that post is still valid so go read it), but this post is more about ****how**** you can get started with a blog.
 
 So, let’s jump in with a quick summary on why.
 
@@ -76,6 +76,8 @@ However, when it comes to building your own platform, there are several challeng
 - Cost; you’ll need to pay for a domain name, hosting, etc
 
 The points I listed above are incredibly important. You should be comfortable with programming (knowing languages such as JavaScript, and markup such as HTML and CSS for styling), knowledge of frameworks and more!
+
+Plus, you'll need to make sure that the blog is readable, and I mean that from a user experience perspective. You don't want to use a colour scheme that makes your blog unreadable, nobody would visit it otherwise! If you're looking for inspiration for a colour scheme, checkout [Colour Hunt](https://colorhunt.co/).
 
 If you want an example of a blogging platform that’s been built from the ground up:
 
@@ -150,6 +152,10 @@ I tend to get majority of the fonts I use from [Google Fonts](https://fonts.goog
 - Be open to iterate and improve
 - If you want to take a look at the code for this blog, check out the GitHub [repo](https://github.com/JB-26/website-portfolio)
 
+## How can you tell how many people have visited your blog?
+
+This is a good question. There are tools out there such as Google Analytics but for mine, I tend to keep an eye on Font Awesome as they limit the number of page views for my icons per month (they have a handy tracker when viewing your kits).
+
 # Use an existing platform
 
 What if you don’t know how to program or aren’t comfortable with using frameworks? Not a problem, there are plenty of platforms out there that allow you to set up a blog instantly (or within a few clicks anyway).
@@ -181,6 +187,8 @@ There are several places where you can get going with a blogging platform:
 
 All these are easy to get up and going with. Medium and Tumblr are free while Ghost and Substack and Micro.blog are paid.
 
+I do keep my eye on Ghost, there have been a few times where I have been tempted to move to their platform.
+
 ## What writing tools do you need?
 
 As mentioned above, you can use the following to write your blog:
@@ -193,24 +201,29 @@ As mentioned above, you can use the following to write your blog:
 
 You’ve probably seen the images I use for each blog post, and those are all found from [Unsplash](https://unsplash.com/). Images from Unsplash are free to use, and there are plenty of high quality images to choose from.
 
+If you want to use your own images, you can!
+
 # How can you become a better writer?
 
 ****Keep writing.****
 
 There are over 90 posts on this blog across three years, and I think my writing style has improved since I began writing blog posts.
 
-It takes time, but finding the time to sit down and write is the only way you’ll improve.
+It takes time, but finding the time to sit down and write is the only way you’ll improve. But it's important to note that you should always be yourself, you'll find it easier to write posts and find topics to write about.
+
+Also, spend time researching about topics you want to talk about. I honestly have about 11 draft posts that are in various states of progress. Filled with notes and questions that I want to answer. You'll know when you're ready to publish the post when you feel satisfied with it.
 
 # What’s important in a blog?
 
 I find that there are two key points:
 
-- Content
+- Quality content
 - Regular updates
 
-Having a blog without any posts isn’t good, and having a blog that doesn’t have regular updates also isn’t good!
+Having a blog without any posts isn’t good, and having a blog that doesn’t have regular updates also isn’t good! You wouldn't want to subscribe to a blog that's abandoned, right?
 
-Make time to write, research and publish your posts. You want a readers first impression to be positive.
+Make time to write, research and publish your posts. You want a readers first impression to be positive. Having posts that are of good quality plays an important part in this as well, make sure your posts can be something you would enjoy reading yourself.
+
 
 # Conclusion
 
@@ -218,4 +231,4 @@ I hope this post has helped you in deciding if you want to start your own blog. 
 
 Remember, there’s no guarantee that you’ll make money or find fame through your blog. You should start one if you want to, not if you have to.
 
-I think I’ve covered everything I can think of, but if you have a question, check out the button on the home page to get in touch!
+I think I’ve covered everything I can think of, but if you have a question, check out the button on the home page to get in touch or drop me a message on [Mastodon](https://mastodon.social/@jblewitt)!
