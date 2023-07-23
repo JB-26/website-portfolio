@@ -31,7 +31,7 @@ My favourite movie of all time, with an equally amazing soundtrack. The music to
 
 ## Blackstar - David Bowie
 
-David Bowie’s final album is certainly a striking one. 
+David Bowie’s final album is certainly a striking one. Blackstar and Dollar Days are my favourite songs on this album.
 
 ## Random Access Memories - Daft Punk
 
