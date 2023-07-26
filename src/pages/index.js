@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Image from '../images/new_2023.jpg';
+import Image from '../images/new_2023.webp';
 
 const index = () => {
     return (
@@ -25,7 +25,7 @@ const index = () => {
                     </p>
                     <div id='buttonContainer'>
                         <a id='emailButton' href='mailto:joshblewitt@protonmail.com'>
-                            Get in touch! <i class='fa-regular fa-envelope fa-bounce'></i>
+                            Get in touch! <i className='fa-regular fa-envelope fa-bounce'></i>
                         </a>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export function Head() {
         <>
             <meta charSet='utf-8' />
             <title>Joshua Blewitt - Home</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }

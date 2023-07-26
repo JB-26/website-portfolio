@@ -5,7 +5,7 @@ import Bolt from '../images/favicon-32x32.png';
 const header = () => {
     return (
         <header>
-            <div class='header-item'>
+            <div className='header-item'>
                 <Link to='/about/' className='blog'>
                     About
                 </Link>
@@ -15,7 +15,7 @@ const header = () => {
                     <img src={Bolt} alt='A thunderbolt - which is also the favicon' />
                 </Link>
             </div>
-            <div class='header-item'>
+            <div className='header-item'>
                 <Link to='/blog/' className='blog'>
                     Blog
                 </Link>

@@ -1,17 +1,17 @@
 import * as React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Image from '../images/about-image_2.png';
-import Image2 from '../images/tokyo_2.png';
+import Image from '../images/about-image_2.webp';
+import Image2 from '../images/tokyo_2.webp';
 
 const about = () => {
     return (
         <div>
             <Header></Header>
-            <h1 class='work_title'>A bit about Joshua Blewitt</h1>
-            <i class='about-sub'>Joshua Blewitt is a Test Engineer, hobbyist developer and problem solver.</i>
-            <div class='about-box'>
-                <div class='column-about'>
+            <h1 className='work_title'>A bit about Joshua Blewitt</h1>
+            <i className='about-sub'>Joshua Blewitt is a Test Engineer, hobbyist developer and problem solver.</i>
+            <div className='about-box'>
+                <div className='column-about'>
                     <p>
                         <img id='image-about-right' src={Image} alt='I sure love donuts 🍩'></img>
                         I'm an IT Professional with about 9 years of experience. I'm currently a Software Test Engineer
@@ -29,8 +29,8 @@ const about = () => {
                 </div>
             </div>
             <hr className='fill'></hr>
-            <div class='about-box'>
-                <div class='column-about'>
+            <div className='about-box'>
+                <div className='column-about'>
                     <p>
                         <img id='image-about-left' src={Image2} alt='Tokyo Skytree!'></img>
                         After graduating, I also found my joy in travelling. I've travelled to many countries, including
@@ -67,7 +67,7 @@ export function Head() {
         <>
             <title>Joshua Blewitt - About</title>
             <meta charSet='utf-8' />
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }

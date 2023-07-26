@@ -14,14 +14,14 @@ const archive = ({ data }) => {
                     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
                 </div>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
-                    <div class='container' key={node.id}>
-                        <div class='row-archive'>
-                            <div class='box-archive'>
+                    <div className='container' key={node.id}>
+                        <div className='row-archive'>
+                            <div className='box-archive'>
                                 <Link to={node.fields.slug} className='posts'>
                                     <h3 id='title'>{node.frontmatter.title}</h3>
                                 </Link>
                             </div>
-                            <div class='box-archive'>
+                            <div className='box-archive'>
                                 <p id='postSubtitle'>{node.frontmatter.description}</p>
                                 <p id='postSubtitle'>Published on - {node.frontmatter.date}</p>
                             </div>
@@ -64,7 +64,7 @@ export function Head() {
         <>
             <meta charSet='utf-8' />
             <title>Joshua Blewitt - Archive</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }

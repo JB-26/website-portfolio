@@ -2,7 +2,7 @@ import * as React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import PinnedPost from '../hooks/pinnedPostQuery';
-import BlogImage from '../images/blog-header.png';
+import BlogImage from '../images/blog-header.webp';
 import { Link, graphql } from 'gatsby';
 
 const blog = ({ data }) => {
@@ -29,18 +29,18 @@ const blog = ({ data }) => {
                     </h4>
                 </div>
                 <PinnedPost></PinnedPost>
-                <h1 class='blogSectionTitle'>
-                    What's new? <i class='fa-solid fa-star'></i>
+                <h1 className='blogSectionTitle'>
+                    What's new? <i className='fa-solid fa-star'></i>
                 </h1>
                 <p id='mobileScroll'>
-                    <span class='material-symbols-outlined'>swipe_left</span>
-                    Swipe left and right to view posts! <span class='material-symbols-outlined'>swipe_right</span>
+                    <span className='material-symbols-outlined'>swipe_left</span>
+                    Swipe left and right to view posts! <span className='material-symbols-outlined'>swipe_right</span>
                 </p>
-                <div class='outer'>
+                <div className='outer'>
                     {data.allMarkdownRemark.edges.map(({ node }) => (
-                        <div class='container' key={node.id}>
-                            <div class='row'>
-                                <div class='boxImage'>
+                        <div className='container' key={node.id}>
+                            <div className='row'>
+                                <div className='boxImage'>
                                     <Link to={node.fields.slug} className='posts'>
                                         <img
                                             src={node.frontmatter.image}
@@ -49,14 +49,14 @@ const blog = ({ data }) => {
                                         ></img>
                                     </Link>
                                 </div>
-                                <div class='column'>
-                                    <div class='box'>
+                                <div className='column'>
+                                    <div className='box'>
                                         <Link to={node.fields.slug} className='posts'>
                                             <h3 id='title'>{node.frontmatter.title}</h3>
                                         </Link>
                                         <hr></hr>
                                     </div>
-                                    <div class='box'>
+                                    <div className='box'>
                                         <p id='postSubtitle'>{node.frontmatter.description}</p>
                                         <p id='postSubtitle'>Published on - {node.frontmatter.date}</p>
                                     </div>
@@ -100,7 +100,7 @@ export function Head() {
         <>
             <meta charSet='utf-8' />
             <title>Joshua Blewitt - Blog</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
             <link
                 rel='stylesheet'
                 href='https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0'
