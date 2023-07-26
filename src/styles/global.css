@@ -15,11 +15,13 @@ html {
 @font-face {
   font-family: "DM Sans-Bold";
   src: url("../fonts/DMSans-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "DM Sans", sans-serif;
   src: url("../fonts/DMSans-Regular.ttf");
+  font-display: swap;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
@@ -27,31 +29,37 @@ html {
   font-family: "Playfair Display", serif;
   font-weight: 400px;
   src: url("../fonts/PlayfairDisplay.ttf");
+  font-display: swap;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @font-face {
   font-family: "Bebas Neue", cursive;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "RobotoSlab";
   src: url("../fonts/RobotoSlabBold-PKGJr.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "RobotoSerif-Bold";
   src: url("../fonts/RobotoSerif-Bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "VollkornRegular";
   src: url("../fonts/VollkornRegular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "TiltWarp";
-  src: url("../fonts/Tilt_Warp/TiltWarp-Regular-VariableFont_XROT,YROT.ttf")
+  src: url("../fonts/Tilt_Warp/TiltWarp-Regular-VariableFont_XROT,YROT.ttf");
+  font-display: swap;
 }
 
 h2 {
