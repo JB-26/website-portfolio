@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Bolt from '../images/favicon-32x32.png';
+import Technologist from '../images/favicon-32x32.png';
 
 const header = () => {
     return (
@@ -12,7 +12,7 @@ const header = () => {
             </div>
             <div id='bolt'>
                 <Link to='/' className='blog'>
-                    <img src={Bolt} alt='A thunderbolt - which is also the favicon' />
+                    <img src={Technologist} alt='A technologist - which is also the favicon' />
                 </Link>
             </div>
             <div className='header-item'>
