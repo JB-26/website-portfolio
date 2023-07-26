@@ -26,14 +26,14 @@ const pinnedPost = () => {
   `)
     return (
         <>
-            <div class="outer">
-                <div class="center">
-                    <div class="outerPinned">
-                        <h1 class="blogSectionTitle">Pinned Post <i class="fa-solid fa-thumbtack"></i></h1>
+            <div className="outer">
+                <div className="center">
+                    <div className="outerPinned">
+                        <h1 className="blogSectionTitle">Pinned Post <i className="fa-solid fa-thumbtack"></i></h1>
                         {data.allMarkdownRemark.edges.map(({node}) => (
-                            <div class="containerPinned" key={node.id}>
-                                <div class="rowPinned">
-                                    <div class="boxImage">
+                            <div className="containerPinned" key={node.id}>
+                                <div className="rowPinned">
+                                    <div className="boxImage">
                                         <Link to={node.fields.slug} className="posts">
                                             <img
                                                 src={node.frontmatter.image}
@@ -42,14 +42,14 @@ const pinnedPost = () => {
                                             ></img>
                                         </Link>
                                     </div>
-                                    <div class="column">
-                                        <div class="box">
+                                    <div className="column">
+                                        <div className="box">
                                             <Link to={node.fields.slug} className="posts">
                                                 <h3 id="title">{node.frontmatter.title}</h3>
                                             </Link>
                                             <hr></hr>
                                         </div>
-                                        <div class="box">
+                                        <div className="box">
                                             <p id="postSubtitle">{node.frontmatter.description}</p>
                                             <p id="postSubtitle">
                                                 Published on - {node.frontmatter.date}
@@ -74,7 +74,7 @@ export function Head() {
             <meta charSet="utf-8"/>
             <script
                 src="https://kit.fontawesome.com/af67ca5a39.js"
-                crossorigin="anonymous"
+                crossOrigin="anonymous"
             ></script>
         </>
     )
