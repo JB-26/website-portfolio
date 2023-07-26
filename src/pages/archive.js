@@ -7,6 +7,7 @@ const archive = ({ data }) => {
     console.log(data);
     return (
         <div>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
             <Header></Header>
             <div>
                 <h1 id='blogTitle'>It works on my machine</h1>

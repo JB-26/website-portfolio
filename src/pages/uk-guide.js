@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 const ukGuide = () => {
     return (
         <div>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
             <Header></Header>
             <div id='top'>
                 <h1 className='work_title'>Guide to the UK (for Americans)</h1>

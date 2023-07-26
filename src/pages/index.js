@@ -6,6 +6,7 @@ import Image from '../images/new_2023.webp';
 const index = () => {
     return (
         <div>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
             <Header></Header>
             <div className='content'>
                 <div className='left'>
@@ -45,7 +46,6 @@ export function Head() {
         <>
             <meta charSet='utf-8' />
             <title>Joshua Blewitt - Home</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }
