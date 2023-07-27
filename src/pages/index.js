@@ -6,7 +6,7 @@ import Image from '../images/new_2023.webp';
 const index = () => {
     return (
         <div>
-            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <div className='content'>
                 <div className='left'>

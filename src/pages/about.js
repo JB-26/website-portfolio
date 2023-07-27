@@ -7,7 +7,7 @@ import Image2 from '../images/tokyo_2.webp';
 const about = () => {
     return (
         <div>
-            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <h1 className='work_title'>A bit about Joshua Blewitt</h1>
             <i className='about-sub'>Joshua Blewitt is a Test Engineer, hobbyist developer and problem solver.</i>

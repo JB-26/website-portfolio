@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 const errorPage = () => {
     return (
         <div>
-            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <div className='errorMessage'>
                 <h1>

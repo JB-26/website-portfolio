@@ -8,7 +8,7 @@ import { Link, graphql } from 'gatsby';
 const blog = ({ data }) => {
     return (
         <div>
-            <link rel="preload" href="https://ka-f.fontawesome.com/"></link>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <div>
                 <h1 id='blogTitle'>It works on my machine</h1>
