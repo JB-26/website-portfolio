@@ -3,11 +3,11 @@ import * as React from 'react';
 const props = () => {
     return (
         <article className='articleSetup'>
-            <div class='card'>
-                <div class='top'>
+            <div className='card'>
+                <div className='top'>
                     <h1>{props.headerTextOne}</h1>
                 </div>
-                <div class='bottom'>
+                <div className='bottom'>
                     <h2>Introduction</h2>
                     <p>{props.introText}</p>
                     <hr></hr>

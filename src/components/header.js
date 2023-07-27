@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Bolt from '../images/favicon-32x32.png';
+import Technologist from '../images/favicon-32x32.webp';
 
 const header = () => {
     return (
         <header>
-            <div class='header-item'>
+            <div className='header-item'>
                 <Link to='/about/' className='blog'>
                     About
                 </Link>
             </div>
             <div id='bolt'>
                 <Link to='/' className='blog'>
-                    <img src={Bolt} alt='A thunderbolt - which is also the favicon' />
+                    <img src={Technologist} alt='A technologist - which is also the favicon' height="32" width="32"/>
                 </Link>
             </div>
-            <div class='header-item'>
+            <div className='header-item'>
                 <Link to='/blog/' className='blog'>
                     Blog
                 </Link>

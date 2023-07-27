@@ -5,9 +5,10 @@ import Footer from '../components/footer';
 const ukGuide = () => {
     return (
         <div>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <div id='top'>
-                <h1 class='work_title'>Guide to the UK (for Americans)</h1>
+                <h1 className='work_title'>Guide to the UK (for Americans)</h1>
             </div>
             <p>Welcome to the United Kingdom!</p>
             <p>
@@ -407,7 +408,7 @@ export function Head() {
         <>
             <meta charSet='utf-8' />
             <title>Guide to the UK</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }

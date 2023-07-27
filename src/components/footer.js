@@ -7,12 +7,12 @@ const Footer = () => {
                 <ul className='footer'>
                     <li className='blog'>
                         <a className='blog' href='https://github.com/JB-26' rel='noopener noreferrer' target='_blank'>
-                            <i class='fa-brands fa-github icon'></i>
+                            <i className='fa-brands fa-github icon'></i>
                         </a>
                     </li>
                     <li className='blog'>
                         <a className='blog' href='https://codepen.io/JayBl' rel='noopener noreferrer' target='_blank'>
-                            <i class='fa-brands fa-codepen icon'></i>
+                            <i className='fa-brands fa-codepen icon'></i>
                         </a>
                     </li>
                     <li className='blog'>
@@ -22,7 +22,7 @@ const Footer = () => {
                             rel='noopener noreferrer'
                             target='_blank'
                         >
-                            <i class='fa-brands fa-linkedin icon'></i>
+                            <i className='fa-brands fa-linkedin icon'></i>
                         </a>
                     </li>
                     <li className='blog'>
@@ -33,12 +33,12 @@ const Footer = () => {
                             rel='noopener noreferrer'
                             target='_blank'
                         >
-                            <i class='fa-brands fa-mastodon icon'></i>
+                            <i className='fa-brands fa-mastodon icon'></i>
                         </a>
                     </li>
                     <li className='blog'>
                         <a className='blog' href='/rss.xml' rel='noopener noreferrer' target='_blank'>
-                            <i class='fa-solid fa-square-rss icon'></i>
+                            <i className='fa-solid fa-square-rss icon'></i>
                         </a>
                     </li>
                 </ul>

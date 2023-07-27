@@ -7,6 +7,7 @@ const archive = ({ data }) => {
     console.log(data);
     return (
         <div>
+            <link rel="preload" href="https://ka-f.fontawesome.com/"/>
             <Header></Header>
             <div>
                 <h1 id='blogTitle'>It works on my machine</h1>
@@ -14,14 +15,14 @@ const archive = ({ data }) => {
                     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
                 </div>
                 {data.allMarkdownRemark.edges.map(({ node }) => (
-                    <div class='container' key={node.id}>
-                        <div class='row-archive'>
-                            <div class='box-archive'>
+                    <div className='container' key={node.id}>
+                        <div className='row-archive'>
+                            <div className='box-archive'>
                                 <Link to={node.fields.slug} className='posts'>
                                     <h3 id='title'>{node.frontmatter.title}</h3>
                                 </Link>
                             </div>
-                            <div class='box-archive'>
+                            <div className='box-archive'>
                                 <p id='postSubtitle'>{node.frontmatter.description}</p>
                                 <p id='postSubtitle'>Published on - {node.frontmatter.date}</p>
                             </div>
@@ -62,9 +63,9 @@ export default archive;
 export function Head() {
     return (
         <>
-            <meta charSet='utf-8' />
+            <meta charSet='utf-8' name="The personal website of IT Professional, Joshua Blewitt"/>
             <title>Joshua Blewitt - Archive</title>
-            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossorigin='anonymous'></script>
+            <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
         </>
     );
 }

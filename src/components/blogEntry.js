@@ -3,19 +3,19 @@ import { Link } from 'gatsby';
 
 const props = () => {
     return (
-        <div class='container'>
-            <div class='row'>
-                <div class='boxImage'>
-                    <img src={props.previewImage} class='image'></img>
+        <div className='container'>
+            <div className='row'>
+                <div className='boxImage'>
+                    <img src={props.previewImage} className='image'></img>
                 </div>
-                <div class='column'>
-                    <div class='box'>
+                <div className='column'>
+                    <div className='box'>
                         <Link to={props.blogLink} className='posts'>
                             <h3>{props.blogPostTitle}</h3>
                         </Link>
                         <hr></hr>
                     </div>
-                    <div class='box'>
+                    <div className='box'>
                         <p id='postSubtitle'>{props.blogPostDescription}</p>
                         <p id='postSubtitle'>{props.blogPostPublishDate}</p>
                     </div>
