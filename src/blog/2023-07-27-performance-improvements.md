@@ -74,11 +74,11 @@ Also, I’ve added a meta description to improve search engine optimisation.
 
 The performance improvements I’ve made have had a *huge* impact on the website, and now Lighthouse reports that:
 
-- The first contentful paint took 4.8 seconds
-- Time to interactive took 6.5 seconds
-- Speed index took 4.8 seconds
-- Total blocking time took 10 milliseconds (that’s good)
-- Largest contentful paint took 9.8 seconds (that’s **not** good)
+- The first contentful paint took 3.5 seconds
+- Time to interactive took 3.8 seconds
+- Speed index took 3.5 seconds
+- Total blocking time took 10 milliseconds
+- Largest contentful paint took 5.4 seconds (that’s **much** better)
 
 With a final performance score of 71 - which is a better score!
 
