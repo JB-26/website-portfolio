@@ -99,7 +99,7 @@ export default blog;
 export function Head() {
     return (
         <>
-            <meta charSet='utf-8' />
+            <meta charSet='utf-8' name="The personal website of IT Professional, Joshua Blewitt"/>
             <title>Joshua Blewitt - Blog</title>
             <script src='https://kit.fontawesome.com/af67ca5a39.js' crossOrigin='anonymous'></script>
             <link
