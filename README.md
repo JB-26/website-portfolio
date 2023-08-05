@@ -1,3 +1,6 @@
+# NOTICE - AUGUST 2023
+This is no longer used! Check out the next gen version that is built with NextJS!
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
